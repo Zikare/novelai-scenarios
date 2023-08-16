@@ -5,14 +5,14 @@ This is a typical anime fantasy scenario where you are a solo adventurer on
 the continent of Kalania.
 
 A few hundred years ago, it was ruled by two large empires that annihilated
-each other, now there are countless dungeons and fortress spread across
-the place, holding treasures and dangerous monsters.
+each other. Now there are countless dungeons and fortresses spread across
+the lands, holding both treasures and dangerous monsters.
 
-Go to the "Adventurer's Guild," get quests, fight bandits and delve into
-dungeons.
+What are you waiting for? Go to the "Adventurer's Guild," get quests,
+fight bandits and delve into dungeons!
 
-*But here's a little twist:* This scenario was inspired by the anime / manga
-"Immoral Guild" where strangely, some creatures have a rather carnal interest
+*But there's a little twist:* This scenario was inspired by the anime / manga
+"Immoral Guild" where, strangely, some creatures have a rather carnal interest
 in human adventurers. In fact, this happened to Sena, your former companion,
 and you were caught just staring. Now you're infamous as "The Pervert" and
 adventuring solo because nobody wants to join your party anymore.
