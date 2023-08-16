@@ -53,6 +53,13 @@ Then just load the KoboldAI scenario via the Load button. Your name is fixed
 to 'Brian' but you can to a search and replace in the JSON file or edit it
 in the introductory text and world info.
 
+The world info contains entries for a girl that is looking for you, precisely
+because of your infamy. If you want her, first permanently enable
+the `nokassie` entry in your world info, then, once the random encounter
+took place (and you accepted her proposal), turn it off and enable
+the `joinedkassie` entry instead.
+
+
 **RTX 3090 / RTX 4090 owners:**
 
 For the optimal experience, pick a 13B model with the SuperHOT 8K tuning
