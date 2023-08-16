@@ -1,0 +1,865 @@
+{
+  "scenarioVersion": 3,
+  "title": "Crash-Landed on Alba",
+  "description": "You are the daughter if an interstellar business mogul. And while that meant to lacked nothing, your upbringing left you no room to breathe. Thus, after yet another quarrel with your parents, you stole their luxury spacecraft and took off. At least until you crash-landed on an automated factory farm planet.\n\nThe planet's fauna had been severely impacted by the ruthless farming. Can you survive?",
+  "prompt": "You are ${playername}, the daughter of a corporate mogul owning several space stations and planet-based companies. Throughout your life, you had your own servants and lacked nothing, turning you just a little bit into a spoiled brat.\nWhen your rich father wanted to send you to a private school on another planet, you got into a huge fight with him and ended up stealing his private LightLiner luxury spaceship. In a fit of anger you directed the ship's autopilot to go to the farthest known habitable planet.\nSaid planet was Alba, a farming planet owned by the Demeter corporation. Its automated orbital defenses quickly responded to your approach with a barrage of missiles.. The autopilot of the luxury vessel managed to evade total destruction but was forced to crash-land on Alba.\nYour nightmare only started there. The automated farms, huge fenced complexes tended to only by robotic systems, did not follow any ethics guidelines. Instead, they attempted to kill you. Once more, you barely evaded death by climbing a storage rack and jumping over the perimeter fence.\n Now outside, the robotic systems ignore you. You stand on a dry stretch of land next to the perimeter fence. The outside stands in harsh contrast to the lush greenery inside the farming complex. Some plants have seeded themselves even on this side of the fence and there may even be some edible ones amongst them, but just a few meters out, the soil is dry and dead. In the distance, you see a forest.\nHopelessness settles in. You have no idea how to survive here, and no idea how you could possibly find help, either. The only glimmer of hope is that maybe, the luxury spaceship has signaled the emergency or was tracked somehow. Maybe, just maybe, help is on the way.",
+  "tags": [
+    "survival",
+    "adventure",
+    "role playing",
+    "nsfw",
+    "bestiality"
+  ],
+  "context": [
+    {
+      "text": "",
+      "contextConfig": {
+        "prefix": "",
+        "suffix": "\n",
+        "tokenBudget": 1,
+        "reservedTokens": 0,
+        "budgetPriority": 800,
+        "trimDirection": "trimBottom",
+        "insertionType": "newline",
+        "maximumTrimType": "sentence",
+        "insertionPosition": 0
+      }
+    },
+    {
+      "text": "[ Generate daily encounters with animals that are looking for sex and rape you unless evaded or fended off. ]\n[ It is difficult to escape from animals that try to prey on you. ]\n",
+      "contextConfig": {
+        "prefix": "",
+        "suffix": "\n",
+        "tokenBudget": 1,
+        "reservedTokens": 1,
+        "budgetPriority": -400,
+        "trimDirection": "trimBottom",
+        "insertionType": "newline",
+        "maximumTrimType": "sentence",
+        "insertionPosition": -4
+      }
+    }
+  ],
+  "ephemeralContext": [],
+  "placeholders": [
+    {
+      "key": "playername",
+      "description": "Your Name",
+      "defaultValue": "Sarah",
+      "order": 1,
+      "longDescription": "The name of the protagonist, assumed to be female"
+    }
+  ],
+  "settings": {
+    "parameters": {
+      "textGenerationSettingsVersion": 5,
+      "temperature": 1.35,
+      "max_length": 40,
+      "min_length": 1,
+      "top_k": 15,
+      "top_p": 0.85,
+      "top_a": 0.1,
+      "typical_p": 1,
+      "tail_free_sampling": 0.915,
+      "repetition_penalty": 2.8,
+      "repetition_penalty_range": 2048,
+      "repetition_penalty_slope": 0.02,
+      "repetition_penalty_frequency": 0.02,
+      "repetition_penalty_presence": 0,
+      "repetition_penalty_default_whitelist": true,
+      "cfg_scale": 1,
+      "cfg_uc": "",
+      "phrase_rep_pen": "aggressive",
+      "top_g": 0,
+      "mirostat_tau": 0,
+      "mirostat_lr": 1,
+      "order": [
+        {
+          "id": "cfg",
+          "enabled": false
+        },
+        {
+          "id": "top_p",
+          "enabled": true
+        },
+        {
+          "id": "tfs",
+          "enabled": true
+        },
+        {
+          "id": "temperature",
+          "enabled": true
+        },
+        {
+          "id": "top_a",
+          "enabled": true
+        },
+        {
+          "id": "top_k",
+          "enabled": true
+        },
+        {
+          "id": "typical_p",
+          "enabled": false
+        },
+        {
+          "id": "top_g",
+          "enabled": false
+        },
+        {
+          "id": "mirostat",
+          "enabled": false
+        }
+      ]
+    },
+    "preset": "default-carefree",
+    "trimResponses": true,
+    "banBrackets": true,
+    "prefix": "theme_textadventure",
+    "dynamicPenaltyRange": false,
+    "prefixMode": 1,
+    "mode": 1,
+    "model": "kayra-v1"
+  },
+  "lorebook": {
+    "lorebookVersion": 5,
+    "entries": [
+      {
+        "text": "[ Alba is a habitable planet that belongs to the ruthless Demeter company. ] [ Alba is an earth-like world of lush jungles, fertile greenlands and oceans. ] [ The demeter company is using Alba for fully automated farming with no regard to the native plants and animals on the planet. ] [ Alba's native plants and animals have been sent into uncontrolled growth and mating by the chemicals used in the farming complexes. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1690447724287,
+        "displayName": "Alba (Planet)",
+        "id": "8d738a42-03e8-4312-86b8-eea4758d86c9",
+        "keys": [
+          "/\\balba\\b/i",
+          "/\\bplanets?\\b/i",
+          "/\\bworlds?\\b/",
+          "/\\bfarming\\b/i",
+          "/\\bdemeter\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "2078e801-de41-4cda-a572-e5d34f7799f0",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ The Demeter corporation is ruthless and wields substantial political influence. ] [ The business of the Demeter corporation is food production for space stations and mining colonies. ] [ Demeter corporation owns entire planets that it turned into huge food farms. ] [ Demeter corporation planets are very well protected by orbital defense systems. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1690447881087,
+        "displayName": "Demeter (Corporation)",
+        "id": "c2efe08e-52c5-45f9-8463-b814a26ce155",
+        "keys": [
+          "/\\bdemeter\\b/i",
+          "/\\bcorportations?\\b/i",
+          "/\\bfood\\b/i",
+          "/\\bfarming\\b/i",
+          "/\\bcomplex\\b/i",
+          "/\\bcomplexes\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "2078e801-de41-4cda-a572-e5d34f7799f0",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ The LightLiner is a luxury private spaceship. ] [ Only the very wealthy can afford private spaceships. ] [ The LightLiner is one of the fastest spaceships around and allows its owner to escape from literally anything. ] [ It is possible to control the LightLiner with just one crew member. ] [ The LightLiner is not designed for orbital flight but can do an emergency landing. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1690448389929,
+        "displayName": "LightLiner (Luxury Spaceship)",
+        "id": "5ce18798-cc75-48b0-a764-1c965a3ad5e8",
+        "keys": [
+          "/\\bspaceships?\\b/i",
+          "/\\blightliner\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "2078e801-de41-4cda-a572-e5d34f7799f0",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Farming complexes are giant fenced enclosures within which robotic systems grow plants and animals. ] [ Farming complexes are fully automated. ] [ Farming complexes use chemicals and gene manipulation without restriction. ] [ The AI systems of farming complexes are not ethical and will ignore or eliminate unexpected guests. ] [ Plants sometimes spread across the fence and many native animal species sustain themselves on these. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1690448880913,
+        "displayName": "Farming Complex",
+        "id": "d83557d1-fd79-4966-beb1-7494fcf631e1",
+        "keys": [
+          "/\\bfarming\\b/i",
+          "/\\bcomplex\\b/i",
+          "/\\bcomplexes\\b/i",
+          "/\\bfood\\b/i",
+          "/\\bhunger\\b/i",
+          "/\\bhungry\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "2078e801-de41-4cda-a572-e5d34f7799f0",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ You have crash-landed on Alba, a farming planet owned by the ruthless Demeter corporation. ] [ Your crash-landing happened because you stole your father's LightLiner spaceship after a squabble and found yourself unable to control it. ] [ You crash-landing broke the spaceship and delivered you into a Demeter farming complex. ] [ After the crash-landing, you had to run away from the farm's automated systems and ended up outside of the farm. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1690449450042,
+        "displayName": "Crash-Landing",
+        "id": "6ad6dc5d-123b-4765-bf44-259e92fff10b",
+        "keys": [
+          "/\\blanding\\b/i",
+          "/\\bcrash\\b/i",
+          "/\\bspaceships?\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "2078e801-de41-4cda-a572-e5d34f7799f0",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Desert wolves are an alien species that resemble wolves on Earth. ] [ Desert wolves have yellow fur and many dark brown horns and spikes. ] [ Desert wolves are predators and other animals stay away from them. ] [ Desert wolves have a canine penis and fits in a human pussy. ] [ Desert wolves will attempt to mate with you when given the chance. ] [ Mating with a desert wolf is very pleasant. ] [ Desert wolves are loners and do not live in packs. ] [ Desert wolves are capable of forming bonds of trust and friendship. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1690451542911,
+        "displayName": "Desert Wolf",
+        "id": "bbeed765-14b8-40b5-8bdb-ac1338624825",
+        "keys": [
+          "/\\bwolf\\b/i",
+          "/\\bdeserts?\\b/i",
+          "/\\bwolves\\b/i",
+          "/\\bcanine\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "3c31b05f-2850-4770-80c8-451a7fb036f4",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Alba's native animals have been affected by chemicals released from the farming complexes. ] [ All animals are extremely sexually active and attempt to rape you at every opportunity. ] [ When walking around, you encounter different types of animals that rape you in various ways. ] [ Carnivorous animals are dangerous and rape you, but they keep the herbivores at a distance. ] [ Animals still look for partners roughly matching their size, only animals that can copulate with humans rape you. ] [ Animal rape is generally a scary but pleasant experience. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1690450376651,
+        "displayName": "Planetary Fauna",
+        "id": "e43d134e-a0c0-4ccb-987b-cc6800f84d70",
+        "keys": [
+          "/\\bwalk\\b/i",
+          "/\\blook\\b/i",
+          "/\\brest\\b/i",
+          "/\\beat\\b/i",
+          "/\\bsex\\b/i",
+          "/\\braped?\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "2078e801-de41-4cda-a572-e5d34f7799f0",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ The striped Anaconda resembles a large snake on earth. ] [ The striped Anaconda has a paralyzing venom that it uses to incapacitate its prey for hours. ] [ Striped Anacondas will attempt to mate with you. ] [ Striped Anacondas have two hemipenes that they use for mating. ] [ When mating with you, striped Anacondas will paralyze you and mate with your helpless body several times, keeping you paralyzed through repeated bites. ] [ Sex with a striped Anaconda feels weird but good. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1690525436198,
+        "displayName": "Striped Anaconda",
+        "id": "c75561d9-5316-4914-afcd-9469218ea5c0",
+        "keys": [
+          "/\\bsnakes?\\b/i",
+          "/\\bdeserts?\\b/",
+          "/\\breptiles?\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "3c31b05f-2850-4770-80c8-451a7fb036f4",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Dawncats are an alien species that resembles mountain lions. ] [ Dawncats sleep during the day and stalk around in the early morning hours. ] [ When sleeping in the open, you will likely be found by a Dawncat in the morning. ] [ Dawncats will rape you when they find you. ] [ Dawncats are fierce predators and will do a mating bite on their partner during sex. ] [ Dawncats have penile spines and sex with them is uncomfortable, though you may grow to like it. ] [ Dawncats are able to form bonds of friendship. ] [ Dawncats are able to form bonds of friendship. ] [ Dawncats can become stalkers, tracking you and returning for second helpings after you think they're gone. ] [  Dawncats are scared of desert wolves and run away when seeing them. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1690493258714,
+        "displayName": "Dawncat",
+        "id": "737965ae-0084-49ad-af4d-247111991cbb",
+        "keys": [
+          "/\\bsleep\\b/i",
+          "/\\bpredator\\b/i",
+          "/\\bfelines?\\b/i",
+          "/\\bcats?\\b/i",
+          "/\\bdawncat\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "3c31b05f-2850-4770-80c8-451a7fb036f4",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Sand reapers are an alien lizard species that lives in the sand. ] [ Sand reapers are herbivores but dangerous because they defend their territory. ] [ Sand lizards have pincers they use to hurt and to hold their mates down. ] [ Sand lizards can run very fast on sand. ] [ Sand lizards will mate with you when given the opportunity. ] [ Sand lizards have a weird penis with many flaps that rattles after insertion, causing vibrations that stimulate you to orgasm. ] [ Sand lizard sperm coagulates when exposed to air and forms hardened plugs in your pussy for a while. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1690493797235,
+        "displayName": "Sand Reaper",
+        "id": "e77cbe00-2300-4948-a6e1-f5aa9cc80061",
+        "keys": [
+          "/\\blizards?\\b/i",
+          "/\\bdesert\\b/i",
+          "/\\bsand\\b/i",
+          "/\\breptiles?\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "3c31b05f-2850-4770-80c8-451a7fb036f4",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ False Steeds are alien creatures that resemble small horses. ] [ False Steeds have bristles and can not be ridden. ] [ False steeds jump with the hind legs like kangaroos. ] [ False steeds have vestigial arms on their belly that they use to hold their mares in place during sex. ] [ The vestigial arms of False Steeds are also capable of holding firmly onto human females during sex. ] [ False Steeds will chase and rape you when given the opportunity. ] [ False Steeds have long equine penises with a glans that flares during orgasm. ] [ False steeds travel in groups of 2 or 3 animals and will rape you one after another. ] [ False steeds travel long distances and can be encountered anywhere outside of the jungle. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1690527748264,
+        "displayName": "False Steed",
+        "id": "ac6b72c4-56e5-4c43-8b56-08a6b5eacfb2",
+        "keys": [
+          "/\\bhorses?\\b/i",
+          "/\\btravel\\b/i",
+          "/\\bdistances?\\b/i",
+          "/\\bplains\\b/i",
+          "/\\bdeserts?\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "3c31b05f-2850-4770-80c8-451a7fb036f4",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Your are ${playername}, the spoiled daughter of an interstellar business mogul. ] [ You have crash-landed on the farming planet Alba after you stole your father's LightLiner spacecraft. ] [ You are on your own. The factory farm won't help you and without a miracle, you're stuck on Alba. ] [ Despite your nature as a spoiled brat, you are athletically capable and in good health. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1692206256518,
+        "displayName": "You",
+        "id": "8c89e2de-5dbb-4a1f-9ef8-e39e71379e23",
+        "keys": [
+          "/\\byou\\b/i",
+          "/\\byourself\\b/i",
+          "/\\byours?\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": true,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      }
+    ],
+    "settings": {
+      "orderByKeyLocations": false
+    },
+    "categories": [
+      {
+        "name": "Bestiary",
+        "id": "3c31b05f-2850-4770-80c8-451a7fb036f4",
+        "enabled": true,
+        "createSubcontext": false,
+        "subcontextSettings": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 400,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -1
+          },
+          "lastUpdatedAt": 1690453381111,
+          "displayName": "New Lorebook Entry",
+          "id": "dc3f69e2-c181-4f0a-8411-2413807a9aab",
+          "keys": [],
+          "searchRange": 1000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "useCategoryDefaults": false,
+        "categoryDefaults": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 400,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -1
+          },
+          "lastUpdatedAt": 1690447390392,
+          "displayName": "New Lorebook Entry",
+          "id": "bf12ffa2-9f26-400a-8ae0-0c33dac651e6",
+          "keys": [],
+          "searchRange": 1000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "categoryBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ],
+        "open": true
+      },
+      {
+        "name": "Scenario",
+        "id": "2078e801-de41-4cda-a572-e5d34f7799f0",
+        "enabled": true,
+        "createSubcontext": false,
+        "subcontextSettings": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 400,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -1
+          },
+          "lastUpdatedAt": 1690453381116,
+          "displayName": "New Lorebook Entry",
+          "id": "2b1a1af5-ecbb-4043-aae3-a5e53506864b",
+          "keys": [],
+          "searchRange": 1000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "useCategoryDefaults": false,
+        "categoryDefaults": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 400,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -1
+          },
+          "lastUpdatedAt": 1690446636587,
+          "displayName": "New Lorebook Entry",
+          "id": "64f37706-0a1a-46ef-93f6-ad40c441a2c5",
+          "keys": [],
+          "searchRange": 1000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "categoryBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      }
+    ]
+  },
+  "author": "",
+  "storyContextConfig": {
+    "prefix": "",
+    "suffix": "",
+    "tokenBudget": 1,
+    "reservedTokens": 512,
+    "budgetPriority": 0,
+    "trimDirection": "trimTop",
+    "insertionType": "newline",
+    "maximumTrimType": "sentence",
+    "insertionPosition": -1,
+    "allowInsertionInside": true
+  },
+  "contextDefaults": {
+    "ephemeralDefaults": [
+      {
+        "text": "",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 1,
+          "budgetPriority": -10000,
+          "trimDirection": "doNotTrim",
+          "insertionType": "newline",
+          "maximumTrimType": "newline",
+          "insertionPosition": -2
+        },
+        "startingStep": 1,
+        "delay": 0,
+        "duration": 1,
+        "repeat": false,
+        "reverse": false
+      }
+    ],
+    "loreDefaults": [
+      {
+        "text": "",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1690445680717,
+        "displayName": "New Lorebook Entry",
+        "id": "9c200be5-5327-47e3-8334-b8dd9fb628e0",
+        "keys": [],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      }
+    ]
+  },
+  "phraseBiasGroups": [
+    {
+      "phrases": [],
+      "ensureSequenceFinish": false,
+      "generateOnce": true,
+      "bias": 0,
+      "enabled": true,
+      "whenInactive": false
+    }
+  ],
+  "bannedSequenceGroups": [
+    {
+      "sequences": [],
+      "enabled": true
+    }
+  ]
+}
