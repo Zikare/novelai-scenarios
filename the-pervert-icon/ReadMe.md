@@ -3,9 +3,9 @@ The Pervert Icon
 
 This scenario puts you in the shoes of Clover, a small-time rock musician
 currently going through a remarkable rise. Your band is touring and giving
-live performance at venues all over the country.
+live performances at venues all over the country.
 
-Live the rock star life, play awesome music, kill it it the interviews and
+Live the rock star life, play awesome music, kill it in the interviews and
 hang out with your roadies and fans.
 
 *But Clover has a little secret that might kill her career:* after each
