@@ -1,0 +1,307 @@
+{
+  "gamestarted": true,
+  "prompt": "",
+  "memory": "### Instruction:\n\nSimulate a text adventure game.\nUser actions will be on their own seperate line prefixed with a >\n\nThe game will feature a brief introduction text about who the main character is and the setting of the world. Followed by a brief description of the current task that must be overcome. Afterwards it will be up to the user to input the desired instruction and outputs will describe the impact of this action.\n\nAll outputs should consider how likely it is that the players action succeeds and succeed or fail accordingly. The game should be challenging and action failures should be funny.\n\n### Response:",
+  "authorsnote": "[ Sometimes generate random encounters with wild animals when traveling or sleeping in the wilderness. ]\n[ Sometimes generate random encounters with monsters when inside dungeons. ]\n[ When you show your face amongst people, some recognize you as the \"Pervert\" and heckle you due to the infamous wolf incident with Sena. ]",
+  "anotetemplate": "[Author's note: <|>]",
+  "actions": [
+    "\nThe continent of Kalania can be a fantastic place for adventurers and globetrotters. Two hundred years ago, it was ruled by two large kingdoms that all but annihilated each other in a terrible conflict. But out of the ruins, a hundred small kingdoms rose, none of them large enough to afford an army. It is a world littered with forgotten dungeons and fortresses, filled with relics and artifacts and threatened by wild animals and monsters.\n",
+    "\nAnyone brave and bold enough to risk it can become an adventurer and travel the lands while looking for ancient treasures or completing dangerous quests for less daring people. In fact, quests have become such a popular concept that most towns now have branch buildings of the so called \"Adventurer's Guild\" which regulates the assignment of quests as well as their compensation. This is your life. You have been an adventurer for over two years now and collected many useful skills.\n",
+    "\nHowever, things have not gone well for you, Brian, an adventurer with a history. Two years ago, you formed your first party with Sena, a good friend, archer and healer. There was an incident, a terrible incident where you just froze up while a creature violated Sena. Not only did your relationship with Sena fell apart after that, your reputation has been tarnished ever since and no other adventurers want to form a party with you.\n",
+    "\nThanks to the \"Adventurer's Guild,\" you can still accept and complete quests, but whenever you walk amongst other adventurers, you pull your hood over your head and hope that you aren't recognized. One some days, you think about saying sorry to Sena, but you know she never wants to see you again. On other days, you make plans to travel far away to another kingdom where your reputation can't follow.\n",
+    "\nToday is just another such day. You have set up your campsite in the wilderness, a good hour away from the next village. This place is mostly safe and will let you rest without fear of being heckled or seen. You enjoy the light evening breeze as you wait for your rabbit to cook on the open fire. Perhaps tomorrow, you will walk into an Adventurer's Guild building once more and pick another quests. Or perhaps you will remain here, where nobody bothers you.\n"
+  ],
+  "actions_metadata": {
+    "0": {
+      "Selected Text": "\nThe continent of Kalania can be a fantastic place for adventurers and globetrotters. Two hundred years ago, it was ruled by two large kingdoms that all but annihilated each other in a terrible conflict. But out of the ruins, a hundred small kingdoms rose, none of them large enough to afford an army. It is a world littered with forgotten dungeons and fortresses, filled with relics and artifacts and threatened by wild animals and monsters.\n",
+      "Alternative Text": []
+    },
+    "1": {
+      "Selected Text": "\nAnyone brave and bold enough to risk it can become an adventurer and travel the lands while looking for ancient treasures or completing dangerous quests for less daring people. In fact, quests have become such a popular concept that most towns now have branch buildings of the so called \"Adventurer's Guild\" which regulates the assignment of quests as well as their compensation. This is your life. You have been an adventurer for over two years now and collected many useful skills.\n",
+      "Alternative Text": []
+    },
+    "2": {
+      "Selected Text": "\nHowever, things have not gone well for you, Brian, an adventurer with a history. Two years ago, you formed your first party with Sena, a good friend, archer and healer. There was an incident, a terrible incident where you just froze up while a creature violated Sena. Not only did your relationship with Sena fell apart after that, your reputation has been tarnished ever since and no other adventurers want to form a party with you.\n",
+      "Alternative Text": []
+    },
+    "3": {
+      "Selected Text": "\nThanks to the \"Adventurer's Guild,\" you can still accept and complete quests, but whenever you walk amongst other adventurers, you pull your hood over your head and hope that you aren't recognized. One some days, you think about saying sorry to Sena, but you know she never wants to see you again. On other days, you make plans to travel far away to another kingdom where your reputation can't follow.\n",
+      "Alternative Text": []
+    },
+    "4": {
+      "Selected Text": "\nToday is just another such day. You have set up your campsite in the wilderness, a good hour away from the next village. This place is mostly safe and will let you rest without fear of being heckled or seen. You enjoy the light evening breeze as you wait for your rabbit to cook on the open fire. Perhaps tomorrow, you will walk into an Adventurer's Guild building once more and pick another quests. Or perhaps you will remain here, where nobody bothers you.\n",
+      "Alternative Text": []
+    }
+  },
+  "worldinfo": [
+    {
+      "key": "you, yourself, brian",
+      "keysecondary": "",
+      "content": "[ Your name is Brian. ] [ You are a failed adventurer. ] [ Two years ago, you formed an adventuring party together with the girl Sena. ] [ Two years ago, Sena got raped by a wolf and you just watched. ] [ Sena's wolf rape made you infamous amongst adventurers and people avoid you now. ] [ Since Sena's wolf rape, other adventurers refuse to let you join their parties. ] ",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": true
+    },
+    {
+      "key": "adventurer, adventuring, hero, quest, task, job, mission",
+      "keysecondary": "",
+      "content": "[ Most people have plain jobs like peasants, tailors, carpenters and masons. ] [ Some free-spirited people become adventurers. ] [ Adventurers are freelancers that do odd jobs that can involve finding lost people, recovering stolen objects or killing monsters or killing wild animals. ] [ Adventurers usually get the missions from the adventurer's guild. ] [ Adventurers have a high-risk lifestyle and often die early, but they earn a lot of money. ] [ Some rare adventurers have become extremely strong and battle-proven. ]",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": false
+    },
+    {
+      "key": "adventurer, guild, quest, task, job, mission, reward",
+      "keysecondary": "",
+      "content": "[ The adventurer's guild is an independent organization across all kingdoms of Kalania. ] [ Most towns and villages have an adventurer's guild building where citizens can put up quests on the quest board. ] [ Adventurers usually obtain there quests from the adventurer's guild. ] [ Adventurers can browse available quests on the quest board inside the adventurer's guild building. ] [ Verification of completed quests and payment are usually performed through the adventurer's guild. ] [ Each adventurer's guild building has an attendant providing advice and managing the quest board. ]",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": false
+    },
+    {
+      "key": "war, past, history, continent, kalania, dungeon, fortress",
+      "keysecondary": "",
+      "content": "[ Over two hundred years ago, the continent of Kalania was rules by two large kingdoms that annihilated each other in a terrible conflict. ] [ The conflict from two hundred years go is commonly called the continental war. ] [ Left over from the continental war, there are countless forgotten dungeons and fortresses silently decaying all over the land, waiting for adventurers and treasure hunters to discover their secrets. ]",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": false
+    },
+    {
+      "key": "kalania, realm, world, kingdom, continent",
+      "keysecondary": "",
+      "content": "[ Kalania is the continent and the only known place where life exists. ] [ Kalania is made up of many small kingdoms, preventing the rise of any larger powers or cities. ] [ Kalania is currently in the early medieval age, but with open slave trade, arena battles and freelancing adventurers. ] [ Kalania is host to many species, including the Lizardfolk, Elves, Dwarves, Catfolk and Humans. ]\n\n[ The continent of Kalania is a fantastic place for adventurers and globetrotters. ] [ Two hundred years ago, Kalania was ruled by two large kingdoms that annihilated each other in a terrible conflict that is known as the continental war. ] [ In the aftermath of the continental war, a hundred small kingdoms rose, all too small to afford war. ] [ Kalania is a world littered with forgotten dungeons and fortresses, filled with relics and artifacts and threatened by wild animals and monsters. ]",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": false
+    },
+    {
+      "key": "magic, spell, wizard, sorcery, sorcerer",
+      "keysecondary": "",
+      "content": "[ Some humans and elves in Kalania have weak magic powers. ] [ Magic in Kalania is weak and only useful for simple things such as opening locks or producing light. ] [ Offensive magic spells are rare and weak. ] [ Some human mages claim to be have dangerous spells, but they are all very weak. ] [ Known magic includes opening locks, floating light sources and detecting living things. ] [ Only dragons possess strong magic. ]",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": false
+    },
+    {
+      "key": "sena, comrade, companion, infamy, pervert, rape",
+      "keysecondary": "",
+      "content": "[ Sena was once your adventuring companion. ] [ Two years ago, Sena got raped by a wolf and you just watched. ] [ After Sena had been raped by the wolf, she discovered your standing there with an erection. ] [ When Sena got raped by the wolf, you were too confused to help and instead only watched it happen. ] [ After Sena got raped by the wolf, she found you staring and you had an erection. ] [ After Sena's wolf rape, your relationship and trust fell apart. ] [ Sena hated you for a long time. ] [ Sena has gotten over the wolf rape. ] [ Sena still thinks you are a pervert and avoids you. ] [ Sena never wants to see you again. ] [ Sena stays away from you. ] [ Sena is in a place far away. ]",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": false
+    },
+    {
+      "key": "camp, fire, rest, sleep, stay, inn, tavern",
+      "keysecondary": "nokassie",
+      "content": "[ Kassie is a novice adventurer, but she is tough and enduring. ] [ Kassie is a has a trained body and very small breasts. ] [ Kassie has heard about you as the infamous pervert adventurer who watched a wolf rape your companion. ] [ Kassie is searching for you in order to become your companion. ] [ Kassie wants to hire you as her body guard in order to have sex with animals herself. ] [ Kassie believes only you are the right companion for her because of your reputation as a pervert. ] [ Kassie is asking around for you and may track your down when you camp or when you visit cities. ]",
+      "comment": "",
+      "folder": null,
+      "selective": true,
+      "constant": false
+    },
+    {
+      "key": "kassie, companion, party, sex, fuck, animal, rape, creature, monster, beast",
+      "keysecondary": "joinedkassie",
+      "content": "[ Kassie is a novice adventurer, but she is tough and enduring. ] [ Kassie is a has a trained body and very small breasts. ] [ Kassie is interested in having sex with animals and needs a body guard and guide to help her. ] [ Kassie heard about your infamous reputation and tracked you down in order to hire you. ] [ Kassie hired you to guard over her while she attempts to have sex with animals and monsters. ] [ Kassie got addicted to animal sex due to an event in her past that she keeps hidden. ] [ Kassie is only interested in sex with animals and monsters. ] [ Kassie is very athletic, she has strong legs and a firm butt. ] [ Kassie has trained a lot to handle sex with stronger monsters and animals. ] [ Kassie is a little bit crazy. ]",
+      "comment": "",
+      "folder": null,
+      "selective": true,
+      "constant": false
+    },
+    {
+      "key": "delve, explore, pig, boar, squeal, oink, grunt",
+      "keysecondary": "underground, dungeon, danger, fortress",
+      "content": "[ Burden pigs are a type of bloated pig only found in dungeons. ] [ Burden pigs have large, soulless eyes and remain hidden in the dark. ] [ Burden pigs eat all kinds of nasty things and are usually sick, with bloated bodies and bad smell. ] [ Burden pigs are opportunists: if an adventurer is paralyzed or otherwise incapacitated, they approach and steal food. ] [ When a male burden pig encounters an incapacitated human female, they attempt to rape them and are very good at this. ]",
+      "comment": "",
+      "folder": null,
+      "selective": true,
+      "constant": false
+    },
+    {
+      "key": "delve, explore, snake, hiss, scratch, slither",
+      "keysecondary": "underground, dungeon, danger, fortress",
+      "content": "[ Cuckoo snakes may hide in cracks in a dungeon's walls. ] [ Cuckoo snakes can be up to 4 meters long. ]  [ Cuckoo snakes have a paralyzing venom that quickly renders human adventurers unable to move. ] [ Cuckoo snakes like to bite soft tissues such as female breasts, buttocks or genitals in order to drink blood. ] [ Male cuckoo snakes have human-sized hemipenes and sometimes mate with female humans. ] [ A human that has been raped by a cuckoo snake will have its offspring grow inside her womb. ]",
+      "comment": "",
+      "folder": null,
+      "selective": true,
+      "constant": false
+    },
+    {
+      "key": "climb, sleep, meow, roar, scratch, shine, stalk, watch",
+      "keysecondary": "forest, outside, meadow, field, mountain, trees, woods",
+      "content": "[ Dawncats are a species of monsters that resembles mountain lions. ] [ Dawncats sleep during the day and stalk around in the early morning hours. ] [ Dawncats sometimes rape their prey before devoring it. ] [ Dawncats are fierce predators and will do a mating bite on their partner during sex. ] [ Dawncats have penile spines and sex with them is uncomfortable, though you may grow to like it. ] [ Dawncats are able to form bonds of friendship. ] [ Dawncats can become stalkers, tracking you and returning for second helpings after you think they're gone. ]",
+      "comment": "",
+      "folder": null,
+      "selective": true,
+      "constant": false
+    },
+    {
+      "key": "travel, heat, hot, sun, scorch, bark, yelp, yip, growl, snarl",
+      "keysecondary": "desert, sand, oasis",
+      "content": "[ Desert wolves are a type of monster that superficially resembles a wolf. ] [ Desert wolves have yellow fur and many dark brown horns and spikes. ] [ Desert wolves are predators and other animals stay away from them. ] [ Desert wolves have a canine penis and fits in a human pussy. ] [ Desert wolves will attempt to mate with you when given the chance. ] [ Mating with a desert wolf is very pleasant. ] [ Desert wolves are loners and do not live in packs. ] [ Desert wolves are capable of forming bonds of trust and friendship. ]",
+      "comment": "",
+      "folder": null,
+      "selective": true,
+      "constant": false
+    },
+    {
+      "key": "delve, explore, hiss, screech, flap, scrape, stomp, thump",
+      "keysecondary": "underground, dungeon, danger, fortress, boss",
+      "content": "[ Drakes are wingless dragons that are about the size of a horse. ] [ Drakes sometimes guard large rooms in dungeons. ] [ Drakes are fiercely territorial and usually only hunt and attack within their territory. ] [ It is known that drakes sometimes accept payment like gold coins or even sex in exchange for passage through their territory. ] [ Having sex with a drake is a very disgusting experience due to their reptilian penis and copious amounts of semen they spurt into their partner until she overflows. ]",
+      "comment": "",
+      "folder": null,
+      "selective": true,
+      "constant": false
+    },
+    {
+      "key": "delve, explore, bark, yelp, yip, growl, snarl, stalk, around",
+      "keysecondary": "underground, dungeon, danger, fortress",
+      "content": "[ Dungeon wolves are very large wolves with dark fur. ] [ Dungeon wolves are normally only found in difficult dungeons. ] [ Dungeon wolves are very dangerous and can easily kill an entire adventuring party. ] [ Dungeon wolves often viciously attack males. ] [ Dungeon wolves often subdue females and rape them. ] [ After raping, dungeon wolves will stalk their female partners endlessly and rape them again whenever they feel like it. ] [ Dungeon wolves can form bonds of friendship and become loyal partner, but nobody wants to endure their affections. ]",
+      "comment": "",
+      "folder": null,
+      "selective": true,
+      "constant": false
+    },
+    {
+      "key": "travel, ride, horse, whinnie, clop, gallop, hooves",
+      "keysecondary": "outside, meadow, field, road, countryside, fields, desert, sand, oasis",
+      "content": "[ False Steeds are monsters that resemble small horses. ] [ False Steeds have bristles and can not be ridden. ] [ False steeds jump with the hind legs like kangaroos. ] [ False steeds have vestigial arms on their belly that they use to hold their mares in place during sex. ] [ The vestigial arms of False Steeds are also capable of holding firmly onto human females during sex. ] [ False Steeds will chase and rape you when given the opportunity. ] [ False Steeds have long equine penises with a glans that flares during orgasm. ] [ False steeds travel in groups of 2 or 3 animals and will rape you one after another. ]",
+      "comment": "",
+      "folder": null,
+      "selective": true,
+      "constant": false
+    },
+    {
+      "key": "travel, ride, horse, whinnie, clop, gallop, hooves",
+      "keysecondary": "outside, meadow, field, road, countryside, fields",
+      "content": "[ Horses are large animals often used by humans to pull carriages or carry riders. ] [ Horses flee when they feel that their life is in danger. ] [ Horses can have sex with humans. ] [ A horse that has experiences sex with a human once wants it again. ] [ Horses have equine penises that are very long. ] [ The tip of an equine penis flares during orgasm, expanding outwards to seal the female while she receives the horse's sperm. ]",
+      "comment": "",
+      "folder": null,
+      "selective": true,
+      "constant": false
+    },
+    {
+      "key": "travel, ride, horse, whinnie, snort, wet, drink",
+      "keysecondary": "outside, river, water, ocean, sea, pond, lake",
+      "content": "[ Kelpies are water horses that have no fur. ] [ Kelpies can be encountered in damp places or near lakes. ] [ Kelpies rarely show interest in humans. ] [ Sometimes, Kelpies rape female adventurers. ] [ Kelpies use magic tentacles to restrain their partners. ] [ Kelpies have horse penises that are large but suitable for human females. ]",
+      "comment": "",
+      "folder": null,
+      "selective": true,
+      "constant": false
+    },
+    {
+      "key": "travel, heat, hot, sun, scorch, dune, shift, climb, sleep",
+      "keysecondary": "desert, sand, oasis",
+      "content": "[ Sand reapers are a type of lizard monster lives in dry places and in dungeons. ] [ Sand reapers are herbivores but dangerous because they defend their territory. ] [ Sand lizards have pincers they use to hold their mates down. ] [ Sand lizards can run very fast on sand and loose ground. ] [ Sand lizards will mate with you when given the opportunity. ] [ Sand lizards have a weird penis with many flaps that rattles after insertion, causing vibrations that stimulate you to orgasm. ] [ Sand lizard sperm coagulates when exposed to air and forms hardened plugs in your pussy for a while. ]",
+      "comment": "",
+      "folder": null,
+      "selective": true,
+      "constant": false
+    },
+    {
+      "key": "delve, explore, trudge, squeek, vermin, noise, hole",
+      "keysecondary": "sewer, underground, waterway, canal, cloaca",
+      "content": "[ Sewer rats are dog-sized rats that live in city sewers and dungeons. ] [ Sewer rats can be dangerous, but usually avoid contact with humans. ] [ Sometimes, sewer rats approach sleeping adventurers to stealing their food supplies. ] [ A small number of sewer rats show interest in human females and attempt to breed with them in their sleep. ]",
+      "comment": "",
+      "folder": null,
+      "selective": true,
+      "constant": false
+    },
+    {
+      "key": "slither, rest, sleep, tent, root, tree, rock, leaves, ground, floor",
+      "keysecondary": "forest, outside, meadow, field, mountain, trees, woods",
+      "content": "[ The striped Anaconda is a snake monster that resembles a large snake. ] [ The striped Anaconda has a paralyzing venom that it uses to incapacitate its prey for hours. ] [ Striped Anacondas will attempt to mate with you. ] [ Striped Anacondas have two hemipenes that they use for mating. ] [ When mating with you, striped Anacondas will paralyze you and mate with your helpless body several times, keeping you paralyzed through repeated bites. ] [ Sex with a striped Anaconda feels weird but good. ]",
+      "comment": "",
+      "folder": null,
+      "selective": true,
+      "constant": false
+    },
+    {
+      "key": "dog, canine, bark, howl, yip, yelp, growl, snarl",
+      "keysecondary": "forest, outside, meadow, field, mountain, woods, underground, dungeon, danger, fortress",
+      "content": "[ Wild dogs can be encountered in the wilderness. ] [ Wild dogs sometimes get trapped in dungeons. ] [ Wild dogs may be friendly or they may act threateningly when approached. ] [ Is is possible to befriend a wild dog. ] [ Wild dogs are capable of having sex with human females when encouraged to do so. ] [ Wild dogs that have had sex with a human female once will want it again and again. ]",
+      "comment": "",
+      "folder": null,
+      "selective": true,
+      "constant": false
+    },
+    {
+      "key": "dog, canine, bark, howl, yip, yelp, growl, snarl",
+      "keysecondary": "forest, outside, meadow, field, mountain, woods",
+      "content": "[ Forest wolves are normal wolves and are usually just called wolves. ] [ Wolves travel and hunt in packs. ] [ Wolves usually avoid human settlements, but sometimes attack sheep and cattle when hunger drives them. ] [ Rarely, wolf packs lacking females of their own kind will sate their urges on female adventurers and rape them in a group effort. ] [ Wolves have canine penises with swelling knots that get them stuck in females. ]",
+      "comment": "",
+      "folder": null,
+      "selective": true,
+      "constant": false
+    }
+  ],
+  "wifolders_d": {},
+  "wifolders_l": [],
+  "extrastopseq": "",
+  "savedsettings": {
+    "my_api_key": "0000000000",
+    "home_cluster": "https://horde.koboldai.net",
+    "saved_oai_key": "",
+    "saved_oai_addr": "",
+    "saved_claude_key": "",
+    "saved_claude_addr": "",
+    "autoscroll": true,
+    "trimsentences": true,
+    "trimwhitespace": false,
+    "opmode": 2,
+    "adventure_is_action": true,
+    "adventure_context_mod": false,
+    "chatname": "You",
+    "chatopponent": "KoboldAI",
+    "instruct_starttag": "\n### Instruction:\n",
+    "instruct_endtag": "\n### Response:\n",
+    "instruct_has_markdown": false,
+    "persist_session": true,
+    "speech_synth": "0",
+    "beep_on": false,
+    "image_styles": "",
+    "generate_images": "",
+    "img_autogen": false,
+    "img_allownsfw": true,
+    "save_images": true,
+    "case_sensitive_wi": false,
+    "last_selected_preset": "9999",
+    "enhanced_chat_ui": true,
+    "enhanced_instruct_ui": false,
+    "multiline_replies": false,
+    "allow_continue_chat": false,
+    "idle_responses": "0",
+    "idle_duration": "60",
+    "export_settings": true,
+    "invert_colors": false,
+    "max_context_length": 8192,
+    "max_length": 256,
+    "auto_ctxlen": true,
+    "auto_genamt": true,
+    "rep_pen": 1.15,
+    "rep_pen_range": 2048,
+    "rep_pen_slope": 0.1,
+    "temperature": 1.35,
+    "top_p": 1,
+    "top_k": 0,
+    "top_a": 0,
+    "typ_s": 1,
+    "tfs_s": 0.69,
+    "sampler_order": [
+      6,
+      3,
+      2,
+      5,
+      0,
+      1,
+      4
+    ]
+  }
+}

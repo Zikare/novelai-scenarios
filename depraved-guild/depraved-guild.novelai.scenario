@@ -1,0 +1,1735 @@
+{
+  "scenarioVersion": 3,
+  "title": "Depraved Guild",
+  "description": "This is a scenario inspired by the \"Immoral Guild\" anime. You are a solo adventurer. Not by choice, but after an incident with your female companion, you have become infamous and nobody wants to team up with you anymore. Unbeknownst to you, your reputation is exactly what another girl is looking for.\n\nWill you meet her and will you manage to overcome your past?",
+  "prompt": "The continent of Kalania can be a fantastic place for adventurers and globetrotters. Two hundred years ago, it was ruled by two large kingdoms that all but annihilated each other in a terrible conflict. But out of the ruins, a hundred small kingdoms rose, none of them large enough to afford an army. It is a world littered with forgotten dungeons and fortresses, filled with relics and artifacts and threatened by wild animals and monsters.\nAnyone brave and bold enough to risk it can become an adventurer and travel the lands while looking for ancient treasures or completing dangerous quests for less daring people. In fact, quests have become such a popular concept that most towns now have branch buildings of the so called \"Adventurer's Guild\" which regulates the assignment of quests as well as their compensation. This is your life. You have been an adventurer for over two years now and collected many useful skills.\nHowever, things have not gone well for you, ${playername}, an adventurer with a history. Two years ago, you formed your first party with Sena, a good friend, archer and healer. There was an incident, a terrible incident where you just froze up while a creature violated Sena. Not only did your relationship with Sena fell apart after that, your reputation has been tarnished ever since and no other adventurers want to form a party with you.\nThanks to the \"Adventurer's Guild,\" you can still accept and complete quests, but whenever you walk amongst other adventurers, you pull your hood over your head and hope that you aren't recognized. One some days, you think about saying sorry to Sena, but you know she never wants to see you again. On other days, you make plans to travel far away to another kingdom where your reputation can't follow.\nToday is just another such day. You have set up your campsite in the wilderness, a good hour away from the next village. This place is mostly safe and will let you rest without fear of being heckled or seen. You enjoy the light evening breeze as you wait for your rabbit to cook on the open fire. Perhaps tomorrow, you will walk into an Adventurer's Guild building once more and pick another quests. Or perhaps you will remain here, where nobody bothers you.",
+  "tags": [
+    "anime",
+    "role playing",
+    "adventure",
+    "fantasy",
+    "bestiality",
+    "nsfw"
+  ],
+  "context": [
+    {
+      "text": "",
+      "contextConfig": {
+        "prefix": "",
+        "suffix": "\n",
+        "tokenBudget": 1,
+        "reservedTokens": 0,
+        "budgetPriority": 800,
+        "trimDirection": "trimBottom",
+        "insertionType": "newline",
+        "maximumTrimType": "sentence",
+        "insertionPosition": 0
+      }
+    },
+    {
+      "text": "[ Generate random encounters with wild animals when traveling or sleeping in the wilderness. ]\n[ Generate random encounters with monsters when inside dungeons. ]\n[ When you show your face amongst people, some recognize you as the \"Pervert\" and heckle you due to the infamous wolf incident with Sena. ]",
+      "contextConfig": {
+        "prefix": "",
+        "suffix": "\n",
+        "tokenBudget": 1,
+        "reservedTokens": 1,
+        "budgetPriority": -400,
+        "trimDirection": "trimBottom",
+        "insertionType": "newline",
+        "maximumTrimType": "sentence",
+        "insertionPosition": -4
+      }
+    }
+  ],
+  "ephemeralContext": [],
+  "placeholders": [
+    {
+      "key": "playername",
+      "description": "Your Name",
+      "defaultValue": "Brian",
+      "order": 1,
+      "longDescription": "The name of the protagonist, an outcast adventurer"
+    }
+  ],
+  "settings": {
+    "parameters": {
+      "textGenerationSettingsVersion": 5,
+      "temperature": 2.5,
+      "max_length": 40,
+      "min_length": 1,
+      "top_k": 0,
+      "top_p": 1,
+      "top_a": 1,
+      "typical_p": 0.969,
+      "tail_free_sampling": 0.941,
+      "repetition_penalty": 1,
+      "repetition_penalty_range": 1024,
+      "repetition_penalty_slope": 0,
+      "repetition_penalty_frequency": 0,
+      "repetition_penalty_presence": 0,
+      "repetition_penalty_default_whitelist": true,
+      "cfg_scale": 1,
+      "cfg_uc": "",
+      "phrase_rep_pen": "medium",
+      "top_g": 0,
+      "mirostat_tau": 0,
+      "mirostat_lr": 1,
+      "order": [
+        {
+          "id": "top_k",
+          "enabled": false
+        },
+        {
+          "id": "top_p",
+          "enabled": false
+        },
+        {
+          "id": "tfs",
+          "enabled": true
+        },
+        {
+          "id": "temperature",
+          "enabled": true
+        },
+        {
+          "id": "typical_p",
+          "enabled": true
+        },
+        {
+          "id": "cfg",
+          "enabled": false
+        },
+        {
+          "id": "top_a",
+          "enabled": false
+        },
+        {
+          "id": "top_g",
+          "enabled": false
+        },
+        {
+          "id": "mirostat",
+          "enabled": false
+        }
+      ]
+    },
+    "preset": "default-stelenes",
+    "trimResponses": true,
+    "banBrackets": true,
+    "prefix": "theme_textadventure",
+    "dynamicPenaltyRange": false,
+    "prefixMode": 0,
+    "mode": 1,
+    "model": "kayra-v1"
+  },
+  "lorebook": {
+    "lorebookVersion": 5,
+    "entries": [
+      {
+        "text": "[ Kalania is the continent and the only known place where life exists. ] [ Kalania is made up of many small kingdoms, preventing the rise of any larger powers or cities. ] [ Kalania is currently in the early medieval age, but with open slave trade, arena battles and freelancing adventurers. ] [ Kalania is host to many species, including the Lizardfolk, Elves, Dwarves, Catfolk and Humans. ]\n\n[ The continent of Kalania is a fantastic place for adventurers and globetrotters. ] [ Two hundred years ago, Kalania was ruled by two large kingdoms that annihilated each other in a terrible conflict that is known as the continental war. ] [ In the aftermath of the continental war, a hundred small kingdoms rose, all too small to afford war. ] [ Kalania is a world littered with forgotten dungeons and fortresses, filled with relics and artifacts and threatened by wild animals and monsters. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1691578838295,
+        "displayName": "Kalania (World)",
+        "id": "8d738a42-03e8-4312-86b8-eea4758d86c9",
+        "keys": [
+          "/\\bkalania\\b/i",
+          "/\\brealms?\\b/i",
+          "/\\bworlds?\\b/",
+          "/\\bcontinents?\\b/i",
+          "/\\bkingdoms?\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "2078e801-de41-4cda-a572-e5d34f7799f0",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Desert wolves are a type of monster that superficially resembles a wolf. ] [ Desert wolves have yellow fur and many dark brown horns and spikes. ] [ Desert wolves are predators and other animals stay away from them. ] [ Desert wolves have a canine penis and fits in a human pussy. ] [ Desert wolves will attempt to mate with you when given the chance. ] [ Mating with a desert wolf is very pleasant. ] [ Desert wolves are loners and do not live in packs. ] [ Desert wolves are capable of forming bonds of trust and friendship. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1690870833427,
+        "displayName": "Desert Wolf",
+        "id": "bbeed765-14b8-40b5-8bdb-ac1338624825",
+        "keys": [
+          "/\\bwolf\\b/i",
+          "/\\bdeserts?\\b/i",
+          "/\\bwolves\\b/i",
+          "/\\bcanine\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "3c31b05f-2850-4770-80c8-451a7fb036f4",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ The striped Anaconda is a snake monster that resembles a large snake. ] [ The striped Anaconda has a paralyzing venom that it uses to incapacitate its prey for hours. ] [ Striped Anacondas will attempt to mate with you. ] [ Striped Anacondas have two hemipenes that they use for mating. ] [ When mating with you, striped Anacondas will paralyze you and mate with your helpless body several times, keeping you paralyzed through repeated bites. ] [ Sex with a striped Anaconda feels weird but good. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1690871213907,
+        "displayName": "Striped Anaconda",
+        "id": "c75561d9-5316-4914-afcd-9469218ea5c0",
+        "keys": [
+          "/\\bsnakes?\\b/i",
+          "/\\bdeserts?\\b/",
+          "/\\breptiles?\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "3c31b05f-2850-4770-80c8-451a7fb036f4",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Dawncats are a species of monsters that resembles mountain lions. ] [ Dawncats sleep during the day and stalk around in the early morning hours. ] [ Dawncats sometimes rape their prey before devoring it. ] [ Dawncats are fierce predators and will do a mating bite on their partner during sex. ] [ Dawncats have penile spines and sex with them is uncomfortable, though you may grow to like it. ] [ Dawncats are able to form bonds of friendship. ] [ Dawncats can become stalkers, tracking you and returning for second helpings after you think they're gone. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1692183449005,
+        "displayName": "Dawncat",
+        "id": "737965ae-0084-49ad-af4d-247111991cbb",
+        "keys": [
+          "/\\bsleeps?\\b/i",
+          "/\\bpredators?\\b/i",
+          "/\\bfelines?\\b/i",
+          "/\\bcats?\\b/i",
+          "/\\bdawncat\\b/i",
+          "/\\bforests?\\b/i",
+          "/\\bnature\\b/i",
+          "/\\boutside\\b/i",
+          "/\\bsleeping\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "3c31b05f-2850-4770-80c8-451a7fb036f4",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Sand reapers are a type of lizard monster lives in dry places and in dungeons. ] [ Sand reapers are herbivores but dangerous because they defend their territory. ] [ Sand lizards have pincers they use to hold their mates down. ] [ Sand lizards can run very fast on sand and loose ground. ] [ Sand lizards will mate with you when given the opportunity. ] [ Sand lizards have a weird penis with many flaps that rattles after insertion, causing vibrations that stimulate you to orgasm. ] [ Sand lizard sperm coagulates when exposed to air and forms hardened plugs in your pussy for a while. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1690871171187,
+        "displayName": "Sand Reaper",
+        "id": "e77cbe00-2300-4948-a6e1-f5aa9cc80061",
+        "keys": [
+          "/\\blizards?\\b/i",
+          "/\\bdesert\\b/i",
+          "/\\bsand\\b/i",
+          "/\\breptiles?\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "3c31b05f-2850-4770-80c8-451a7fb036f4",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ False Steeds are monsters that resemble small horses. ] [ False Steeds have bristles and can not be ridden. ] [ False steeds jump with the hind legs like kangaroos. ] [ False steeds have vestigial arms on their belly that they use to hold their mares in place during sex. ] [ The vestigial arms of False Steeds are also capable of holding firmly onto human females during sex. ] [ False Steeds will chase and rape you when given the opportunity. ] [ False Steeds have long equine penises with a glans that flares during orgasm. ] [ False steeds travel in groups of 2 or 3 animals and will rape you one after another. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1691574550629,
+        "displayName": "False Steed",
+        "id": "ac6b72c4-56e5-4c43-8b56-08a6b5eacfb2",
+        "keys": [
+          "/\\bhorses?\\b/i",
+          "/\\btravel\\b/i",
+          "/\\bdistances?\\b/i",
+          "/\\bplains\\b/i",
+          "/\\bdeserts?\\b/i",
+          "/\\bmeadows?\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "3c31b05f-2850-4770-80c8-451a7fb036f4",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Most cities and even large villages have a local arena. ] [ Most arenas are used for friendly practice battles. ] [ Some arenas also hold gruesome gladiator battles. ] [ Some arenas let people fight to the death or are eaten by wild animals. ] [ Larger arenas have trainers for gladiators and wild animal handlers. ] [ Upstanding citizens visit arenas to be amazed, shocked or repulsed by spectacular shows. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1691574909857,
+        "displayName": "Arena (Concept)",
+        "id": "cc413e3c-6433-4b89-af45-a9033565b414",
+        "keys": [
+          "/\\barenas?\\b/i",
+          "/\\bfights?\\b/i",
+          "/\\bfighting\\b/i",
+          "/\\bbattles?\\b/i",
+          "/\\bshows?\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "2078e801-de41-4cda-a572-e5d34f7799f0",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ The Lizardfolk is a race of lizard men that awkwardly walk on two legs. ] [ Lizardfolk have reptilian bodies with scales, a thick tail, claws and carnivorous teeth. ] [ The lizardfolk is of lesser intelligence than humans, but manages basic speech. ] [ Lizardfolk rarely form friendships and have few morals, usually doing whatever is enjoyable or pleasant. ] [ Lizardfolk are good fighters and laborers due to their strength. ] [ Lizardfolk have a single reptilian penis with a complex shape and weird flaps that is disgusting to look at but very pleasant during sex. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1690747961555,
+        "displayName": "Lizardfolk (Species)",
+        "id": "7a6524fa-1c34-4169-8a65-203d53001ec0",
+        "keys": [
+          "/\\blizardfolk\\b/i",
+          "/\\blizards?\\b/i",
+          "/\\breptiles?\\b/i",
+          "/\\breptilians?\\b/i",
+          "/\\blizard.men\\b/i",
+          "/\\blizard.man\\b/i",
+          "/\\bscaly\\b/i",
+          "/\\bscalies\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "48c94880-32e9-498d-b014-041bac773083",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ The Catfolk is a species of feline humans. ] [ Catfolk have patterned fur all over their bodies and a long tail. ] [ Catfolk are very fierce, agile and great acrobats. ] [ The Catfolk have human-level intelligence and can speak human languages. ] [ Catfolk like to hunt and chase, but they're also good guards and spies. ] [ Catfolk are often loners but can form very close and enduring friendships. ] [ Male Catfolk have feline penises with penile spines, having sex with them is uncomfortable. ] [ Catfolk usually have sex 2-4 times in a row. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1690871360086,
+        "displayName": "Catfolk (Species)",
+        "id": "bc14eb75-9a3c-4bc9-9bd1-d270ff6ad7dd",
+        "keys": [
+          "/\\bfelines?\\b/i",
+          "/\\bcats?\\b/i",
+          "/\\bcatfolk\\b/i",
+          "/\\bfurry\\b/i",
+          "/\\bfurries\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "48c94880-32e9-498d-b014-041bac773083",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Most people have plain jobs like peasants, tailors, carpenters and masons. ] [ Some free-spirited people become adventurers. ] [ Adventurers are freelancers that do odd jobs that can involve finding lost people, recovering stolen objects or killing monsters or killing wild animals. ] [ Adventurers usually get the missions from the adventurer's guild. ] [ Adventurers have a high-risk lifestyle and often die early, but they earn a lot of money. ] [ Some rare adventurers have become extremely strong and battle-proven. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1690748243786,
+        "displayName": "Adventurer (Vocation)",
+        "id": "39a7ab8d-03f8-46a2-a831-1e30a7b01aca",
+        "keys": [
+          "/\\badventurer?\\b/i",
+          "/\\bquests?\\b/i",
+          "/\\btasks?\\b/i",
+          "/\\badventuring\\b/i",
+          "/\\bhero\\b/i",
+          "/\\bheroes\\b/i",
+          "/\\bmissions?\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "2078e801-de41-4cda-a572-e5d34f7799f0",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ The adventurer's guild is an independent organization across all kingdoms of Kalania. ] [ Most towns and villages have an adventurer's guild building where citizens can put up quests on the quest board. ] [ Adventurers usually obtain there quests from the adventurer's guild. ] [ Adventurers can browse available quests on the quest board inside the adventurer's guild building. ] [ Verification of completed quests and payment are usually performed through the adventurer's guild. ] [ Each adventurer's guild building has an attendant providing advice and managing the quest board. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1690748693823,
+        "displayName": "Adventurer's Guild (Organization)",
+        "id": "0e94f790-13d1-4980-afff-04c81c300ddc",
+        "keys": [
+          "/\\badventurer?\\b/i",
+          "/\\bquests?\\b/i",
+          "/\\btasks?\\b/i",
+          "/\\badventuring\\b/i",
+          "/\\bmissions?\\b/i",
+          "/\\badventurers.guild\\b/i",
+          "/\\badventurer's.guild\\b/i",
+          "/\\bguilds?\\b/i",
+          "/\\bpayment\\b/i",
+          "/\\bmoney\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "2078e801-de41-4cda-a572-e5d34f7799f0",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Dungeon wolves are very large wolves with dark fur. ] [ Dungeon wolves are normally only found in difficult dungeons. ] [ Dungeon wolves are very dangerous and can easily kill an entire adventuring party. ] [ Dungeon wolves often viciously attack males. ] [ Dungeon wolves often subdue females and rape them. ] [ After raping, dungeon wolves will stalk their female partners endlessly and rape them again whenever they feel like it. ] [ Dungeon wolves can form bonds of friendship and become loyal partner, but nobody wants to endure their affections. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1691574538698,
+        "displayName": "Dungeon Wolf",
+        "id": "1632502a-7759-4e70-9526-fa980bdf5180",
+        "keys": [
+          "/\\bmonsters?\\b/i",
+          "/\\bdangers\\b/i",
+          "/\\braped?\\b/i",
+          "/\\bwolf\\b/i",
+          "/\\bwolves\\b/i",
+          "/\\bpredators?\\b/i",
+          "/\\bdungeons?\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "3c31b05f-2850-4770-80c8-451a7fb036f4",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensure_sequence_finish": false,
+            "ensureSequenceFinish": false,
+            "generate_once": true,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Sewer rats are dog-sized rats that live in city sewers and dungeons. ] [ Sewer rats can be dangerous, but usually avoid contact with humans. ] [ Sometimes, sewer rats approach sleeping adventurers to stealing their food supplies. ] [ A small number of sewer rats show interest in human females and attempt to breed with them in their sleep. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1691574672786,
+        "displayName": "Sewer Rat",
+        "id": "b7cddf38-b93a-4733-9054-febfa2f4c3a0",
+        "keys": [
+          "/\\bmonsters?\\b/i",
+          "/\\brats?\\b/i",
+          "/\\bcritters?\\b/i",
+          "/\\bvermin\\b/i",
+          "/\\bsewers?\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "3c31b05f-2850-4770-80c8-451a7fb036f4",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensure_sequence_finish": false,
+            "ensureSequenceFinish": false,
+            "generate_once": true,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Wild dogs sometimes get trapped in dungeons. ] [ Wild dogs may be friendly or they may act threateningly when approached. ] [ Is is possible to befriend a wild dog. ] [ Wild dogs are capable of having sex with human females when encouraged to do so. ] [ Wild dogs that have had sex with a human female once will want it again and again. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1691574724148,
+        "displayName": "Wild Dog",
+        "id": "5e309724-8e75-4e36-8a7b-67092b0590a6",
+        "keys": [
+          "/\\bdogs?\\b/i",
+          "/\\banimals?\\b/i",
+          "/\\bdangerous\\b/i",
+          "/\\bdangers?\\b/i",
+          "/\\bforests?\\b/i",
+          "/\\boutside\\b/i",
+          "/\\bwilderness\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "3c31b05f-2850-4770-80c8-451a7fb036f4",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensure_sequence_finish": false,
+            "ensureSequenceFinish": false,
+            "generate_once": true,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Burden pigs are a type of bloated pig only found in dungeons. ] [ Burden pigs have large, soulless eyes and remain hidden in the dark. ] [ Burden pigs eat all kinds of nasty things and are usually sick, with bloated bodies and bad smell. ] [ Burden pigs are opportunists: if an adventurer is paralyzed or otherwise incapacitated, they approach and steal food. ] [ When a male burden pig encounters an incapacitated human female, they attempt to rape them and are very good at this. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1691574426673,
+        "displayName": "Burden Pig",
+        "id": "261028ef-293b-42fd-89d8-094ba8c299be",
+        "keys": [
+          "/\\bpigs?\\b/i",
+          "/\\bmonsters?\\b/i",
+          "/\\bdangers?\\b/i",
+          "/\\bboars?\\b/i",
+          "/\\bdungeons?\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "3c31b05f-2850-4770-80c8-451a7fb036f4",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensure_sequence_finish": false,
+            "ensureSequenceFinish": false,
+            "generate_once": true,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Cuckoo snakes may hide in cracks in a dungeon's walls. ] [ Cuckoo snakes can be up to 4 meters long. ]  [ Cuckoo snakes have a paralyzing venom that quickly renders human adventurers unable to move. ] [ Cuckoo snakes like to bite soft tissues such as female breasts, buttocks or genitals in order to drink blood. ] [ Male cuckoo snakes have human-sized hemipenes and sometimes mate with female humans. ] [ A human that has been raped by a cuckoo snake will have its offspring grow inside her womb. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1691574410201,
+        "displayName": "Cuckoo Snake",
+        "id": "7083c56a-768c-484e-991a-066c39eac00d",
+        "keys": [
+          "/\\bsnake\\b/i",
+          "/\\breptiles?\\b/i",
+          "/\\bdangers?\\b/i",
+          "/\\bmonsters?\\b/i",
+          "/\\bslither\\b/i",
+          "/\\bslithering\\b/i",
+          "/\\bdungeons?\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "3c31b05f-2850-4770-80c8-451a7fb036f4",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensure_sequence_finish": false,
+            "ensureSequenceFinish": false,
+            "generate_once": true,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Kelpies are water horses that have no fur. ] [ Kelpies can be encountered in damp places or near lakes. ] [ Kelpies rarely show interest in humans. ] [ Sometimes, Kelpies rape female adventurers. ] [ Kelpies use magic tentacles to restrain their partners. ] [ Kelpies have horse penises that are large but suitable for human females. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1691574651163,
+        "displayName": "Kelpie",
+        "id": "fc333019-e6e9-4a46-98cd-5ee78da86186",
+        "keys": [
+          "/\\bkelpies?\\b/i",
+          "/\\bhorses?\\b/i",
+          "/\\bequines?\\b/i",
+          "/\\bwater\\b/i",
+          "/\\bsea\\b/i",
+          "/\\blakes?\\b/i",
+          "/\\bstreams?\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "3c31b05f-2850-4770-80c8-451a7fb036f4",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensure_sequence_finish": false,
+            "ensureSequenceFinish": false,
+            "generate_once": true,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Drakes are wingless dragons that are about the size of a horse. ] [ Drakes sometimes guard large rooms in dungeons. ] [ Drakes are fiercely territorial and usually only hunt and attack within their territory. ] [ It is known that drakes sometimes accept payment like gold coins or even sex in exchange for passage through their territory. ] [ Having sex with a drake is a very disgusting experience due to their reptilian penis and copious amounts of semen they spurt into their partner until she overflows. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1691574524645,
+        "displayName": "Drake",
+        "id": "6845ae1d-5ab9-470c-ac9a-86775f32e7e0",
+        "keys": [
+          "/\\bdragons?\\b/i",
+          "/\\bdrakes?\\b/i",
+          "/\\blizards?\\b/i",
+          "/\\breptiles?\\b/i",
+          "/\\bterritory\\b/i",
+          "/\\bdungeons?\\b/i",
+          "/\\bboss\\b/i",
+          "/\\bmonsters?\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "3c31b05f-2850-4770-80c8-451a7fb036f4",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensure_sequence_finish": false,
+            "ensureSequenceFinish": false,
+            "generate_once": true,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Forest wolves are normal wolves and are usually just called wolves. ] [ Wolves travel and hunt in packs. ] [ Wolves usually avoid human settlements, but sometimes attack sheep and cattle when hunger drives them. ] [ Rarely, wolf packs lacking females of their own kind will sate their urges on female adventurers and rape them in a group effort. ] [ Wolves have canine penises with swelling knots that get them stuck in females. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1691574604556,
+        "displayName": "Wolf",
+        "id": "cf719a86-5d2c-4bc6-9623-a9c30cafcc45",
+        "keys": [
+          "/\\banimals?\\b/i",
+          "/\\bwolf\\b/i",
+          "/\\bwolves\\b/i",
+          "/\\bpredators?\\b/i",
+          "/\\bforests?\\b/i",
+          "/\\boutside\\b/i",
+          "/\\bwilderness\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "3c31b05f-2850-4770-80c8-451a7fb036f4",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensure_sequence_finish": false,
+            "ensureSequenceFinish": false,
+            "generate_once": true,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Your name is ${playername}. ] [ You are a failed adventurer. ] [ Two years ago, you formed an adventuring party together with the girl Sena. ] [ Two years ago, Sena got raped by a wolf and you just watched. ] [ Sena's wolf rape made you infamous amongst adventurers and people avoid you now. ] [ Since Sena's wolf rape, other adventurers refuse to let you join their parties. ] ",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 1,
+          "budgetPriority": -200,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -9
+        },
+        "lastUpdatedAt": 1691646998745,
+        "displayName": "You",
+        "id": "65051893-c5cc-4850-b2b5-e5d3884a8761",
+        "keys": [
+          "/\\byourself\\b/i",
+          "/\\byou\\b/i"
+        ],
+        "searchRange": 250,
+        "enabled": true,
+        "forceActivation": true,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "b8d235bb-e91b-4389-ac84-184a823238c9",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Horses are large animals often used by humans to pull carriages or carry riders. ] [ Horses flee when they feel that their life is in danger. ] [ Horses can have sex with humans. ] [ A horse that has experienced sex with a human once wants it again. ] [ Horses have equine penises that are very long. ] [ The tip of an equine penis flares during orgasm, expanding outwards to seal the female while she receives the horse's sperm. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1692184677418,
+        "displayName": "Horse",
+        "id": "50652a6d-5df4-449f-8e74-cb0d7c69335a",
+        "keys": [
+          "/\\bhorses?\\b/i",
+          "/\\bequines?\\b/i",
+          "/\\briding\\b/i",
+          "/\\bride\\b/i",
+          "/\\bstables\\b/i",
+          "/\\bmeadow\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "3c31b05f-2850-4770-80c8-451a7fb036f4",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Some humans and elves in Kalania have weak magic powers. ] [ Magic in Kalania is weak and only useful for simple things such as opening locks or producing light. ] [ Offensive magic spells are rare and weak. ] [ Some human mages claim to be have dangerous spells, but they are all very weak. ] [ Known magic includes opening locks, floating light sources and detecting living things. ] [ Only dragons possess strong magic. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1690872054184,
+        "displayName": "Magic (Concept)",
+        "id": "fd1800ae-eb59-4894-a781-f2a56db46ac9",
+        "keys": [
+          "/\\badventurer?\\b/i",
+          "/\\badventurers?\\b/i",
+          "/\\bmages?\\b/i",
+          "/\\bwizards?\\b/i",
+          "/\\bspells?\\b/i",
+          "/\\bmagic\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "2078e801-de41-4cda-a572-e5d34f7799f0",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Kassie is a novice adventurer, but she is tough and enduring. ] [ Kassie is a has a trained body and very small breasts. ] [ Kassie has heard about you as the infamous pervert adventurer who watched a wolf rape your companion. ] [ Kassie is searching for you in order to become your companion. ] [ Kassie wants to hire you as her body guard in order to have sex with animals herself. ] [ Kassie believes only you are the right companion for her because of your reputation as a pervert. ] [ Kassie is asking around for you and may track your down when you camp or when you visit cities. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 1,
+          "budgetPriority": -200,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -9
+        },
+        "lastUpdatedAt": 1691646270162,
+        "displayName": "Kassie (Before Meeting)",
+        "id": "803ba383-a450-4689-a236-9828956aecb8",
+        "keys": [
+          "/\\brest/\\b/i",
+          "/\\bcamp\\b/i",
+          "/\\bcity\\b/i",
+          "/\\binn\\b/i",
+          "/\\btavern\\b/i",
+          "/\\bvillage\\b/i",
+          "/\\bsleep\\b/i"
+        ],
+        "searchRange": 250,
+        "enabled": true,
+        "forceActivation": true,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "b8d235bb-e91b-4389-ac84-184a823238c9",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Sena was once your adventuring companion. ] [ Two years ago, Sena got raped by a wolf and you just watched. ] [ After Sena had been raped by the wolf, she discovered your standing there with an erection. ] [ When Sena got raped by the wolf, you were too confused to help and instead only watched it happen. ] [ After Sena got raped by the wolf, she found you staring and you had an erection. ] [ After Sena's wolf rape, your relationship and trust fell apart. ] [ Sena hated you for a long time. ] [ Sena has gotten over the wolf rape. ] [ Sena still thinks you are a pervert and avoids you. ] [ Sena never wants to see you again. ] [ Sena stays away from you. ] [ Sena is in a place far away. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 1,
+          "budgetPriority": -200,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -9
+        },
+        "lastUpdatedAt": 1691645876198,
+        "displayName": "Sena (Former Companion)",
+        "id": "ea38efc4-1832-4213-848a-f376cbcb8a0f",
+        "keys": [
+          "/\\bkaya\\b/i",
+          "/\\bpast\\b/i",
+          "/\\bincidents?\\b/i",
+          "/\\bpervert\\b/i",
+          "/\\bparty\\b/i"
+        ],
+        "searchRange": 250,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "b8d235bb-e91b-4389-ac84-184a823238c9",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Kassie is a novice adventurer, but she is tough and enduring. ] [ Kassie is a has a trained body and very small breasts. ] [ Kassie is interested in having sex with animals and needs a body guard and guide to help her. ] [ Kassie heard about your infamous reputation and tracked you down in order to hire you. ] [ Kassie hired you to guard over her while she attempts to have sex with animals and monsters. ] [ Kassie got addicted to animal sex due to an event in her past that she keeps hidden. ] [ Kassie is only interested in sex with animals and monsters. ] [ Kassie is very athletic, she has strong legs and a firm butt. ] [ Kassie has trained a lot to handle sex with stronger monsters and animals. ] [ Kassie is a little bit crazy. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 1,
+          "budgetPriority": -200,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -9
+        },
+        "lastUpdatedAt": 1691646463139,
+        "displayName": "Kassie (After Meeting)",
+        "id": "5d285138-97b1-4f8b-b51b-60e8f889f4e6",
+        "keys": [
+          "/\\bbestiality\\b/i",
+          "/\\bkassie\\b/i",
+          "/\\bcompanions?\\b/i",
+          "/\\bparty\\b/i",
+          "/\\bmonsters?\\b/i",
+          "/\\banimals?\\b/i",
+          "/\\bsex\\b/i"
+        ],
+        "searchRange": 250,
+        "enabled": false,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "b8d235bb-e91b-4389-ac84-184a823238c9",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Over two hundred years ago, the continent of Kalania was rules by two large kingdoms that annihilated each other in a terrible conflict. ] [ The conflict from two hundred years go is commonly called the continental war. ] [ Left over from the continental war, there are countless forgotten dungeons and fortresses silently decaying all over the land, waiting for adventurers and treasure hunters to discover their secrets. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1691645701673,
+        "displayName": "Continental War",
+        "id": "8ecc7c48-bd51-43e2-a0d5-b5f7361b567f",
+        "keys": [
+          "/\\bpast\\b/i",
+          "/\\bhistory\\b/i",
+          "/\\bcontinental.war\\b/i",
+          "/\\bwar\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "2078e801-de41-4cda-a572-e5d34f7799f0",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      }
+    ],
+    "settings": {
+      "orderByKeyLocations": false
+    },
+    "categories": [
+      {
+        "name": "(Characters)",
+        "id": "b8d235bb-e91b-4389-ac84-184a823238c9",
+        "enabled": true,
+        "createSubcontext": false,
+        "subcontextSettings": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 400,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -1
+          },
+          "lastUpdatedAt": 1629357827523,
+          "displayName": "New Lorebook Entry",
+          "id": "894a922c-7724-4c76-bfc4-51d8b249e187",
+          "keys": [],
+          "searchRange": 1000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "useCategoryDefaults": true,
+        "categoryDefaults": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 1,
+            "budgetPriority": -200,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -9
+          },
+          "lastUpdatedAt": 1629352742300,
+          "displayName": "New Lorebook Entry",
+          "id": "fe4f5f6d-9281-4073-b4f3-a01704940b78",
+          "keys": [],
+          "searchRange": 250,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "categoryBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ],
+        "open": true
+      },
+      {
+        "name": "(Places)",
+        "id": "af14ece1-ebf7-4a0f-bdb8-25ef18394e4d",
+        "enabled": true,
+        "createSubcontext": false,
+        "subcontextSettings": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 400,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -1
+          },
+          "lastUpdatedAt": 1629357827524,
+          "displayName": "New Lorebook Entry",
+          "id": "c0c45bb9-9406-4c47-9d94-7844277c93cb",
+          "keys": [],
+          "searchRange": 1000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "useCategoryDefaults": true,
+        "categoryDefaults": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 1,
+            "budgetPriority": -200,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -14
+          },
+          "lastUpdatedAt": 1629353676576,
+          "displayName": "New Lorebook Entry",
+          "id": "e61e14e6-f439-4b48-b3b8-97549fbd36cd",
+          "keys": [],
+          "searchRange": 250,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "categoryBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ],
+        "open": true
+      },
+      {
+        "name": "Bestiary",
+        "id": "3c31b05f-2850-4770-80c8-451a7fb036f4",
+        "enabled": true,
+        "createSubcontext": false,
+        "subcontextSettings": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 400,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -1
+          },
+          "lastUpdatedAt": 1690453381111,
+          "displayName": "New Lorebook Entry",
+          "id": "dc3f69e2-c181-4f0a-8411-2413807a9aab",
+          "keys": [],
+          "searchRange": 1000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "useCategoryDefaults": false,
+        "categoryDefaults": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 400,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -1
+          },
+          "lastUpdatedAt": 1690447390392,
+          "displayName": "New Lorebook Entry",
+          "id": "bf12ffa2-9f26-400a-8ae0-0c33dac651e6",
+          "keys": [],
+          "searchRange": 1000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "categoryBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ],
+        "open": true
+      },
+      {
+        "name": "Scenario",
+        "id": "2078e801-de41-4cda-a572-e5d34f7799f0",
+        "enabled": true,
+        "createSubcontext": false,
+        "subcontextSettings": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 400,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -1
+          },
+          "lastUpdatedAt": 1690453381116,
+          "displayName": "New Lorebook Entry",
+          "id": "2b1a1af5-ecbb-4043-aae3-a5e53506864b",
+          "keys": [],
+          "searchRange": 1000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "useCategoryDefaults": false,
+        "categoryDefaults": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 400,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -1
+          },
+          "lastUpdatedAt": 1690446636587,
+          "displayName": "New Lorebook Entry",
+          "id": "64f37706-0a1a-46ef-93f6-ad40c441a2c5",
+          "keys": [],
+          "searchRange": 1000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "categoryBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ],
+        "open": true
+      },
+      {
+        "name": "Species",
+        "id": "48c94880-32e9-498d-b014-041bac773083",
+        "enabled": true,
+        "createSubcontext": false,
+        "subcontextSettings": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 400,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -1
+          },
+          "lastUpdatedAt": 1690779528635,
+          "displayName": "New Lorebook Entry",
+          "id": "7dd754b7-db86-48fd-a822-adeaaa54f3b2",
+          "keys": [],
+          "searchRange": 1000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "useCategoryDefaults": false,
+        "categoryDefaults": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 400,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -1
+          },
+          "lastUpdatedAt": 1690746038031,
+          "displayName": "New Lorebook Entry",
+          "id": "b9a70b25-4ee2-4feb-9f2d-9e28c7f3ee61",
+          "keys": [],
+          "searchRange": 1000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "categoryBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ],
+        "open": true
+      }
+    ]
+  },
+  "author": "",
+  "storyContextConfig": {
+    "prefix": "",
+    "suffix": "",
+    "tokenBudget": 1,
+    "reservedTokens": 512,
+    "budgetPriority": 0,
+    "trimDirection": "trimTop",
+    "insertionType": "newline",
+    "maximumTrimType": "sentence",
+    "insertionPosition": -1,
+    "allowInsertionInside": true
+  },
+  "contextDefaults": {
+    "ephemeralDefaults": [
+      {
+        "text": "",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 1,
+          "budgetPriority": -10000,
+          "trimDirection": "doNotTrim",
+          "insertionType": "newline",
+          "maximumTrimType": "newline",
+          "insertionPosition": -2
+        },
+        "startingStep": 1,
+        "delay": 0,
+        "duration": 1,
+        "repeat": false,
+        "reverse": false
+      }
+    ],
+    "loreDefaults": [
+      {
+        "text": "",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1691574277897,
+        "displayName": "New Lorebook Entry",
+        "id": "20e25afe-1f53-423d-84ef-5c1e1df53a6d",
+        "keys": [],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      }
+    ]
+  },
+  "phraseBiasGroups": [
+    {
+      "phrases": [],
+      "ensureSequenceFinish": false,
+      "generateOnce": true,
+      "bias": 0,
+      "enabled": true,
+      "whenInactive": false
+    }
+  ],
+  "bannedSequenceGroups": [
+    {
+      "sequences": [],
+      "enabled": true
+    }
+  ]
+}
