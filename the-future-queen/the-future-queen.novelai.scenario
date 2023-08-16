@@ -1,0 +1,834 @@
+{
+  "scenarioVersion": 3,
+  "title": "The Future Queen",
+  "description": "Take your place as the princess and future queen of the Aldara kingdom. Your parents are classical nobles steeped in manners and etiquette rather than ruling with substance. There is also Zara, your secret friend, but her mother - one of your father's concubines - is trying to groom her into a perfect princess while plotting against you.\n\nCan you become queen and will your relationship with Zara survive it?\n",
+  "prompt": "You are princess ${playername}, the first-born and proposed future queen of the Aldara kingdom.\nIt has been another stressful day in your life as a royal in training for the Aldara kingdom. Your parents seem to have hired an entire army of teachers and advisors who are supposed to school you on royal matters and etiquette. Some days, you even feign sickness just to get a breather from all these annoying duties.\nIt seems to you that all this \"etiquette\" is just a weird game invented by nobles in order to feel above others and to exclude plain citizens from getting their matters heard, merely because they don't know the correct movements or phrases to interact with you. When you are queen, you will certainly change a few things there.\nAs you lie on your bed with your head spinning from endless patronizing advice, your once again hear Helena's voice. She's teaching her own daughter, Zara, to become a better princess than you. You don't understand why she doesn't just talk to you, or enjoy the luxurious life she and her daughter already have as concubine and vice princess respectively. Some days, you even consider walking over to Zara's room to tell her to give the poor girl a rest.\nYou consider that, or retreating into the royal gardens. Perhaps bringing one of the hounds with you. You smile and blush at the thought. Every queen needs her secrets and you are quite certain that this is going to become yours.",
+  "tags": [
+    "royal",
+    "adventure",
+    "role playing",
+    "princess",
+    "queen",
+    "fantasy",
+    "otome"
+  ],
+  "context": [
+    {
+      "text": "",
+      "contextConfig": {
+        "prefix": "",
+        "suffix": "\n",
+        "tokenBudget": 1,
+        "reservedTokens": 0,
+        "budgetPriority": 800,
+        "trimDirection": "trimBottom",
+        "insertionType": "newline",
+        "maximumTrimType": "sentence",
+        "insertionPosition": 0
+      }
+    },
+    {
+      "text": "[ Writing style: fantasy novel, \"otome\" game, light novel. ]\n[ As future queen, you have daily lessons in royal matters. ] [ You have a few hours each morning and each afternoon for yourself. ] [ Your stepmother is constantly trying to trap and trick you into scandals in order to effect your fall. ]",
+      "contextConfig": {
+        "prefix": "",
+        "suffix": "\n",
+        "tokenBudget": 1,
+        "reservedTokens": 1,
+        "budgetPriority": -400,
+        "trimDirection": "trimBottom",
+        "insertionType": "newline",
+        "maximumTrimType": "sentence",
+        "insertionPosition": -4
+      }
+    }
+  ],
+  "ephemeralContext": [],
+  "placeholders": [
+    {
+      "key": "playername",
+      "description": "Your Name",
+      "defaultValue": "Celia",
+      "order": 1,
+      "longDescription": "The name of the protagonist, first-born princess and future queen"
+    }
+  ],
+  "settings": {
+    "parameters": {
+      "textGenerationSettingsVersion": 5,
+      "temperature": 2.5,
+      "max_length": 40,
+      "min_length": 1,
+      "top_k": 0,
+      "top_p": 1,
+      "top_a": 1,
+      "typical_p": 0.969,
+      "tail_free_sampling": 0.941,
+      "repetition_penalty": 1,
+      "repetition_penalty_range": 1024,
+      "repetition_penalty_slope": 0,
+      "repetition_penalty_frequency": 0,
+      "repetition_penalty_presence": 0,
+      "repetition_penalty_default_whitelist": true,
+      "cfg_scale": 1,
+      "cfg_uc": "",
+      "phrase_rep_pen": "medium",
+      "top_g": 0,
+      "mirostat_tau": 0,
+      "mirostat_lr": 1,
+      "order": [
+        {
+          "id": "top_k",
+          "enabled": false
+        },
+        {
+          "id": "top_p",
+          "enabled": false
+        },
+        {
+          "id": "tfs",
+          "enabled": true
+        },
+        {
+          "id": "temperature",
+          "enabled": true
+        },
+        {
+          "id": "typical_p",
+          "enabled": true
+        },
+        {
+          "id": "cfg",
+          "enabled": false
+        },
+        {
+          "id": "top_a",
+          "enabled": false
+        },
+        {
+          "id": "top_g",
+          "enabled": false
+        },
+        {
+          "id": "mirostat",
+          "enabled": false
+        }
+      ]
+    },
+    "preset": "default-stelenes",
+    "trimResponses": true,
+    "banBrackets": true,
+    "prefix": "theme_textadventure",
+    "dynamicPenaltyRange": false,
+    "prefixMode": 0,
+    "mode": 1,
+    "model": "kayra-v1"
+  },
+  "lorebook": {
+    "lorebookVersion": 5,
+    "entries": [
+      {
+        "text": "[ Your name is ${playername}. ] [ You are a young princess, the first-born of the royal family. ] [ As the first-born princess, your are the first in line for the throne and will become the future queen unless you grossly mess up. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1691826099207,
+        "displayName": "You",
+        "id": "202a2367-b68e-412f-8c21-bac4de063985",
+        "keys": [
+          "/\\byou\\b/i",
+          "/\\bqueen\\b/i",
+          "/\\byoutself\\b/i",
+          "/\\bprincess\\b/i",
+          "/\\bam\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": true,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "4a1d4ff1-3063-4f56-bedd-9890bda96eda",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Your mother is queen Ariana. ] [ Queen Ariana is an aloof woman who still loves you, but she is steeped in layer after layer of etiquette and royal protocol. ] [ Queen Ariana is the wife of King Philip, the ruler of Aldara. ] [ Queen Ariana's day is busy and she deals with formalities, legal issues and trade in the kingdom. ] [ Queen Ariana has a large entourage of helpers, maids and servants that organize her life for her. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1691826302193,
+        "displayName": "Ariana (Queen)",
+        "id": "1dd3f0d1-f829-4589-b6b3-33fdd0d94806",
+        "keys": [
+          "/\\bparents?\\b/i",
+          "/\\bmother\\b/i",
+          "/\\bqueen\\b/i",
+          "/\\bariana\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "4a1d4ff1-3063-4f56-bedd-9890bda96eda",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Your father is king Philip. ] [ King Philip is very businesslike and acts very formally. ] [ King Philip has to follow court etiquette and royal protocol though. ] King Philip is always busy and he handles diplomacy, troops and taxes. ] [ King Philip has a group of trusted servants and a group of royal knights guarding him. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1691826512268,
+        "displayName": "Philip (King)",
+        "id": "4f6d55e3-b2c3-4d03-acbe-d52213283de0",
+        "keys": [
+          "/\\bking\\b/i",
+          "/\\bparents?\\b/i",
+          "/\\bfather\\b/i",
+          "/\\bphilip\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "4a1d4ff1-3063-4f56-bedd-9890bda96eda",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Helena is a concubine of king Philip. ] [ Helena is a manipulative woman. ] [ Helena wants to ensure that her own daughter, Zara, becomes the future queen. ] [ Helena has been told by the king to stay away from you. ] [ Helena still attempts to disqualify you as a queen by staining your reputation and dragging you into scandals. ] [ Helena has learned that you are rather intimate with the guard dogs and has chosen to stain your reputation by promoting and furthering your animal attraction. ] [ Helena tries to set up situations where you get intimate with animals and are then caught  in order to expose you and cause a scandal. ] [ Helena is cruelly training some maids to lie with animals in order to have them pose as your friends and make your expose your unsavory desires. ] [ Helena found a certain secret joy in watching her maids be forcefully trained to feign an interest in animal sex. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1691829194037,
+        "displayName": "Helena (Stepmother)",
+        "id": "613fa498-3532-4c49-b991-1a9d7aae7456",
+        "keys": [
+          "/\\bhelena\\b/i",
+          "/\\bstepmother\\b/i",
+          "/\\bparents?\\b/i",
+          "/\\bking\\b/i",
+          "/\\bphilip\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "4a1d4ff1-3063-4f56-bedd-9890bda96eda",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Zara is the beautiful daughter of king Philip and Helena. ] [ Helena is king Philip's concubine, making her your stepmother. ] [ Zara is being trained to be perfect and struggles badly under the demands and forces placed upon her. ] [ Despite everything, Zara is a friendly girl who only reluctantly aids in Helena's machinations. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1691827098254,
+        "displayName": "Zara (Second in line)",
+        "id": "640e1218-04de-44d3-8a2f-7ca2ba1d094d",
+        "keys": [
+          "/\\bzara\\b/i",
+          "/\\bprincess\\b/i",
+          "/\\bhelena\\b/i",
+          "/\\bphilip\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "4a1d4ff1-3063-4f56-bedd-9890bda96eda",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ The stables are split into two regions. One region for the knights' steed and one region for the collection of royal horses, all expensive and highly acclaimed animals. ] [ There are a few attendants in the stables who take daily care of the horses. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1691827205151,
+        "displayName": "Royal Stables",
+        "id": "2f7f5484-a348-496e-bb69-84e21f58daa6",
+        "keys": [
+          "/\\bstables?\\b/i",
+          "/\\bhorses?\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "548bfada-9b0b-4e09-934f-f5f587664a39",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ The palace guards have a large assortment of dogs they use to detect spies and other invaders. ] [ The dogs of the palace are housed in the royal dog kennels which provide ample space for each individual dog. ] [ Most of the dogs making the rounds with their assigned knights several times daily. ] [ The dogs feature several races, most of the are Rottweilers, German Shepherds and Labradors. ] [ All of the dogs are fully intact, with balls, to ensure they can be aggressive. This also means their sex drive is preserved. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1692215464889,
+        "displayName": "Royal Dog Kennels",
+        "id": "6030b73f-8254-4cc1-81a9-2c6a0a909e6d",
+        "keys": [
+          "/\\bpens\\b/i",
+          "/\\bdogs?\\b/i",
+          "/\\bcanines?\\b/i",
+          "/\\bgerman.shepherd\\b/i",
+          "/\\blabrador\\b/i",
+          "/\\brottweiler\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "548bfada-9b0b-4e09-934f-f5f587664a39",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ The gardens are an arrangement of beautiful paths and seating places situated in lush greenery. ] [ The gardens are intentionally designed in a complex layout to allow one to retreat from the world and spend time alone. ] [ The royal family and some of the royal advisors are allowed to use the gardens to relax and recover. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1691827614927,
+        "displayName": "Gardens",
+        "id": "a535a63d-e6fe-46ad-9dbf-5ef2570c7c05",
+        "keys": [
+          "/\\bgardens?\\b/i",
+          "/\\bhiding\\b/i",
+          "/\\bsecret\\b/i",
+          "/\\bnature\\b/i",
+          "/\\bstress\\b/i",
+          "/\\brelax\\b/i",
+          "/\\btea\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "548bfada-9b0b-4e09-934f-f5f587664a39",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ The royal chambers are in their own wing of the palace. ] [ Your room is one of the royal chambers and is opposite of Zara's room. ] [ Your room is luxuriously equipped and you have a small rope that connects to a bell with several maids and attendants ready for your call at any time. ] [ Zara also has a luxurious room, but her mother is only a concubine, so she is afforded less. ] [ King Philip and Queen Ariana have their chambers on another corridor and you rarely see them. ] [ Sometimes, you can hear Helena's sultry but demanding voice from your room when the scolds and teaches Zara to become a better princess than you. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1691827890260,
+        "displayName": "Chambers",
+        "id": "a89a661e-3fd6-4f19-bdd5-681081397d17",
+        "keys": [
+          "/\\bchambers?\\b/i",
+          "/\\bsleep\\b/i",
+          "/\\broom\\b/i",
+          "/\\bzara\\b/i",
+          "/\\bhelene\\b/i",
+          "/\\bretreat\\b/i",
+          "/\\bbed\\b/i",
+          "/\\bprivacy\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "548bfada-9b0b-4e09-934f-f5f587664a39",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ The court is the royal hall featuring an impressive approach designed to dazzle guests and the throne itself. ] [ Most official ceremonies and diplomatic meetings take place in the court in front of select observers and guests. ] [ King Philip and Queen Ariana often have a few hours each day arranged where they sit in their thrones and welcome wealthy people, religious leaders and diplomats with their requests. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1691828072136,
+        "displayName": "Court",
+        "id": "8a2a831e-1b55-4205-b465-7e5aa7444545",
+        "keys": [
+          "/\\bcourt\\b/i",
+          "/\\bpalace\\b/i",
+          "/\\bthrone\\b/i",
+          "/\\bball\\b/i",
+          "/\\bdance\\b/i",
+          "/\\bdiplomacy\\b/i",
+          "/\\bceremony\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "548bfada-9b0b-4e09-934f-f5f587664a39",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ You are the future queen of the Kingdom of Aldara. ] [ Aldara is a small but influential kingdom that wields a lot of power due to its central location and its rich supplies of magic ore. ] [ Other kingdoms often send their most promising nobles and advisors to Aldara in order to gain favors and connections with Aldara's royal family. ] [ The kingdom of Aldara is also under constant threat from spies and saboteurs who try to destabilize the country in order to change the power structures of the continent. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1691828545848,
+        "displayName": "Aldara (Kingdom)",
+        "id": "5d799e86-2e5e-48b3-8886-95a3368bbd83",
+        "keys": [
+          "/\\baldara\\b/i",
+          "/\\bkingdoms?\\b/i",
+          "/\\bcontinent\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "548bfada-9b0b-4e09-934f-f5f587664a39",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      }
+    ],
+    "settings": {
+      "orderByKeyLocations": false
+    },
+    "categories": [
+      {
+        "name": "Characters",
+        "id": "4a1d4ff1-3063-4f56-bedd-9890bda96eda",
+        "enabled": true,
+        "createSubcontext": false,
+        "subcontextSettings": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 400,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -1
+          },
+          "lastUpdatedAt": 1692083849972,
+          "displayName": "New Lorebook Entry",
+          "id": "b11bdc1c-e98f-41b8-977f-86f7b813a85e",
+          "keys": [],
+          "searchRange": 1000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "useCategoryDefaults": false,
+        "categoryDefaults": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 400,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -1
+          },
+          "lastUpdatedAt": 1691825958002,
+          "displayName": "New Lorebook Entry",
+          "id": "fa01d835-beb6-4d0a-8455-cb8aaf5275b8",
+          "keys": [],
+          "searchRange": 1000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "categoryBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "name": "Locations",
+        "id": "548bfada-9b0b-4e09-934f-f5f587664a39",
+        "enabled": true,
+        "createSubcontext": false,
+        "subcontextSettings": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 400,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -1
+          },
+          "lastUpdatedAt": 1692083849972,
+          "displayName": "New Lorebook Entry",
+          "id": "0a2159d1-b231-4742-9687-3cab59e83490",
+          "keys": [],
+          "searchRange": 1000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "useCategoryDefaults": false,
+        "categoryDefaults": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 400,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -1
+          },
+          "lastUpdatedAt": 1691827107120,
+          "displayName": "New Lorebook Entry",
+          "id": "503c442e-13c0-48ed-be0d-4be631b348fc",
+          "keys": [],
+          "searchRange": 1000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "categoryBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      }
+    ]
+  },
+  "author": "",
+  "storyContextConfig": {
+    "prefix": "",
+    "suffix": "",
+    "tokenBudget": 1,
+    "reservedTokens": 512,
+    "budgetPriority": 0,
+    "trimDirection": "trimTop",
+    "insertionType": "newline",
+    "maximumTrimType": "sentence",
+    "insertionPosition": -1,
+    "allowInsertionInside": true
+  },
+  "contextDefaults": {
+    "ephemeralDefaults": [
+      {
+        "text": "",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 1,
+          "budgetPriority": -10000,
+          "trimDirection": "doNotTrim",
+          "insertionType": "newline",
+          "maximumTrimType": "newline",
+          "insertionPosition": -2
+        },
+        "startingStep": 1,
+        "delay": 0,
+        "duration": 1,
+        "repeat": false,
+        "reverse": false
+      }
+    ],
+    "loreDefaults": [
+      {
+        "text": "",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1691825926242,
+        "displayName": "New Lorebook Entry",
+        "id": "a8dab037-d4a3-4bda-beca-eeb96f882fd2",
+        "keys": [],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      }
+    ]
+  },
+  "phraseBiasGroups": [
+    {
+      "phrases": [],
+      "ensureSequenceFinish": false,
+      "generateOnce": true,
+      "bias": 0,
+      "enabled": true,
+      "whenInactive": false
+    }
+  ],
+  "bannedSequenceGroups": [
+    {
+      "sequences": [],
+      "enabled": true
+    }
+  ]
+}
