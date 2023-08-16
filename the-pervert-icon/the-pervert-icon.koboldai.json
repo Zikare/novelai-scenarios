@@ -1,24 +1,29 @@
 {
   "gamestarted": true,
-  "prompt": "\nYou are Clover, a rock singer with a secret that some people would describe as dark, but that, to you, is the spark of life that keeps you going.\n",
+  "prompt": "",
   "memory": "### Instruction:\n\nSimulate a text adventure game.\nUser actions will be on their own seperate line prefixed with a >\n\nThe game will feature a brief introduction text about who the main character is and the setting of the world. Followed by a brief description of the current task that must be overcome. Afterwards it will be up to the user to input the desired instruction and outputs will describe the impact of this action.\n\nAll outputs should consider how likely it is that the players action succeeds and succeed or fail accordingly. The game should be challenging and action failures should be funny.\n\n### Response:",
   "authorsnote": "[ You are the lead singer of a very popular rock band. ] [ Currently, your band is touring and giving live performances. ] [ After each performance, you become a nervous wreck, clumsy and insecure, stumbling, dropping things and messing up interviews. ] [ The only way you can recover after a show is by having sex with your dogs Cole and Bowie. After sex with your dogs, you become confident and outgoing again, breezing through interviews and impressing everyone around you. ] [ You need dog sex after a show. ]",
   "anotetemplate": "[Author's note: <|>]",
   "actions": [
+  	"\nYou are Clover, a rock singer with a secret that some people would describe as dark, but that, to you, is the spark of life that keeps you going.\n",
     "\nSome days, you fantasize about your secret getting out and how you would continue your career through the scandal, becoming a pariah for most, but a shining beacon of hope for others who share your unusual desires. Your sister Cecilia, meanwhile, knows nothing about it. Sure, she knows that you are very close with your dogs and that they mean the world to you, but she doesn't know quite how close.\n",
     "\nRight now, you killed it once again. You just returned from the stage, after an encore performance that had the fans screaming for yet another encore. Your music is good, your singing is good and every band member feels the raw energy and passion you can dish out into the crowd like arcs of lightning. The songs your sister writes are full of passion and novel ideas with no sign of ebbing off. Live is good.\n",
     "\nThere is just this little quirk you have. It's already starting. After each performance, you get the nerves. It's as if the whole of your confidence and energy fade away and you stop functioning. You can feel it happening right now. You bump into the stage exit as your hand misses the handle. Then you almost nose-dive down the stairs. You feel... empty and shaky. You need release. Or a refill. Or whatever is the right word. Before the emptiness overwhelms you. It is not drugs you crave. Your recovery, your rebound is brought fourth by a good time with your two dogs.\n"
   ],
   "actions_metadata": {
     "0": {
-      "Selected Text": "\nSome days, you fantasize about your secret getting out and how you would continue your career through the scandal, becoming a pariah for most, but a shining beacon of hope for others who share your unusual desires. Your sister Cecilia, meanwhile, knows nothing about it. Sure, she knows that you are very close with your dogs and that they mean the world to you, but she doesn't know quite how close.\n",
+      "Selected Text": "\nYou are Clover, a rock singer with a secret that some people would describe as dark, but that, to you, is the spark of life that keeps you going.\n",
       "Alternative Text": []
     },
     "1": {
-      "Selected Text": "\nRight now, you killed it once again. You just returned from the stage, after an encore performance that had the fans screaming for yet another encore. Your music is good, your singing is good and every band member feels the raw energy and passion you can dish out into the crowd like arcs of lightning. The songs your sister writes are full of passion and novel ideas with no sign of ebbing off. Live is good.\n",
+      "Selected Text": "\nSome days, you fantasize about your secret getting out and how you would continue your career through the scandal, becoming a pariah for most, but a shining beacon of hope for others who share your unusual desires. Your sister Cecilia, meanwhile, knows nothing about it. Sure, she knows that you are very close with your dogs and that they mean the world to you, but she doesn't know quite how close.\n",
       "Alternative Text": []
     },
     "2": {
+      "Selected Text": "\nRight now, you killed it once again. You just returned from the stage, after an encore performance that had the fans screaming for yet another encore. Your music is good, your singing is good and every band member feels the raw energy and passion you can dish out into the crowd like arcs of lightning. The songs your sister writes are full of passion and novel ideas with no sign of ebbing off. Live is good.\n",
+      "Alternative Text": []
+    },
+    "3": {
       "Selected Text": "\nThere is just this little quirk you have. It's already starting. After each performance, you get the nerves. It's as if the whole of your confidence and energy fade away and you stop functioning. You can feel it happening right now. You bump into the stage exit as your hand misses the handle. Then you almost nose-dive down the stairs. You feel... empty and shaky. You need release. Or a refill. Or whatever is the right word. Before the emptiness overwhelms you. It is not drugs you crave. Your recovery, your rebound is brought fourth by a good time with your two dogs.\n",
       "Alternative Text": []
     }
