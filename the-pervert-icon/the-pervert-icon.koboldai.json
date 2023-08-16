@@ -1,0 +1,189 @@
+{
+  "gamestarted": true,
+  "prompt": "\nYou are Clover, a rock singer with a secret that some people would describe as dark, but that, to you, is the spark of life that keeps you going.\n",
+  "memory": "### Instruction:\n\nSimulate a text adventure game.\nUser actions will be on their own seperate line prefixed with a >\n\nThe game will feature a brief introduction text about who the main character is and the setting of the world. Followed by a brief description of the current task that must be overcome. Afterwards it will be up to the user to input the desired instruction and outputs will describe the impact of this action.\n\nAll outputs should consider how likely it is that the players action succeeds and succeed or fail accordingly. The game should be challenging and action failures should be funny.\n\n### Response:",
+  "authorsnote": "[ You are the lead singer of a very popular rock band. ] [ Currently, your band is touring and giving live performances. ] [ After each performance, you become a nervous wreck, clumsy and insecure, stumbling, dropping things and messing up interviews. ] [ The only way you can recover after a show is by having sex with your dogs Cole and Bowie. After sex with your dogs, you become confident and outgoing again, breezing through interviews and impressing everyone around you. ] [ You need dog sex after a show. ]",
+  "anotetemplate": "[Author's note: <|>]",
+  "actions": [
+    "\nSome days, you fantasize about your secret getting out and how you would continue your career through the scandal, becoming a pariah for most, but a shining beacon of hope for others who share your unusual desires. Your sister Cecilia, meanwhile, knows nothing about it. Sure, she knows that you are very close with your dogs and that they mean the world to you, but she doesn't know quite how close.\n",
+    "\nRight now, you killed it once again. You just returned from the stage, after an encore performance that had the fans screaming for yet another encore. Your music is good, your singing is good and every band member feels the raw energy and passion you can dish out into the crowd like arcs of lightning. The songs your sister writes are full of passion and novel ideas with no sign of ebbing off. Live is good.\n",
+    "\nThere is just this little quirk you have. It's already starting. After each performance, you get the nerves. It's as if the whole of your confidence and energy fade away and you stop functioning. You can feel it happening right now. You bump into the stage exit as your hand misses the handle. Then you almost nose-dive down the stairs. You feel... empty and shaky. You need release. Or a refill. Or whatever is the right word. Before the emptiness overwhelms you. It is not drugs you crave. Your recovery, your rebound is brought fourth by a good time with your two dogs.\n"
+  ],
+  "actions_metadata": {
+    "0": {
+      "Selected Text": "\nSome days, you fantasize about your secret getting out and how you would continue your career through the scandal, becoming a pariah for most, but a shining beacon of hope for others who share your unusual desires. Your sister Cecilia, meanwhile, knows nothing about it. Sure, she knows that you are very close with your dogs and that they mean the world to you, but she doesn't know quite how close.\n",
+      "Alternative Text": []
+    },
+    "1": {
+      "Selected Text": "\nRight now, you killed it once again. You just returned from the stage, after an encore performance that had the fans screaming for yet another encore. Your music is good, your singing is good and every band member feels the raw energy and passion you can dish out into the crowd like arcs of lightning. The songs your sister writes are full of passion and novel ideas with no sign of ebbing off. Live is good.\n",
+      "Alternative Text": []
+    },
+    "2": {
+      "Selected Text": "\nThere is just this little quirk you have. It's already starting. After each performance, you get the nerves. It's as if the whole of your confidence and energy fade away and you stop functioning. You can feel it happening right now. You bump into the stage exit as your hand misses the handle. Then you almost nose-dive down the stairs. You feel... empty and shaky. You need release. Or a refill. Or whatever is the right word. Before the emptiness overwhelms you. It is not drugs you crave. Your recovery, your rebound is brought fourth by a good time with your two dogs.\n",
+      "Alternative Text": []
+    }
+  },
+  "worldinfo": [
+    {
+      "key": "I, me, myself, you, yourrself",
+      "keysecondary": "",
+      "content": "[ You are Clover, a popular female rock musician. ] [ Your sister is writing most of the lyrics and composes most of the songs. ] [ You are the lead singer and guitarist of the band. ] [ You have long, fiery red hair and a body to die for. ] [ You are different from the beauty ideal, but you are extremely attractive to other people. ] [ You are into dog sex. ] [ You secretly had your vaginal opening surgically altered so dogs would be able to knot you. ] [ Since the surgical modification of your vagina, its opening is too small for humans and you can only have sex with dogs. Knowing this gives you perverse joy. ] [ After each live performance, you become a nervous wreck and only dog sex gets you going again. ] [ You are addicted to dog sex. ] [ If you do not have dog sex after a live performance, you become clumsy and insecure. ]",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": true
+    },
+    {
+      "key": "cecilia, sister, band, writer, componist, songs, music, bassist",
+      "keysecondary": "",
+      "content": "[ Cecilia is your sister. ] [ Cecilia is also a member of your rock band and is the brain behind your group. ] [ Cecilia writes nearly all the songs and composes all the music. ] [ Cecilia also takes care of live performances and record deals. ] [ All of the band members are very happy with Cecilia. ] [ Whereas you are the lead singer and enjoy exposure, Cecilia likes to stay in the background. ] [ Cecilia usually is your band's bassist but sometimes hires a stand-in. ]\n\n[ Cecilia is very smart and probably suspects or perhaps even knows what happens between you and Cole and Bowie. Despite this, Cecilia acts as if she is unaware, probably because breaching the subject would be awkward for both of you. ]",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": false
+    },
+    {
+      "key": "blithe, drummer, band, percussion",
+      "keysecondary": "",
+      "content": "[ Blithe is your drummer. ] [ Blithe is a stereotypical rock band member with long a greasy black hair and huge arms. ] [ Blithe is popular with the girls, but he's often joking that the girls are even more interested in you, even though you're a woman. ] [ Blithe is a bit lazy but always gets the job done in style. ]",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": false
+    },
+    {
+      "key": "liz, keyboard player, keyboarder, panist, band",
+      "keysecondary": "",
+      "content": "[ Liz is your band's keyboard player. ] [ Liz is in her twenties but behaves like a burned out rock star who has seen it all. ] [ When she's in front of a keyboard and gets in the flow, Liz always kills it, she is one of the best keyboard players around. ] [ Liz has shining blonde hair and wears outrageous makeup and torn clothes. She is the real deal. ]",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": false
+    },
+    {
+      "key": "bowie, dog, knot, knotting, sex, animal, german, shepherd",
+      "keysecondary": "",
+      "content": "[ Bowie is your dog, a large male of the German Shepherd breed. ] [ Bowie lives in your trailer. ] [ Bowie has blonde fur with brown patterns. ] [ Bowie is fully intact and still has his balls and sex drive. ] [ Bowie is used to having sex with you and yearns for it. ] [ Bowie often begs you for sex and usually gets it. ] [ Bowie often jumps onto your bed when you go to sleep and licks your pussy until you agree to an extra round of sex. ] [ Bowie is a very capable lover with a lot of experience fucking human females, you specifically. ] [ Thanks to your surgically altered pussy, Bowie will always knot you and get stuck when he has sex with you. ] [ Bowie's  knot grows very large and you enjoy how it stretches you. ]",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": false
+    },
+    {
+      "key": "cole, dog, knot, knotting, sex, animal, labrador",
+      "keysecondary": "",
+      "content": "[ Cole is your other dog, a large male of the Labrador breed. ] [ Cole is the younger of your two dogs and lives in your trailer. ] [ Cole has very dark fur. ] [ Cole is fully intact and still has his balls and sex drive. ] [ Cole seems naturally interested in human women and always wants sex with you. ] [ Cole begs you for sex at every opportunity. ] [ Cole often seduces you on the toilet, going so far as to lick your pussy while you try to pee. ] [ Cole goes wild during sex and ruts you with feral need. Once he has started fucking you, his claws dig into your sides and he won't stop until he has knotted you. ] [ Thanks to your surgically altered pussy, Cole will always knot you and get stuck when he has sex with you. ] [ Cole has a very long canine penis that pleasantly bottoms out in you. ]",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": false
+    },
+    {
+      "key": "band, member, group",
+      "keysecondary": "",
+      "content": "[ Your band consists of Liz, Blithe, Cecilia and you. ] [ Your band is managed by Cecilia. ] [ Cecilia and all band members have agreed to keep the band small and under your own control. Despite this, you have become quite popular. ]",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": false
+    },
+    {
+      "key": "knot, knotting, canine, sex, dog, penis, member, shaft",
+      "keysecondary": "",
+      "content": "[ Dogs do not get erections before sex. A dog's penis only leaves its sheath when he begins thrusting into you. His penis will then grow during humping. Eventually, the dog still stop humping and push deep into your pussy. Then his knot will grow inside your pussy and he will continue to ejaculate little spurts of canine semen for 10 minutes. This is called 'knotting' or 'being knotted'. ]",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": false
+    },
+    {
+      "key": "performance, stage, singing, music, venue, tour",
+      "keysecondary": "",
+      "content": "[ When you've arrived at a venue, usually and outdoors stage, you give performances together with other bands booked for the venue. ] [ If your performance goes well, the crowd often calls for an encore. ] [ After each performance, there may either be a short respite, or the press interviews may start right away. ] [ Your energy and confidence during each performance are important to achieve a good result. ] [ Your confidence and alertness are important during interviews to come across as cool, edgy and yet sympathetic. ]",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": false
+    },
+    {
+      "key": "tour, touring, roadie, travel",
+      "keysecondary": "",
+      "content": "[ Your band is currently on tour, giving live performances in different cities. ] [ Lacking a tour bus, your band travels with all its members and stage equipment crammed into your three motor homes. ] [ Being on tour is both exciting and tiring as you alternate between giving concerts and spending long days on the road. ] [ Your dogs Bowie and Cole have gotten used to being on tour and enjoy seeing new locations as well as the ravenous sex you need to function while on tour. ] [ You also have a few roadies with you. ]",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": false
+    },
+    {
+      "key": "motor, home, trailer, RV, retreat, sleep, bed",
+      "keysecondary": "",
+      "content": "[ You live in a cheap but spacey and comfortable motor home. ] [ You often refer to their motor homes as trailers. ] [ Rather than a tour bus, your band has three motor homes. ] [ You usually park together, especially for live performances. ] [ Your dogs Bowie and Cole live with you in your motor home. ] [ The interior of your motor home is typical for a rock star and filled with outrageous colors, neon lights and there's a total mess of clothes, beer bottles and equipment strewn about. ] [ Cecilia's motor home is comparatively clean, but she has pinned song ideas and unfinished hand-written music sheets everywhere. ] ",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": false
+    }
+  ],
+  "wifolders_d": {},
+  "wifolders_l": [],
+  "extrastopseq": "",
+  "savedsettings": {
+    "my_api_key": "0000000000",
+    "home_cluster": "https://horde.koboldai.net",
+    "saved_oai_key": "",
+    "saved_oai_addr": "",
+    "saved_claude_key": "",
+    "saved_claude_addr": "",
+    "autoscroll": true,
+    "trimsentences": true,
+    "trimwhitespace": false,
+    "opmode": 2,
+    "adventure_is_action": true,
+    "adventure_context_mod": false,
+    "chatname": "You",
+    "chatopponent": "KoboldAI",
+    "instruct_starttag": "\n### Instruction:\n",
+    "instruct_endtag": "\n### Response:\n",
+    "instruct_has_markdown": false,
+    "persist_session": true,
+    "speech_synth": "0",
+    "beep_on": false,
+    "image_styles": "",
+    "generate_images": "",
+    "img_autogen": false,
+    "img_allownsfw": true,
+    "save_images": true,
+    "case_sensitive_wi": false,
+    "last_selected_preset": "9999",
+    "enhanced_chat_ui": true,
+    "enhanced_instruct_ui": false,
+    "multiline_replies": false,
+    "allow_continue_chat": false,
+    "idle_responses": "0",
+    "idle_duration": "60",
+    "export_settings": true,
+    "invert_colors": false,
+    "max_context_length": 8192,
+    "max_length": 256,
+    "auto_ctxlen": true,
+    "auto_genamt": true,
+    "rep_pen": 1.15,
+    "rep_pen_range": 2048,
+    "rep_pen_slope": 0.1,
+    "temperature": 1.35,
+    "top_p": 1,
+    "top_k": 0,
+    "top_a": 0,
+    "typ_s": 1,
+    "tfs_s": 0.69,
+    "sampler_order": [
+      6,
+      3,
+      2,
+      5,
+      0,
+      1,
+      4
+    ]
+  }
+}

@@ -1,0 +1,927 @@
+{
+  "scenarioVersion": 3,
+  "title": "The Pervert Icon",
+  "description": "",
+  "prompt": "You are ${playername}, a rock singer with a secret that some people would describe as dark, but that, to you, is the spark of life that keeps you going.\nSome days, you fantasize about your secret getting out and how you would continue your career through the scandal, becoming a pariah for most, but a shining beacon of hope for others who share your unusual desires. Your sister Cecilia, meanwhile, knows nothing about it. Sure, she knows that you are very close with your dogs and that they mean the world to you, but she doesn't know quite how close.\nRight now, you killed it once again. You just returned from the stage, after an encore performance that had the fans screaming for yet another encore. Your music is good, your singing is good and every band member feels the raw energy and passion you can dish out into the crowd like arcs of lightning. The songs your sister writes are full of passion and novel ideas with no sign of ebbing off. Live is good.\nThere is just this little quirk you have. It's already starting. After each performance, you get the nerves. It's as if the whole of your confidence and energy fade away and you stop functioning. You can feel it happening right now. You bump into the stage exit as your hand misses the handle. Then you almost nose-dive down the stairs. You feel... empty and shaky. You need release. Or a refill. Or whatever is the right word. Before the emptiness overwhelms you. It is not drugs you crave. Your recovery, your rebound is brought fourth by a good time with your two dogs.",
+  "tags": [
+    "nsfw",
+    "bestiality",
+    "adventure",
+    "role playing",
+    "music",
+    "stars",
+    "slice of life"
+  ],
+  "context": [
+    {
+      "text": "",
+      "contextConfig": {
+        "prefix": "",
+        "suffix": "\n",
+        "tokenBudget": 1,
+        "reservedTokens": 0,
+        "budgetPriority": 800,
+        "trimDirection": "trimBottom",
+        "insertionType": "newline",
+        "maximumTrimType": "sentence",
+        "insertionPosition": 0
+      }
+    },
+    {
+      "text": "[ You are the lead singer of a very popular rock band. ] [ Currently, your band is touring and giving live performances. ] [ After each performance, you become a nervous wreck, clumsy and insecure, stumbling, dropping things and messing up interviews. ] [ The only way you can recover after a show is by having sex with your dogs Cole and Bowie. After sex with your dogs, you become confident and outgoing again, breezing through interviews and impressing everyone around you. ] [ You need dog sex after a show. ]",
+      "contextConfig": {
+        "prefix": "",
+        "suffix": "\n",
+        "tokenBudget": 1,
+        "reservedTokens": 1,
+        "budgetPriority": -400,
+        "trimDirection": "trimBottom",
+        "insertionType": "newline",
+        "maximumTrimType": "sentence",
+        "insertionPosition": -4
+      }
+    }
+  ],
+  "ephemeralContext": [],
+  "placeholders": [
+    {
+      "key": "playername",
+      "description": "Your Name",
+      "defaultValue": "Clover",
+      "order": 1,
+      "longDescription": "The name of the protagonist, a secretly lewd female rock star"
+    }
+  ],
+  "settings": {
+    "parameters": {
+      "textGenerationSettingsVersion": 5,
+      "temperature": 2.5,
+      "max_length": 40,
+      "min_length": 1,
+      "top_k": 0,
+      "top_p": 1,
+      "top_a": 1,
+      "typical_p": 0.969,
+      "tail_free_sampling": 0.941,
+      "repetition_penalty": 1,
+      "repetition_penalty_range": 1024,
+      "repetition_penalty_slope": 0,
+      "repetition_penalty_frequency": 0,
+      "repetition_penalty_presence": 0,
+      "repetition_penalty_default_whitelist": true,
+      "cfg_scale": 1,
+      "cfg_uc": "",
+      "phrase_rep_pen": "medium",
+      "top_g": 0,
+      "mirostat_tau": 0,
+      "mirostat_lr": 1,
+      "order": [
+        {
+          "id": "top_k",
+          "enabled": false
+        },
+        {
+          "id": "top_p",
+          "enabled": false
+        },
+        {
+          "id": "tfs",
+          "enabled": true
+        },
+        {
+          "id": "temperature",
+          "enabled": true
+        },
+        {
+          "id": "typical_p",
+          "enabled": true
+        },
+        {
+          "id": "cfg",
+          "enabled": false
+        },
+        {
+          "id": "top_a",
+          "enabled": false
+        },
+        {
+          "id": "top_g",
+          "enabled": false
+        },
+        {
+          "id": "mirostat",
+          "enabled": false
+        }
+      ]
+    },
+    "preset": "default-stelenes",
+    "trimResponses": true,
+    "banBrackets": true,
+    "prefix": "theme_textadventure",
+    "dynamicPenaltyRange": false,
+    "prefixMode": 0,
+    "mode": 1,
+    "model": "kayra-v1"
+  },
+  "lorebook": {
+    "lorebookVersion": 5,
+    "entries": [
+      {
+        "text": "[ You are ${playername}, a popular female rock musician. ] [ Your sister is writing most of the lyrics and composes most of the songs. ] [ You are the lead singer and guitarist of the band. ] [ You have long, fiery red hair and a body to die for. ] [ You are different from the beauty ideal, but you are extremely attractive to other people. ] [ You are into dog sex. ] [ You secretly had your vaginal opening surgically altered so dogs would be able to knot you. ] [ Since the surgical modification of your vagina, its opening is too small for humans and you can only have sex with dogs. Knowing this gives you perverse joy. ] [ After each live performance, you become a nervous wreck and only dog sex gets you going again. ] [ You are addicted to dog sex. ] [ If you do not have dog sex after a live performance, you become clumsy and insecure. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1692092335179,
+        "displayName": "You",
+        "id": "54d15e43-6e1d-4e6e-9ca8-142709c5ef44",
+        "keys": [
+          "/\\byou\\b/i",
+          "/\\bself\\b/i",
+          "/\\byourself\\b/i",
+          "/\\bam\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": true,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "d0cc2c9e-f6f8-4fc2-b156-8e8d973bed53",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Cecilia is your sister. ] [ Cecilia is also a member of your rock band and is the brain behind your group. ] [ Cecilia writes nearly all the songs and composes all the music. ] [ Cecilia also takes care of live performances and record deals. ] [ All of the band members are very happy with Cecilia. ] [ Whereas you are the lead singer and enjoy exposure, Cecilia likes to stay in the background. ] [ Cecilia usually is your band's bassist but sometimes hires a stand-in. ]\n\n[ Cecilia is very smart and probably suspects or perhaps even knows what happens between you and Cole and Bowie. Despite this, Cecilia acts as if she is unaware, probably because breaching the subject would be awkward for both of you. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1692092276981,
+        "displayName": "Cecilia (Sister)",
+        "id": "ed9d8d74-51d3-42c5-b464-38c811596db5",
+        "keys": [
+          "/\\bcecilia\\b/i",
+          "/\\bsister\\b/i",
+          "/\\bcomponist\\b/i",
+          "/\\bcomposed?\\b/i",
+          "/\\blyrics\\b/i",
+          "/\\bwriting\\b/i",
+          "/\\bsongwriting\\b/i",
+          "/\\bsongwriter\\b/i",
+          "/\\bdeals?\\b/i",
+          "/\\bbassist\\b/i",
+          "/\\bbass.player\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "d0cc2c9e-f6f8-4fc2-b156-8e8d973bed53",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Bowie is your dog, a large male of the German Shepherd breed. ] [ Bowie lives in your trailer. ] [ Bowie has blonde fur with brown patterns. ] [ Bowie is fully intact and still has his balls and sex drive. ] [ Bowie is used to having sex with you and yearns for it. ] [ Bowie often begs you for sex and usually gets it. ] [ Bowie often jumps onto your bed when you go to sleep and licks your pussy until you agree to an extra round of sex. ] [ Bowie is a very capable lover with a lot of experience fucking human females, you specifically. ] [ Thanks to your surgically altered pussy, Bowie will always knot you and get stuck when he has sex with you. ] [ Bowie's  knot grows very large and you enjoy how it stretches you. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1692092115706,
+        "displayName": "Bowie (Dog, German Shepherd)",
+        "id": "da624fb5-c314-4680-b1c8-4768c0759bcc",
+        "keys": [
+          "/\\bbowie\\b/i",
+          "/\\bdogs?\\b/i",
+          "/\\bbestiality\\b/i",
+          "/\\bknot\\b/i",
+          "/\\bknotting\\b/i",
+          "/\\bsex\\b/i",
+          "/\\banimals?\\b/i",
+          "/\\bgerman.shepherd\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "d0cc2c9e-f6f8-4fc2-b156-8e8d973bed53",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Cole is your other dog, a large male of the Labrador breed. ] [ Cole is the younger of your two dogs and lives in your trailer. ] [ Cole has very dark fur. ] [ Cole is fully intact and still has his balls and sex drive. ] [ Cole seems naturally interested in human women and always wants sex with you. ] [ Cole begs you for sex at every opportunity. ] [ Cole often seduces you on the toilet, going so far as to lick your pussy while you try to pee. ] [ Cole goes wild during sex and ruts you with feral need. Once he has started fucking you, his claws dig into your sides and he won't stop until he has knotted you. ] [ Thanks to your surgically altered pussy, Cole will always knot you and get stuck when he has sex with you. ] [ Cole has a very long canine penis that pleasantly bottoms out in you. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1692092253949,
+        "displayName": "Cole (Dog, Labrador)",
+        "id": "22e1a3f0-0e1e-4a6d-a33e-9ac6d24dc849",
+        "keys": [
+          "/\\bcole\\b/i",
+          "/\\bdogs?\\b/i",
+          "/\\bbestiality\\b/i",
+          "/\\bknot\\b/i",
+          "/\\bknotting\\b/i",
+          "/\\bsex\\b/i",
+          "/\\banimals?b\\i",
+          "/\\blabrador\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "d0cc2c9e-f6f8-4fc2-b156-8e8d973bed53",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ You live in a cheap but spacey and comfortable motor home. ] [ You often refer to their motor homes as trailers. ] [ Rather than a tour bus, your band has three motor homes. ] [ You usually park together, especially for live performances. ] [ Your dogs Bowie and Cole live with you in your motor home. ] [ The interior of your motor home is typical for a rock star and filled with outrageous colors, neon lights and there's a total mess of clothes, beer bottles and equipment strewn about. ] [ Cecilia's motor home is comparatively clean, but she has pinned song ideas and unfinished hand-written music sheets everywhere. ] ",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1692091855038,
+        "displayName": "Motor Home / Trailer",
+        "id": "6fffca1f-5618-47f0-9971-a7f5288ba5e0",
+        "keys": [
+          "/\\btrailer\\b/i",
+          "/\\bhome\\b/i",
+          "/\\bmotor.home\\b/i",
+          "/\\bRV\\b/"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "86297730-5b44-4c01-b8ea-53178c285f77",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Your band is currently on tour, giving live performances in different cities. ] [ Lacking a tour bus, your band travels with all its members and stage equipment crammed into your three motor homes. ] [ Being on tour is both exciting and tiring as you alternate between giving concerts and spending long days on the road. ] [ Your dogs Bowie and Cole have gotten used to being on tour and enjoy seeing new locations as well as the ravenous sex you need to function while on tour. ] [ You also have a few roadies with you. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1692082638310,
+        "displayName": "Tour (Concept)",
+        "id": "f6fe3529-8b59-4ee2-8bc4-501e3a3be224",
+        "keys": [
+          "/\\bon.tour\\b/i",
+          "/\\btouring\\b/i",
+          "/\\broadie\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "38b45605-405a-440c-b015-57465cefa228",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Dogs do not get erections before sex. A dog's penis only leaves its sheath when he begins thrusting into you. His penis will then grow during humping. Eventually, the dog still stop humping and push deep into your pussy. Then his knot will grow inside your pussy and he will continue to ejaculate little spurts of canine semen for 10 minutes. This is called 'knotting' or 'being knotted'. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1692136096750,
+        "displayName": "Knotting (Concept)",
+        "id": "f3adbab3-d72f-4eac-a57f-bddf94dac9c5",
+        "keys": [
+          "/\\bdogs?\\b/i",
+          "/\\bsex\\b/i",
+          "/\\bknot\\b/i",
+          "/\\bknotting\\b/i",
+          "/\\bhumps?\\b/i",
+          "/\\bthrusts?\\b/i",
+          "/\\brut\\b/i",
+          "/\\brutting\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "38b45605-405a-440c-b015-57465cefa228",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Your band consists of Liz, Blithe, Cecilia and you. ] [ Your band is managed by Cecilia. ] [ Cecilia and all band members have agreed to keep the band small and under your own control. Despite this, you have become quite popular. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1692091848053,
+        "displayName": "Band",
+        "id": "8c3d8694-ec6b-4a9b-b7fd-fa70e01a5156",
+        "keys": [
+          "/\\bband\\b/i",
+          "/\\bmembers\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "38b45605-405a-440c-b015-57465cefa228",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Blithe is your drummer. ] [ Blithe is a stereotypical rock band member with long a greasy black hair and huge arms. ] [ Blithe is popular with the girls, but he's often joking that the girls are even more interested in you, even though you're a woman. ] [ Blithe is a bit lazy but always gets the job done in style. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1692083483541,
+        "displayName": "Blithe (Drummer)",
+        "id": "f42f898b-0f0b-44a8-8b8b-543660e3975d",
+        "keys": [
+          "/\\bblithe\\b/i",
+          "/\\bdrummer\\b/i",
+          "/\\bband\\b/i",
+          "/\\bpercussion\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "d0cc2c9e-f6f8-4fc2-b156-8e8d973bed53",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Liz is your band's keyboard player. ] [ Liz is in her twenties but behaves like a burned out rock star who has seen it all. ] [ When she's in front of a keyboard and gets in the flow, Liz always kills it, she is one of the best keyboard players around. ] [ Liz has shining blonde hair and wears outrageous makeup and torn clothes. She is the real deal. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1692083478277,
+        "displayName": "Liz (Keyboard Player)",
+        "id": "de9856e3-9884-4a39-93f5-e14c583e110d",
+        "keys": [
+          "/\\bliz\\b/i",
+          "/\\bkeyboard.player\\b/i",
+          "/\\bband\\b/i",
+          "/\\bkeyboardist\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "d0cc2c9e-f6f8-4fc2-b156-8e8d973bed53",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ When you've arrived at a venue, usually and outdoors stage, you give performances together with other bands booked for the venue. ] [ If your performance goes well, the crowd often calls for an encore. ] [ After each performance, there may either be a short respite, or the press interviews may start right away. ] [ Your energy and confidence during each performance are important to achieve a good result. ] [ Your confidence and alertness are important during interviews to come across as cool, edgy and yet sympathetic. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1692193171586,
+        "displayName": "Performance (Concept)",
+        "id": "de14414d-3587-40c4-ac99-60eff7e475a6",
+        "keys": [
+          "/\\bpeformance\\b/i",
+          "/\\bshow\\b/i",
+          "/\\bstage\\b/i",
+          "/\\binterview?\\b/i",
+          "/\\bpress\\b/i",
+          "/\\breporters?\\b/i",
+          "/\\bencore\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "38b45605-405a-440c-b015-57465cefa228",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      }
+    ],
+    "settings": {
+      "orderByKeyLocations": false
+    },
+    "categories": [
+      {
+        "name": "Characters",
+        "id": "d0cc2c9e-f6f8-4fc2-b156-8e8d973bed53",
+        "enabled": true,
+        "createSubcontext": false,
+        "subcontextSettings": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 400,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -1
+          },
+          "lastUpdatedAt": 1692081606382,
+          "displayName": "New Lorebook Entry",
+          "id": "7efd2b52-3b22-4916-9faf-411474f3bb42",
+          "keys": [],
+          "searchRange": 1000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "useCategoryDefaults": false,
+        "categoryDefaults": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 400,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -1
+          },
+          "lastUpdatedAt": 1691994491378,
+          "displayName": "New Lorebook Entry",
+          "id": "646338d1-bcbd-4c99-8478-9e99ebe2b7a5",
+          "keys": [],
+          "searchRange": 1000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "categoryBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "name": "Concepts",
+        "id": "38b45605-405a-440c-b015-57465cefa228",
+        "enabled": true,
+        "createSubcontext": false,
+        "subcontextSettings": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 400,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -1
+          },
+          "lastUpdatedAt": 1692136091759,
+          "displayName": "New Lorebook Entry",
+          "id": "bfb60299-c7ec-485d-a79b-26fa64485ca1",
+          "keys": [],
+          "searchRange": 1000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "useCategoryDefaults": false,
+        "categoryDefaults": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 400,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -1
+          },
+          "lastUpdatedAt": 1692082198858,
+          "displayName": "New Lorebook Entry",
+          "id": "591bd163-8b40-4cd1-9f9c-66497326432a",
+          "keys": [],
+          "searchRange": 1000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "categoryBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "name": "Locations",
+        "id": "86297730-5b44-4c01-b8ea-53178c285f77",
+        "enabled": true,
+        "createSubcontext": false,
+        "subcontextSettings": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 400,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -1
+          },
+          "lastUpdatedAt": 1692081606382,
+          "displayName": "New Lorebook Entry",
+          "id": "6539f2f7-8fb4-4191-8adf-33a6016567d9",
+          "keys": [],
+          "searchRange": 1000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "useCategoryDefaults": false,
+        "categoryDefaults": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 400,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -1
+          },
+          "lastUpdatedAt": 1691995903272,
+          "displayName": "New Lorebook Entry",
+          "id": "7415fea6-dd3c-49ca-8524-b2d8e69a01db",
+          "keys": [],
+          "searchRange": 1000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "categoryBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      }
+    ]
+  },
+  "author": "",
+  "storyContextConfig": {
+    "prefix": "",
+    "suffix": "",
+    "tokenBudget": 1,
+    "reservedTokens": 512,
+    "budgetPriority": 0,
+    "trimDirection": "trimTop",
+    "insertionType": "newline",
+    "maximumTrimType": "sentence",
+    "insertionPosition": -1,
+    "allowInsertionInside": true
+  },
+  "contextDefaults": {
+    "ephemeralDefaults": [
+      {
+        "text": "",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 1,
+          "budgetPriority": -10000,
+          "trimDirection": "doNotTrim",
+          "insertionType": "newline",
+          "maximumTrimType": "newline",
+          "insertionPosition": -2
+        },
+        "startingStep": 1,
+        "delay": 0,
+        "duration": 1,
+        "repeat": false,
+        "reverse": false
+      }
+    ],
+    "loreDefaults": [
+      {
+        "text": "",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1691994382621,
+        "displayName": "New Lorebook Entry",
+        "id": "f9563c30-678d-4e72-9617-3b6dc3498ae4",
+        "keys": [],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      }
+    ]
+  },
+  "phraseBiasGroups": [
+    {
+      "phrases": [],
+      "ensureSequenceFinish": false,
+      "generateOnce": true,
+      "bias": 0,
+      "enabled": true,
+      "whenInactive": false
+    }
+  ],
+  "bannedSequenceGroups": [
+    {
+      "sequences": [],
+      "enabled": true
+    }
+  ]
+}
