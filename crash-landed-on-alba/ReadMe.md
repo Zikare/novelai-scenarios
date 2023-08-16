@@ -1,20 +1,20 @@
 Crash-Landed on Alba
 ====================
 
-In an unknown future where humanity still remains split into wealthy and
-poor people, you were lucky to be born as the daughter of a rich, interstellar
-business mogul. You were lacking nothing, except, perhaps, agency - autonomy.
+In an unknown future, where humanity still remains split into wealthy and
+poor people, you had the luck to be the only child of a rich, interstellar
+business mogul. You were lacking nothing, except, perhaps, agency, autonomy.
 
-So you did what any self-respecting spoiled teenager would do and stole your
-father's private luxury spacecraft. Your directed the auto pilot to send you
-to the furthest habitable planet. That happened to be Alba, a factory farm
-with automated orbital defenses.
+So you did what any self-respecting spoiled teenager would do: you stole your
+father's private luxury spacecraft and directed the vessel's auto pilot to
+the farthest known habitable planet. That planet happened to be Alba,
+a factory farm with automated orbital defenses.
 
-The wreckage of your spaceship crashed into the farming complex, but you were
-forced to flee even from there because the AI prioritizes its crops over
-the life of a ship-wrecked survivor.
+What remained of the spacecraft crashed into an automated farming complex,
+but you were forced to flee even from there because the AI prioritized its
+crops over your life.
 
-How can yous survive? What horrors have the ruthless automated farming
+How can you survive? What horrors have the ruthless automated farming
 systems inflicted on the planet's native flora and fauna?
 
 **Warning: NSFW with creatures possible / likely.**
