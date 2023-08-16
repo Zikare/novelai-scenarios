@@ -12,7 +12,7 @@ hang out with your roadies and fans.
 stressful performance, she comes close to a nervous breakdown. Her confidence
 disappears, her strength fades and she begins to mumble. 
 
-That is the secret, however. The secret is how she rebounds after a show.
+That is not the secret, however. The secret is how she rebounds after a show.
 Clover has two best friends, Bowie and Cole, in her motor home. Cuddling
 with her two dogs always brings her back from the brink. But her sister
 Cecilia is already suspecting that somthing more than cuddling is going on.
