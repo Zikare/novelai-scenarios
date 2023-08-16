@@ -15,7 +15,7 @@ disappears, her strength fades and she begins to mumble.
 That is not the secret, however. The secret is how she rebounds after a show.
 Clover has two best friends, Bowie and Cole, in her motor home. Cuddling
 with her two dogs always brings her back from the brink. But her sister
-Cecilia is already suspecting that somthing more than cuddling is going on.
+Cecilia is already suspecting that something more than cuddling is going on.
 
 **Warning: NSFW with creatures possible / needed.**
 
