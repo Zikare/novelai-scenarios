@@ -1,0 +1,840 @@
+{
+  "scenarioVersion": 3,
+  "title": "Adventures with a Demon Wolf",
+  "description": "",
+  "prompt": "You jostle your snout around in the cool forest lake, washing off the blood from your last meal. As a proud demon wolf with a luxurious coat of dark fur, you are the bane of any adventurer.\nDuring your search for a mate, you accidentally encountered Miri, a young human girl. When you noticed her fertile smell, you saved her from certain death by bandits, then sated your own desires on her body. Strangely, she started following you around after that. She is a useful outlet to relieve your pent-up desires, but you are also beginning to feel affection for her.\nYou have traveled with the frail human for a bit now and she appears that Miri is traveling to an important place. Every day, she has traveled in the same direction. You tag along, for the sex and the adventure.",
+  "tags": [],
+  "context": [
+    {
+      "text": "",
+      "contextConfig": {
+        "prefix": "",
+        "suffix": "\n",
+        "tokenBudget": 1,
+        "reservedTokens": 0,
+        "budgetPriority": 800,
+        "trimDirection": "trimBottom",
+        "insertionType": "newline",
+        "maximumTrimType": "sentence",
+        "insertionPosition": 0
+      }
+    },
+    {
+      "text": "[ The world is a medieval fantasy world with magic, heroes and monsters. ]\n[ Generate random encounters with bandits and monsters that threaten Miri. ]\n[ Create fantasy creatures as required. ]\n[ Miri travels and acts all on her own, beckoning you to follow her as she accepts quests, travels and relies on you to fight for her. ]",
+      "contextConfig": {
+        "prefix": "",
+        "suffix": "\n",
+        "tokenBudget": 1,
+        "reservedTokens": 1,
+        "budgetPriority": -400,
+        "trimDirection": "trimBottom",
+        "insertionType": "newline",
+        "maximumTrimType": "sentence",
+        "insertionPosition": -4
+      }
+    }
+  ],
+  "ephemeralContext": [],
+  "placeholders": [
+    {
+      "key": "playername",
+      "description": "Your Name",
+      "defaultValue": "Ruffles",
+      "order": 1,
+      "longDescription": "The name of the protagonist, a dangerous demon wolf"
+    }
+  ],
+  "settings": {
+    "parameters": {
+      "textGenerationSettingsVersion": 5,
+      "temperature": 2.5,
+      "max_length": 40,
+      "min_length": 1,
+      "top_k": 0,
+      "top_p": 1,
+      "top_a": 1,
+      "typical_p": 0.969,
+      "tail_free_sampling": 0.941,
+      "repetition_penalty": 1,
+      "repetition_penalty_range": 1024,
+      "repetition_penalty_slope": 0,
+      "repetition_penalty_frequency": 0,
+      "repetition_penalty_presence": 0,
+      "repetition_penalty_default_whitelist": true,
+      "cfg_scale": 1,
+      "cfg_uc": "",
+      "phrase_rep_pen": "medium",
+      "top_g": 0,
+      "mirostat_tau": 0,
+      "mirostat_lr": 1,
+      "order": [
+        {
+          "id": "top_k",
+          "enabled": false
+        },
+        {
+          "id": "top_p",
+          "enabled": false
+        },
+        {
+          "id": "tfs",
+          "enabled": true
+        },
+        {
+          "id": "temperature",
+          "enabled": true
+        },
+        {
+          "id": "typical_p",
+          "enabled": true
+        },
+        {
+          "id": "cfg",
+          "enabled": false
+        },
+        {
+          "id": "top_a",
+          "enabled": false
+        },
+        {
+          "id": "top_g",
+          "enabled": false
+        },
+        {
+          "id": "mirostat",
+          "enabled": false
+        }
+      ]
+    },
+    "preset": "default-stelenes",
+    "trimResponses": true,
+    "banBrackets": true,
+    "prefix": "theme_textadventure",
+    "dynamicPenaltyRange": false,
+    "prefixMode": 0,
+    "mode": 1,
+    "model": "kayra-v1"
+  },
+  "lorebook": {
+    "lorebookVersion": 5,
+    "entries": [
+      {
+        "text": "[ Miri is a young female adventurer. ] [ Miri is very untalented, she is a bad fighter and fails at magic. ] [ Despite being so weak, Miri became an adventurer in order to see and protect the world. ] [ Before meeting you, Miri failed all her quests. ]\n\n[ Miri moves around and accepts quests all on her own. ] [ Miri accepts quests and completes them, but she can only do so if you help her. ] [ Miri has agency of her own and makes decisions and travels on her own, bringing you along with her. ]\n\n[ Miri depends on your help and will do anything to keep you as her companion. ] [ Miri is scared of you and she finds sex with you disgusting, but she always accepts it so that you stay with her. ] [ Miri fears you but is also starting to like you and to trust you. ] [ Miri needs your strength and always accepts when you demand sex from her even though she finds it revolting. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1692256918474,
+        "displayName": "Miri",
+        "id": "855ad2e2-d1f0-4f86-9194-980a11b436a9",
+        "keys": [
+          "/\\bmiri\\b/i",
+          "/\\bheroine\\b/i",
+          "/\\badventurer?\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "b8d235bb-e91b-4389-ac84-184a823238c9",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Kalania is the continent and the only known place where life exists. ] [ Kalania is made up of many small kingdoms, preventing the rise of any larger powers or cities. ] [ Kalania is currently in the early medieval age, but with open slave trade, arena battles and freelancing adventurers. ] [ Kalania is host to many species, including the Lizardfolk, Elves, Dwarves, Catfolk and Humans. ]\n\n[ The continent of Kalania is a fantastic place for adventurers and globetrotters. ] [ Two hundred years ago, Kalania was ruled by two large kingdoms that annihilated each other in a terrible conflict that is known as the continental war. ] [ In the aftermath of the continental war, a hundred small kingdoms rose, all too small to afford war. ] [ Kalania is a world littered with forgotten dungeons and fortresses, filled with relics and artifacts and threatened by wild animals and monsters. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1691578838295,
+        "displayName": "Kalania (World)",
+        "id": "8d738a42-03e8-4312-86b8-eea4758d86c9",
+        "keys": [
+          "/\\bkalania\\b/i",
+          "/\\brealms?\\b/i",
+          "/\\bworlds?\\b/",
+          "/\\bcontinents?\\b/i",
+          "/\\bkingdoms?\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "2078e801-de41-4cda-a572-e5d34f7799f0",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Most cities and even large villages have a local arena. ] [ Most arenas are used for friendly practice battles. ] [ Some arenas also hold gruesome gladiator battles. ] [ Some arenas let people fight to the death or are eaten by wild animals. ] [ Larger arenas have trainers for gladiators and wild animal handlers. ] [ Upstanding citizens visit arenas to be amazed, shocked or repulsed by spectacular shows. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1691574909857,
+        "displayName": "Arena (Concept)",
+        "id": "cc413e3c-6433-4b89-af45-a9033565b414",
+        "keys": [
+          "/\\barenas?\\b/i",
+          "/\\bfights?\\b/i",
+          "/\\bfighting\\b/i",
+          "/\\bbattles?\\b/i",
+          "/\\bshows?\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "2078e801-de41-4cda-a572-e5d34f7799f0",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Most people have plain jobs like peasants, tailors, carpenters and masons. ] [ Some free-spirited people become adventurers. ] [ Adventurers are freelancers that do odd jobs that can involve finding lost people, recovering stolen objects or killing monsters or killing wild animals. ] [ Adventurers usually get the missions from the adventurer's guild. ] [ Adventurers have a high-risk lifestyle and often die early, but they earn a lot of money. ] [ Some rare adventurers have become extremely strong and battle-proven. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1690748243786,
+        "displayName": "Adventurer (Vocation)",
+        "id": "39a7ab8d-03f8-46a2-a831-1e30a7b01aca",
+        "keys": [
+          "/\\badventurer?\\b/i",
+          "/\\bquests?\\b/i",
+          "/\\btasks?\\b/i",
+          "/\\badventuring\\b/i",
+          "/\\bhero\\b/i",
+          "/\\bheroes\\b/i",
+          "/\\bmissions?\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "2078e801-de41-4cda-a572-e5d34f7799f0",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ The adventurer's guild is an independent organization across all kingdoms of Kalania. ] [ Most towns and villages have an adventurer's guild building where citizens can put up quests on the quest board. ] [ Adventurers usually obtain there quests from the adventurer's guild. ] [ Adventurers can browse available quests on the quest board inside the adventurer's guild building. ] [ Verification of completed quests and payment are usually performed through the adventurer's guild. ] [ Each adventurer's guild building has an attendant providing advice and managing the quest board. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1690748693823,
+        "displayName": "Adventurer's Guild (Organization)",
+        "id": "0e94f790-13d1-4980-afff-04c81c300ddc",
+        "keys": [
+          "/\\badventurer?\\b/i",
+          "/\\bquests?\\b/i",
+          "/\\btasks?\\b/i",
+          "/\\badventuring\\b/i",
+          "/\\bmissions?\\b/i",
+          "/\\badventurers.guild\\b/i",
+          "/\\badventurer's.guild\\b/i",
+          "/\\bguilds?\\b/i",
+          "/\\bpayment\\b/i",
+          "/\\bmoney\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "2078e801-de41-4cda-a572-e5d34f7799f0",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Demon wolves are extremely large wolves with dark fur. ] [ Demon wolves are normally only found in the most difficult dungeons. ] [ Demon wolves are very dangerous and can easily kill an entire adventuring party. ] [ Demon wolves are very fearsome and all humans show extreme fear when seeing one. ] [ Demon wolves are known to sometimes rape female adventurers and then stalk them for a time to get seconds and thirds. ] [ Demon wolves can form bonds of friendship and become loyal partners, but nobody wants to endure their affections. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1692256188861,
+        "displayName": "Demon Wolf",
+        "id": "1632502a-7759-4e70-9526-fa980bdf5180",
+        "keys": [
+          "/\\bmonsters?\\b/i",
+          "/\\bdangers\\b/i",
+          "/\\braped?\\b/i",
+          "/\\bwolf\\b/i",
+          "/\\bwolves\\b/i",
+          "/\\bpredators?\\b/i",
+          "/\\bdungeons?\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "3c31b05f-2850-4770-80c8-451a7fb036f4",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensure_sequence_finish": false,
+            "ensureSequenceFinish": false,
+            "generate_once": true,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Your name is ${playername} and was given to you by Miri. ] [ You are a highly dangerous demon wolf. ] [ All humans fear for their lives around you. ] [ All humans are scared too death of you. ] [ Humans panic when they see you and go into a state of shock or flee from you. ] [ You have a luxurious coat of dark fur, beautifully patterned with a few grey stripes. ] [ You have a canine penis that barely fits into human females, a fact you confirmed on past encounters with daring female adventurers. ]\n\n[ Some time ago, you encountered Miri when she was surrounded by bandits. You saved her, but then raped her. ] [ You only wanted sex from the girl, but she now clings to you and won't let you go. ] [ Miri trusts you and somehow, that makes you want to travel with her a bit longer, just to see what will happen. And for the sex, of course. ]\n\n[ You are a wolf and cannot speak. You are highly intelligent, though, and have an intuitive grasp of situations. ]  [ Other creatures, even monsters, are very wary of you and would rather run away than fight your. ] [ You are awesomely strong, nigh invincible. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 1,
+          "budgetPriority": -200,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -9
+        },
+        "lastUpdatedAt": 1692258276615,
+        "displayName": "You",
+        "id": "65051893-c5cc-4850-b2b5-e5d3884a8761",
+        "keys": [
+          "/\\byourself\\b/i",
+          "/\\byou\\b/i"
+        ],
+        "searchRange": 250,
+        "enabled": true,
+        "forceActivation": true,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "b8d235bb-e91b-4389-ac84-184a823238c9",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Some humans and elves in Kalania have weak magic powers. ] [ Magic in Kalania is weak and only useful for simple things such as opening locks or producing light. ] [ Offensive magic spells are rare and weak. ] [ Some human mages claim to be have dangerous spells, but they are all very weak. ] [ Known magic includes opening locks, floating light sources and detecting living things. ] [ Only dragons possess strong magic. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1690872054184,
+        "displayName": "Magic (Concept)",
+        "id": "fd1800ae-eb59-4894-a781-f2a56db46ac9",
+        "keys": [
+          "/\\badventurer?\\b/i",
+          "/\\badventurers?\\b/i",
+          "/\\bmages?\\b/i",
+          "/\\bwizards?\\b/i",
+          "/\\bspells?\\b/i",
+          "/\\bmagic\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "2078e801-de41-4cda-a572-e5d34f7799f0",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Over two hundred years ago, the continent of Kalania was rules by two large kingdoms that annihilated each other in a terrible conflict. ] [ The conflict from two hundred years go is commonly called the continental war. ] [ Left over from the continental war, there are countless forgotten dungeons and fortresses silently decaying all over the land, waiting for adventurers and treasure hunters to discover their secrets. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1691645701673,
+        "displayName": "Continental War",
+        "id": "8ecc7c48-bd51-43e2-a0d5-b5f7361b567f",
+        "keys": [
+          "/\\bpast\\b/i",
+          "/\\bhistory\\b/i",
+          "/\\bcontinental.war\\b/i",
+          "/\\bwar\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "2078e801-de41-4cda-a572-e5d34f7799f0",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      }
+    ],
+    "settings": {
+      "orderByKeyLocations": false
+    },
+    "categories": [
+      {
+        "name": "(Characters)",
+        "id": "b8d235bb-e91b-4389-ac84-184a823238c9",
+        "enabled": true,
+        "createSubcontext": false,
+        "subcontextSettings": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 400,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -1
+          },
+          "lastUpdatedAt": 1629357827523,
+          "displayName": "New Lorebook Entry",
+          "id": "894a922c-7724-4c76-bfc4-51d8b249e187",
+          "keys": [],
+          "searchRange": 1000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "useCategoryDefaults": true,
+        "categoryDefaults": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 1,
+            "budgetPriority": -200,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -9
+          },
+          "lastUpdatedAt": 1629352742300,
+          "displayName": "New Lorebook Entry",
+          "id": "fe4f5f6d-9281-4073-b4f3-a01704940b78",
+          "keys": [],
+          "searchRange": 250,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "categoryBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ],
+        "open": true
+      },
+      {
+        "name": "Bestiary",
+        "id": "3c31b05f-2850-4770-80c8-451a7fb036f4",
+        "enabled": true,
+        "createSubcontext": false,
+        "subcontextSettings": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 400,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -1
+          },
+          "lastUpdatedAt": 1690453381111,
+          "displayName": "New Lorebook Entry",
+          "id": "dc3f69e2-c181-4f0a-8411-2413807a9aab",
+          "keys": [],
+          "searchRange": 1000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "useCategoryDefaults": false,
+        "categoryDefaults": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 400,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -1
+          },
+          "lastUpdatedAt": 1690447390392,
+          "displayName": "New Lorebook Entry",
+          "id": "bf12ffa2-9f26-400a-8ae0-0c33dac651e6",
+          "keys": [],
+          "searchRange": 1000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "categoryBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ],
+        "open": true
+      },
+      {
+        "name": "Scenario",
+        "id": "2078e801-de41-4cda-a572-e5d34f7799f0",
+        "enabled": true,
+        "createSubcontext": false,
+        "subcontextSettings": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 400,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -1
+          },
+          "lastUpdatedAt": 1690453381116,
+          "displayName": "New Lorebook Entry",
+          "id": "2b1a1af5-ecbb-4043-aae3-a5e53506864b",
+          "keys": [],
+          "searchRange": 1000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "useCategoryDefaults": false,
+        "categoryDefaults": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 400,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -1
+          },
+          "lastUpdatedAt": 1690446636587,
+          "displayName": "New Lorebook Entry",
+          "id": "64f37706-0a1a-46ef-93f6-ad40c441a2c5",
+          "keys": [],
+          "searchRange": 1000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "categoryBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ],
+        "open": true
+      }
+    ]
+  },
+  "author": "",
+  "storyContextConfig": {
+    "prefix": "",
+    "suffix": "",
+    "tokenBudget": 1,
+    "reservedTokens": 512,
+    "budgetPriority": 0,
+    "trimDirection": "trimTop",
+    "insertionType": "newline",
+    "maximumTrimType": "sentence",
+    "insertionPosition": -1,
+    "allowInsertionInside": true
+  },
+  "contextDefaults": {
+    "ephemeralDefaults": [
+      {
+        "text": "",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 1,
+          "budgetPriority": -10000,
+          "trimDirection": "doNotTrim",
+          "insertionType": "newline",
+          "maximumTrimType": "newline",
+          "insertionPosition": -2
+        },
+        "startingStep": 1,
+        "delay": 0,
+        "duration": 1,
+        "repeat": false,
+        "reverse": false
+      }
+    ],
+    "loreDefaults": [
+      {
+        "text": "",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1692255082507,
+        "displayName": "New Lorebook Entry",
+        "id": "3ddc1ae6-fc0e-4a9b-8a8d-8acaaedb4a44",
+        "keys": [],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      }
+    ]
+  },
+  "phraseBiasGroups": [
+    {
+      "phrases": [],
+      "ensureSequenceFinish": false,
+      "generateOnce": true,
+      "bias": 0,
+      "enabled": true,
+      "whenInactive": false
+    }
+  ],
+  "bannedSequenceGroups": [
+    {
+      "sequences": [],
+      "enabled": true
+    }
+  ]
+}

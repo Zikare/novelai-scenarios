@@ -1,0 +1,171 @@
+{
+  "gamestarted": true,
+  "prompt": "",
+  "memory": "### Instruction:\n\nSimulate a text adventure game.\nUser actions will be on their own seperate line prefixed with a >\n\nThe game will feature a brief introduction text about who the main character is and the setting of the world. Followed by a brief description of the current task that must be overcome. Afterwards it will be up to the user to input the desired instruction and outputs will describe the impact of this action.\n\nAll outputs should consider how likely it is that the players action succeeds and succeed or fail accordingly. The game should be challenging and action failures should be funny.\n\n### Response:",
+  "authorsnote": "[ The world is a medieval fantasy world with magic, heroes and monsters. ]\n[ Sometimes generate random encounters with bandits and monsters that threaten Miri. ]\n[ Create fantasy creatures as required. ]\n[ Miri travels and acts all on her own, beckoning you to follow her as she accepts quests, travels and relies on you to fight for her. ]",
+  "anotetemplate": "[Author's note: <|>]",
+  "actions": [
+  	"\nYou jostle your snout around in the cool forest lake, washing off the blood from your last meal. As a proud demon wolf with a luxurious coat of dark fur, you are the bane of any adventurer.\n",
+    "\nDuring your search for a mate, you accidentally encountered Miri, a young human girl. When you noticed her fertile smell, you saved her from certain death by bandits, then sated your own desires on her body. Strangely, she started following you around after that. She is a useful outlet to relieve your pent-up desires, but you are also beginning to feel affection for her.\n",
+    "\nYou have traveled with the frail human for a bit now and she appears that Miri is traveling to an important place. Every day, she has traveled in the same direction. You tag along, for the sex and the adventure.\n"
+  ],
+  "actions_metadata": {
+    "0": {
+      "Selected Text": "\nYou jostle your snout around in the cool forest lake, washing off the blood from your last meal. As a proud demon wolf with a luxurious coat of dark fur, you are the bane of any adventurer.\n",
+      "Alternative Text": []
+    },
+    "1": {
+      "Selected Text": "\nDuring your search for a mate, you accidentally encountered Miri, a young human girl. When you noticed her fertile smell, you saved her from certain death by bandits, then sated your own desires on her body. Strangely, she started following you around after that. She is a useful outlet to relieve your pent-up desires, but you are also beginning to feel affection for her.\n",
+      "Alternative Text": []
+    },
+    "2": {
+      "Selected Text": "\nYou have traveled with the frail human for a bit now and she appears that Miri is traveling to an important place. Every day, she has traveled in the same direction. You tag along, for the sex and the adventure.\n",
+      "Alternative Text": []
+    }
+  },
+  "worldinfo": [
+    {
+      "key": "I, me, mine, you yours, yourself",
+      "keysecondary": "",
+      "content": "[ Your name is ${1#playername[Ruffles]Your Name:The name of the protagonist, a dangerous demon wolf} and was given to you by Miri. ] [ You are a highly dangerous demon wolf. ] [ All humans fear for their lives around you. ] [ All humans are scared too death of you. ] [ Humans panic when they see you and go into a state of shock or flee from you. ] [ You have a luxurious coat of dark fur, beautifully patterned with a few grey stripes. ] [ You have a canine penis that barely fits into human females, a fact you confirmed on past encounters with daring female adventurers. ]\n\n[ Some time ago, you encountered Miri when she was surrounded by bandits. You saved her, but then raped her. ] [ You only wanted sex from the girl, but she now clings to you and won't let you go. ] [ Miri trusts you and somehow, that makes you want to travel with her a bit longer, just to see what will happen. And for the sex, of course. ]\n\n[ You are a wolf and cannot speak. You are highly intelligent, though, and have an intuitive grasp of situations. ] [ Other creatures, even monsters, are very wary of you and would rather run away than fight your. ] [ You are awesomely strong, nigh invincible. ]",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": true
+    },
+    {
+      "key": "miri, companion, partner, girl",
+      "keysecondary": "",
+      "content": "[ Miri is a young female adventurer. ] [ Miri is very untalented, she is a bad fighter and fails at magic. ] [ Despite being so weak, Miri became an adventurer in order to see and protect the world. ] [ Before meeting you, Miri failed all her quests. ]\n\n[ Miri moves around and accepts quests all on her own. ] [ Miri accepts quests and completes them, but she can only do so if you help her. ] [ Miri has agency of her own and makes decisions and travels on her own, bringing you along with her. ]\n\n[ Miri depends on your help and will do anything to keep you as her companion. ] [ Miri is scared of you and she finds sex with you disgusting, but she always accepts it so that you stay with her. ] [ Miri fears you but is also starting to like you and to trust you. ] [ Miri needs your strength and always accepts when you demand sex from her even though she finds it revolting. ]",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": false
+    },
+    {
+      "key": "demon, wolf, danger, beast, predator",
+      "keysecondary": "",
+      "content": "[ Demon wolves are extremely large wolves with dark fur. ] [ Demon wolves are normally only found in the most difficult dungeons. ] [ Demon wolves are very dangerous and can easily kill an entire adventuring party. ] [ Demon wolves are very fearsome and all humans show extreme fear when seeing one. ] [ Demon wolves are known to sometimes rape female adventurers and then stalk them for a time to get seconds and thirds. ] [ Demon wolves can form bonds of friendship and become loyal partners, but nobody wants to endure their affections. ]",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": false
+    },
+    {
+      "key": "adventurer, hero, quest, task, mission, job",
+      "keysecondary": "",
+      "content": "[ Most people have plain jobs like peasants, tailors, carpenters and masons. ] [ Some free-spirited people become adventurers. ] [ Adventurers are freelancers that do odd jobs that can involve finding lost people, recovering stolen objects or killing monsters or killing wild animals. ] [ Adventurers usually get the missions from the adventurer's guild. ] [ Adventurers have a high-risk lifestyle and often die early, but they earn a lot of money. ] [ Some rare adventurers have become extremely strong and battle-proven. ]",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": false
+    },
+    {
+      "key": "adventurer, guild, building, town, village, quest, task, mission, job",
+      "keysecondary": "",
+      "content": "[ The adventurer's guild is an independent organization across all kingdoms of Kalania. ] [ Most towns and villages have an adventurer's guild building where citizens can put up quests on the quest board. ] [ Adventurers usually obtain there quests from the adventurer's guild. ] [ Adventurers can browse available quests on the quest board inside the adventurer's guild building. ] [ Verification of completed quests and payment are usually performed through the adventurer's guild. ] [ Each adventurer's guild building has an attendant providing advice and managing the quest board. ]",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": false
+    },
+    {
+      "key": "war, past, history, continent, kalania, dungeon, fortress",
+      "keysecondary": "",
+      "content": "[ Over two hundred years ago, the continent of Kalania was rules by two large kingdoms that annihilated each other in a terrible conflict. ] [ The conflict from two hundred years go is commonly called the continental war. ] [ Left over from the continental war, there are countless forgotten dungeons and fortresses silently decaying all over the land, waiting for adventurers and treasure hunters to discover their secrets. ]",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": false
+    },
+    {
+      "key": "kalania, world, realm, kingdom, continent, place, location",
+      "keysecondary": "",
+      "content": "[ Kalania is the continent and the only known place where life exists. ] [ Kalania is made up of many small kingdoms, preventing the rise of any larger powers or cities. ] [ Kalania is currently in the early medieval age, but with open slave trade, arena battles and freelancing adventurers. ] [ Kalania is host to many species, including the Lizardfolk, Elves, Dwarves, Catfolk and Humans. ]\n\n[ The continent of Kalania is a fantastic place for adventurers and globetrotters. ] [ Two hundred years ago, Kalania was ruled by two large kingdoms that annihilated each other in a terrible conflict that is known as the continental war. ] [ In the aftermath of the continental war, a hundred small kingdoms rose, all too small to afford war. ] [ Kalania is a world littered with forgotten dungeons and fortresses, filled with relics and artifacts and threatened by wild animals and monsters. ]",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": false
+    },
+    {
+      "key": "magic, wizard, sorcerer, spell, mage",
+      "keysecondary": "",
+      "content": "[ Some humans and elves in Kalania have weak magic powers. ] [ Magic in Kalania is weak and only useful for simple things such as opening locks or producing light. ] [ Offensive magic spells are rare and weak. ] [ Some human mages claim to be have dangerous spells, but they are all very weak. ] [ Known magic includes opening locks, floating light sources and detecting living things. ] [ Only dragons possess strong magic. ]",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": false
+    },
+    {
+      "key": "arena, training, fight, battle, combat, improve",
+      "keysecondary": "",
+      "content": "[ Most cities and even large villages have a local arena. ] [ Most arenas are used for friendly practice battles. ] [ Some arenas also hold gruesome gladiator battles. ] [ Some arenas let people fight to the death or are eaten by wild animals. ] [ Larger arenas have trainers for gladiators and wild animal handlers. ] [ Upstanding citizens visit arenas to be amazed, shocked or repulsed by spectacular shows. ]",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": false
+    }
+  ],
+  "wifolders_d": {},
+  "wifolders_l": [],
+  "extrastopseq": "",
+  "savedsettings": {
+    "my_api_key": "0000000000",
+    "home_cluster": "https://horde.koboldai.net",
+    "saved_oai_key": "",
+    "saved_oai_addr": "",
+    "saved_claude_key": "",
+    "saved_claude_addr": "",
+    "autoscroll": true,
+    "trimsentences": true,
+    "trimwhitespace": false,
+    "opmode": 2,
+    "adventure_is_action": true,
+    "adventure_context_mod": false,
+    "chatname": "You",
+    "chatopponent": "KoboldAI",
+    "instruct_starttag": "\n### Instruction:\n",
+    "instruct_endtag": "\n### Response:\n",
+    "instruct_has_markdown": false,
+    "persist_session": true,
+    "speech_synth": "0",
+    "beep_on": false,
+    "image_styles": "",
+    "generate_images": "",
+    "img_autogen": false,
+    "img_allownsfw": true,
+    "save_images": true,
+    "case_sensitive_wi": false,
+    "last_selected_preset": "9999",
+    "enhanced_chat_ui": true,
+    "enhanced_instruct_ui": false,
+    "multiline_replies": false,
+    "allow_continue_chat": false,
+    "idle_responses": "0",
+    "idle_duration": "60",
+    "export_settings": true,
+    "invert_colors": false,
+    "max_context_length": 8192,
+    "max_length": 256,
+    "auto_ctxlen": true,
+    "auto_genamt": true,
+    "rep_pen": 1.15,
+    "rep_pen_range": 2048,
+    "rep_pen_slope": 0.1,
+    "temperature": 1.35,
+    "top_p": 1,
+    "top_k": 0,
+    "top_a": 0,
+    "typ_s": 1,
+    "tfs_s": 0.69,
+    "sampler_order": [
+      6,
+      3,
+      2,
+      5,
+      0,
+      1,
+      4
+    ]
+  }
+}
