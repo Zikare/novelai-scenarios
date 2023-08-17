@@ -36,6 +36,16 @@ Next, I recommend one of the WizardLM-Uncensored models. WizardLM writes
 really beautifully and the uncensored models will not block you from NSFW
 actions in your adventure.
 
+*This scenario really doesn't work well with WizardLM, Vicuna or GPT-NeoX
+as an AI, the reason being that Miri just sits around and sits around and
+the AI describes how she sits around and sits arouns and nothing ever
+happens. Maybe it needs a better A/N to make Miri adventure on her own?*
+
+*If you get stuck with nothing happening, try sentences saying that you
+`wait until` and then whatever needs to happen, i.e. travel, plan or
+find someting, i.e. `I wait until Miri is done with her map and continues
+the adventure.`*
+
 
 **RTX 3090 / RTX 4090 owners:**
 
