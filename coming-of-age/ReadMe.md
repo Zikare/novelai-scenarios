@@ -48,8 +48,8 @@ in the introductory text and world info.
 
 There are two optional tweaks to the scenario, one where your neighbor
 is a bit more laid back and one where we gets you kidnapped. You can
-enable them in the lorebook. Simply permanently enable the entires named
-`shy_dave` or `sold_to_beth` in order to apply the tweaks.
+enable them in the lorebook. Simply permanently enable eitherthe entry
+named `shy_dave` or then one named  `sold_to_beth` to apply the tweaks.
 
 
 **RTX 3090 / RTX 4090 owners:**
