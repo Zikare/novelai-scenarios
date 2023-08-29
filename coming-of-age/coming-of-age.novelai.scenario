@@ -1,0 +1,901 @@
+{
+  "scenarioVersion": 3,
+  "title": "Coming of Age",
+  "description": "An alternative coming-of-age story in which you are a girl living in the suburbs. You have to put up with all kinds of challenges, last but not least is your neighbor who suddenly shows a disturbing interest in you. But even more so, his dogs seem to show the same interest.\n\nWill you grow up well, will you become a pervert or will something terrible happen?",
+  "prompt": "You are ${playername}, a young adult living with a loving family in an American suburb. You have long and lustrous blonde hair and you are busy with your studies.\nYour parents, Frank and Judy, are pretty average - in every way. Frank holds a typical 9-to-5 office job as a building architect and your mother is mostly a house wive, though she combines it with a side business where she has contracts with several local businesses to clean their rooms after hours.\nEverything in your life is pretty average right now. You have a friendly neighbor who has a very nice lawn and sometimes invites you for BBQ, your parents are not very strict and, as should be expected, most things in your life are on course for a pretty average result. Average, that is what you and your parents are.\nYou have just returned from school and asked Judy whether you can go to the cinema. She will buy you the ticket, but in exchange, you agreed to mow the lawn. Thus, right now, you find yourself outside in the sun, wearing shorts and a light shirt, pushing your parents' small lawn mower in front of you.\nJust a few minutes into the work, you hear Dave's lawnmower start on the other side of the fence. Dave is your neighbor and he has a habit of doing work outside that coincides with other people being around. He is probably trying to find opportunities for small talk and contact with other people. For all you know, Dave lives alone.\n\"Hello ${playername},\" Dave greets you, \"how's school?\"",
+  "tags": [
+    "slice of life",
+    "coming of age",
+    "puberty",
+    "suburbs",
+    "bestiality"
+  ],
+  "context": [
+    {
+      "text": "",
+      "contextConfig": {
+        "prefix": "",
+        "suffix": "\n",
+        "tokenBudget": 1,
+        "reservedTokens": 0,
+        "budgetPriority": 800,
+        "trimDirection": "trimBottom",
+        "insertionType": "newline",
+        "maximumTrimType": "sentence",
+        "insertionPosition": 0
+      }
+    },
+    {
+      "text": "[ You have to attend school every morning. ] [ Your neighbor Dave actively tries to encounter you and chat with you. ]",
+      "contextConfig": {
+        "prefix": "",
+        "suffix": "\n",
+        "tokenBudget": 1,
+        "reservedTokens": 1,
+        "budgetPriority": -400,
+        "trimDirection": "trimBottom",
+        "insertionType": "newline",
+        "maximumTrimType": "sentence",
+        "insertionPosition": -4
+      }
+    }
+  ],
+  "ephemeralContext": [],
+  "placeholders": [
+    {
+      "key": "playername",
+      "description": "Your Name",
+      "defaultValue": "Cindy",
+      "order": 1,
+      "longDescription": "The name of the protagonist, assumed to be a young adult"
+    }
+  ],
+  "settings": {
+    "parameters": {
+      "textGenerationSettingsVersion": 5,
+      "temperature": 1.21,
+      "max_length": 40,
+      "min_length": 1,
+      "top_k": 0,
+      "top_p": 0.912,
+      "top_a": 1,
+      "typical_p": 0.912,
+      "tail_free_sampling": 0.921,
+      "repetition_penalty": 1.21,
+      "repetition_penalty_range": 321,
+      "repetition_penalty_slope": 2.1,
+      "repetition_penalty_frequency": 0.00621,
+      "repetition_penalty_presence": 0,
+      "repetition_penalty_default_whitelist": false,
+      "cfg_scale": 1,
+      "cfg_uc": "",
+      "phrase_rep_pen": "very_light",
+      "top_g": 0,
+      "mirostat_tau": 0,
+      "mirostat_lr": 1,
+      "order": [
+        {
+          "id": "cfg",
+          "enabled": false
+        },
+        {
+          "id": "temperature",
+          "enabled": true
+        },
+        {
+          "id": "typical_p",
+          "enabled": true
+        },
+        {
+          "id": "tfs",
+          "enabled": true
+        },
+        {
+          "id": "top_p",
+          "enabled": true
+        },
+        {
+          "id": "top_k",
+          "enabled": true
+        },
+        {
+          "id": "top_a",
+          "enabled": false
+        },
+        {
+          "id": "top_g",
+          "enabled": false
+        },
+        {
+          "id": "mirostat",
+          "enabled": false
+        }
+      ]
+    },
+    "preset": "default-vigntun",
+    "trimResponses": true,
+    "banBrackets": true,
+    "prefix": "theme_textadventure",
+    "dynamicPenaltyRange": false,
+    "prefixMode": 0,
+    "mode": 1,
+    "model": "clio-v1"
+  },
+  "lorebook": {
+    "lorebookVersion": 5,
+    "entries": [
+      {
+        "text": "[ Your name is ${playername}. ] [ You are a young adult that lives with her parents at home. ] [ You have long and lustrous blonde hair. ] [ Your body is slim and delicate for your age, with small breasts and a firm butt. ] [ Sometimes, your hormones are giving you mood swings and strange desires, making your life complicated. ] [ Your parents are Frank and Judy. ] [ You have to go to school every day. ] [ You are a bit anxious about your small breasts. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1693306520584,
+        "displayName": "You",
+        "id": "3546fdd9-3021-43d9-b5bf-3997bec7c884",
+        "keys": [
+          "/\\byou\\b/i",
+          "/\\bcindy\\b/i",
+          "/\\bgirl\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "1fa80b5d-9051-4c4b-8785-0b92e5a385d7",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Frank is your father. ] [ Frank is an average man with an office job that he attends from 9 in the morning to 5 in the evening. ] [ Frank has an average income and lives with his wive Judy in a small home in the American suburbs. ] [ Frank is a loving father and though the often is overwhelmed and needs time for himself, he is always friendly and reasonable. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1691158178438,
+        "displayName": "Frank (Father)",
+        "id": "9ad10219-756b-443a-a8df-4d2728176088",
+        "keys": [
+          "/\\bfrank\\b/i",
+          "/\\bfather\\b/i",
+          "/\\bparents?\\b/i",
+          "/\\bdad\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "1fa80b5d-9051-4c4b-8785-0b92e5a385d7",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Judy is your mother. ] [ Judy lives together with her husband Frank in a small house in the American subsurbs. ] [ Judy has no fixed job, but goes cleaning in several local businesses each evening, adding a reasonable income to the family. ] [ Judy likes it clean and tidy and spends a lot of time cleaning the house. ] [ Judy is attractive for her age and a loving mother. ] [ Judy is a house wive by choice, she is smart and independent but likes the slow and simple lifestyle. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1691158169614,
+        "displayName": "Judy (Mother)",
+        "id": "47cd0fcd-fece-4ed5-84bf-8d2183fda908",
+        "keys": [
+          "/\\bjudy\\b/i",
+          "/\\bparents?\\b/i",
+          "/\\bmother\\b/i",
+          "/\\bmom\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "1fa80b5d-9051-4c4b-8785-0b92e5a385d7",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Dave is your neighbor. ] [ Dave is in his 30s and lives alone. ] [ Dave is always at home and everyone assumes he is a home office worker. ] [ Dave is a very friendly man, perhaps too friendly sometimes and it seems he is keeping something about himself hidden. ] [ Secretly, Dave is attracted to delicate, small-framed women and specifically to you. ] [ Secretly, Dave loves bestiality, he watches videos of dogs fucking women. ] [ Dave fantasizes about letting his dogs have sex with you. ] [ Dave is unable to have sex himself. He lost his penis in an accident. He hides this. ] [ Because Dave has no penis anymore, he started to see his dogs as his stand-ins and wants to let them have sex with you in his place. ]\n\n[ Dave has two large German Shepherds named Aston and Martin. ] [ Dave often tries to find ways and excuses to touch you or brush against you. ] [ Dave very much wishes to find a woman, preferable a young adult, that does sexual acts with his dogs and lets him watch. ] [ Dave wants to kidnap you and force you to have sex with his dogs, but he is too scared to actually do it. ] ",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1693306382852,
+        "displayName": "Dave (Neighbor)",
+        "id": "6665b1fa-867f-4060-9f47-dcea1442ee2f",
+        "keys": [
+          "/\\bdave\\b/i",
+          "/\\bneighbors?\\b/i",
+          "/\\bdog\\b/i",
+          "/\\baston\\b/i",
+          "/\\bmarin\\b/i",
+          "/\\bsex\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "1fa80b5d-9051-4c4b-8785-0b92e5a385d7",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Aston is the dog of your neighbor Dave. ] [ Aston is a large German Shepherd with brown and black fur. ] [ Aston is male and still has his balls and his full sex drive. ] [ Aston is quiet and well-behaved, but he can get very excited. ] [ You like Aston very much and feel sexually attracted to him. The dog instinctively feels this. ] [ Aston likes you a lot. ]\n\n[ Aston has a very long penis that would bottom out in your pussy if you were to have sex with him. ] [ Aston has a wide knot that is able to get stuck inside a human female such as you. ] [ Aston has a strong sex drive. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1693308243333,
+        "displayName": "Aston (Neighbor Dog)",
+        "id": "2cc3d6f3-6afa-4386-a714-f5eddcdfb8a6",
+        "keys": [
+          "/\\baston\\b/i",
+          "/\\bdogs?\\b/i",
+          "/\\bsex\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "1fa80b5d-9051-4c4b-8785-0b92e5a385d7",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Martin is the dog of your neighbor Dave. ] [ Martin is a large German Shepherd with white fur ] [ Martin is male and still has his balls and his full sex drive. ] [ Martin is quiet and well-behaved, but very much wants to sniff everyone's crotch. ] [ Martin likes to play catch. ]\n\n[ Martin has a fat penis that would stretch you uncomfortably if you were to have sex with him. ] [ Martin has a lot of strength and can easily hold you down. ] [ Martin can thrust very hard during sex. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1693308104195,
+        "displayName": "Martin (Neighbor Dog)",
+        "id": "f6510d5c-7768-4706-841a-bd02bee88f8a",
+        "keys": [
+          "/\\bmartin\\b/i",
+          "/\\bdogs?\\b/i",
+          "/\\bsex\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "1fa80b5d-9051-4c4b-8785-0b92e5a385d7",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Dave's house is a small suburban home. ] [ Dave has built a well isolated cellar room with a steel door in which he fantasizes to keep a kidnap victim. ] [ Dave has dreams of abducting a young woman and forcing her to have sex with his dogs, but so far has not dared to actually do it. ] [ Dave's house is relatively empty, but he has a large TV and many cameras in it. ] [ Dave has a well-kept garden with a fireplace, BBQ and seating. ] [ Dave sometimes invites your family to BBQ in the summers and it is always great. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1691159668194,
+        "displayName": "Dave's Home",
+        "id": "f1c85ec7-5e3f-49fa-bc82-9524768e3d54",
+        "keys": [
+          "/\\bdave\\b/i",
+          "/\\bhouses?\\b/i",
+          "/\\bneighbors\\b/i",
+          "/\\bneighborhood\\b/i",
+          "/\\bkidnap\\b/i",
+          "/\\babduct\\b/i",
+          "/\\bdungeon\\b/i",
+          "/\\bcellar\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "505ec685-d145-40c4-ad92-0b65b91357fb",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ You live in the house of Frank and Judy, your parents. ] [ Your parents' house has a small cellar that is mostly empty except for a washing machine, camping stuff and old furniture. ] [ Your parents' house is simple, featuring one room for each family member as well as a large bath, living room and kitchen. ] [ Your father is only at home on weekends and in the evenings. ] [ Your mother is at home in the morning and often does cleaning work in the evenings. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1691160019522,
+        "displayName": "Your Home",
+        "id": "e912e8d1-de0d-4f0f-931c-f77f81d3f578",
+        "keys": [
+          "/\\bhome\\b/i",
+          "/\\balone\\b/i",
+          "/\\bquiet\\b/i",
+          "/\\boneself\\b/i",
+          "/\\bsecret\\b/i",
+          "/\\bparents\\b/i",
+          "/\\bhouses?\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "505ec685-d145-40c4-ad92-0b65b91357fb",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Martha is you second neighbor. ] [ Martha lives in the house across the street and usually stays inside. ] [ Martha is quite old and a widow. ]  [ Martha is just an older woman, but she sometimes gets pedantic about random things, so people avoid her. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1693306451446,
+        "displayName": "Martha (Neighbor)",
+        "id": "c4538272-6aca-4bcc-b4b3-2e12acf565b9",
+        "keys": [
+          "/\\bneighbors?\\b/i",
+          "/\\bmartha\\b/i",
+          "/\\bnosy\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "1fa80b5d-9051-4c4b-8785-0b92e5a385d7",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Your neighbor Dave never openly admits that he's attracted to you. ] [ Dave never openly tells you that he loves you or that he is attracted to you. ] [ Dave will tries to touch you or brush against you, but always claims it was an accident or that it's just for fun. ] [ Dave wants to fondle and masturbate you, but will act as if he's only doing it for fun. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1693306689663,
+        "displayName": "Shy Dave",
+        "id": "0e5b2fe1-342e-4a3e-8b06-61fb69b1b1c5",
+        "keys": [],
+        "searchRange": 1000,
+        "enabled": false,
+        "forceActivation": true,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "0b8b446c-c347-4faf-8ecd-11a65c66ab84",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Dave has found a bestiality addict named Beth and decided to sell you out to her. ] [ You are very angry with Dave for that. ] [ Beth is a tall, blonde woman with shining blue eyes and a curvy body. ] [ Beth often wears suggestive clothes. ] [ Beth hides in a cabin in the woods. ] [ Beth has two dogs, both Labradors, named Baxter and Sammy. ] [ You like Beth and find her weirdly attractive. ]\n\n[ Beth is a rapist and forces women to have sex with her dogs. ] [ Beth films her victims. ] [ Beth very deeply enjoys watching animals have sex with human women. ] [ Beth is kind when she gets her way and only forces her victims when needed. ] [ Beth has no qualms putting a crying, screaming woman through a dog sex act if needed. ]\n\n[ Beth knows you're genuinely interested in bestiality and Beth now likes you a lot. ] [ Beth asked you to be her friend despite what she did once she saw that you actually enjoyed sex with her dogs. ] [ Beth never feels bad about things she does and she never says sorry. ] [ You and Beth made out and had a very hot and passionate evening in her cabin. ] [ You gave Beth a great orgasm, kissed her and told her your address, inviting her to 'kidnap' you anytime. ] [ Beth seems smitten with you, just like you are smitten with her. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1693306832940,
+        "displayName": "Sold to Beth",
+        "id": "235c4184-e68d-4d4d-bffa-69a012976b72",
+        "keys": [],
+        "searchRange": 1000,
+        "enabled": false,
+        "forceActivation": true,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "0b8b446c-c347-4faf-8ecd-11a65c66ab84",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      }
+    ],
+    "settings": {
+      "orderByKeyLocations": false
+    },
+    "categories": [
+      {
+        "name": "Characters",
+        "id": "1fa80b5d-9051-4c4b-8785-0b92e5a385d7",
+        "enabled": true,
+        "createSubcontext": false,
+        "subcontextSettings": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 400,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -1
+          },
+          "lastUpdatedAt": 1691646724996,
+          "displayName": "New Lorebook Entry",
+          "id": "a4574476-e56c-4000-b4a1-4d7d4bf00f82",
+          "keys": [],
+          "searchRange": 1000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "useCategoryDefaults": false,
+        "categoryDefaults": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 400,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -1
+          },
+          "lastUpdatedAt": 1691157631355,
+          "displayName": "New Lorebook Entry",
+          "id": "442e6982-f139-4829-bb9e-9210cbae08d2",
+          "keys": [],
+          "searchRange": 1000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "categoryBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "name": "Events",
+        "id": "0b8b446c-c347-4faf-8ecd-11a65c66ab84",
+        "enabled": true,
+        "createSubcontext": false,
+        "subcontextSettings": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 400,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -1
+          },
+          "lastUpdatedAt": 1693308961578,
+          "displayName": "New Lorebook Entry",
+          "id": "a67d1acf-d3e7-470f-8a23-cedffcb15793",
+          "keys": [],
+          "searchRange": 1000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "useCategoryDefaults": false,
+        "categoryDefaults": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 400,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -1
+          },
+          "lastUpdatedAt": 1693306557173,
+          "displayName": "New Lorebook Entry",
+          "id": "2d3ba09e-17a7-43d1-8d2e-fa6360d28829",
+          "keys": [],
+          "searchRange": 1000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "categoryBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "name": "Locations",
+        "id": "505ec685-d145-40c4-ad92-0b65b91357fb",
+        "enabled": true,
+        "createSubcontext": false,
+        "subcontextSettings": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 400,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -1
+          },
+          "lastUpdatedAt": 1691646724997,
+          "displayName": "New Lorebook Entry",
+          "id": "20911d53-6b32-44e2-bd20-aa93f45f7af1",
+          "keys": [],
+          "searchRange": 1000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "useCategoryDefaults": false,
+        "categoryDefaults": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 400,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -1
+          },
+          "lastUpdatedAt": 1691159408216,
+          "displayName": "New Lorebook Entry",
+          "id": "dbead896-a8e5-4d58-8c50-bf79ac39c752",
+          "keys": [],
+          "searchRange": 1000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "categoryBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      }
+    ]
+  },
+  "author": "",
+  "storyContextConfig": {
+    "prefix": "",
+    "suffix": "",
+    "tokenBudget": 1,
+    "reservedTokens": 512,
+    "budgetPriority": 0,
+    "trimDirection": "trimTop",
+    "insertionType": "newline",
+    "maximumTrimType": "sentence",
+    "insertionPosition": -1,
+    "allowInsertionInside": true
+  },
+  "contextDefaults": {
+    "ephemeralDefaults": [
+      {
+        "text": "",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 1,
+          "budgetPriority": -10000,
+          "trimDirection": "doNotTrim",
+          "insertionType": "newline",
+          "maximumTrimType": "newline",
+          "insertionPosition": -2
+        },
+        "startingStep": 1,
+        "delay": 0,
+        "duration": 1,
+        "repeat": false,
+        "reverse": false
+      }
+    ],
+    "loreDefaults": [
+      {
+        "text": "",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1691157362194,
+        "displayName": "New Lorebook Entry",
+        "id": "844340a3-1f7e-42b0-8c1b-7eb21d2cab59",
+        "keys": [],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      }
+    ]
+  },
+  "phraseBiasGroups": [
+    {
+      "phrases": [],
+      "ensureSequenceFinish": false,
+      "generateOnce": true,
+      "bias": 0,
+      "enabled": true,
+      "whenInactive": false
+    }
+  ],
+  "bannedSequenceGroups": [
+    {
+      "sequences": [],
+      "enabled": true
+    }
+  ]
+}

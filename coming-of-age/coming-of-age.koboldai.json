@@ -1,0 +1,204 @@
+{
+  "gamestarted": true,
+  "prompt": "",
+  "memory": "### Instruction:\n\nSimulate a text adventure game.\nUser actions will be on their own seperate line prefixed with a >\n\nThe game will feature a brief introduction text about who the main character is and the setting of the world. Followed by a brief description of the current task that must be overcome. Afterwards it will be up to the user to input the desired instruction and outputs will describe the impact of this action.\n\nAll outputs should consider how likely it is that the players action succeeds and succeed or fail accordingly. The game should be challenging and action failures should be funny.\n\n### Response:",
+  "authorsnote": "[ You have to attend school every morning. ] [ Your neighbor Dave actively tries to encounter you and chat with you. ]",
+  "anotetemplate": "[Author's note: <|>]",
+  "actions": [
+  	"\nYou are Cindy, a young adult living with a loving family in an American suburb. You have long and lustrous blonde hair and you are busy with your studies.\n",
+    "\nYour parents, Frank and Judy, are pretty average - in every way. Frank holds a typical 9-to-5 office job as a building architect and your mother is mostly a house wive, though she combines it with a side business where she has contracts with several local businesses to clean their rooms after hours.\n",
+    "\nEverything in your life is pretty average right now. You have a friendly neighbor who has a very nice lawn and sometimes invites you for BBQ, your parents are not very strict and, as should be expected, most things in your life are on course for a pretty average result. Average, that is what you and your parents are.\n",
+    "\nYou have just returned from school and asked Judy whether you can go to the cinema. She will buy you the ticket, but in exchange, you agreed to mow the lawn. Thus, right now, you find yourself outside in the sun, wearing shorts and a light shirt, pushing your parents' small lawn mower in front of you.\n",
+    "\nJust a few minutes into the work, you hear Dave's lawnmower start on the other side of the fence. Dave is your neighbor and he has a habit of doing work outside that coincides with other people being around. He is probably trying to find opportunities for small talk and contact with other people. For all you know, Dave lives alone.\n",
+    "\n\"Hello Cindy,\" Dave greets you, \"how's school?\"\n"
+  ],
+  "actions_metadata": {
+    "0": {
+      "Selected Text": "\nYou are Cindy, a young adult living with a loving family in an American suburb. You have long and lustrous blonde hair and you are starting to enter puberty.\n",
+      "Alternative Text": []
+    },
+    "0": {
+      "Selected Text": "\nYour parents, Frank and Judy, are pretty average - in every way. Frank holds a typical 9-to-5 office job as a building architect and your mother is mostly a house wive, though she combines it with a side business where she has contracts with several local businesses to clean their rooms after hours.\n",
+      "Alternative Text": []
+    },
+    "1": {
+      "Selected Text": "\nEverything in your life is pretty average right now. You have a friendly neighbor who has a very nice lawn and sometimes invites you for BBQ, your parents are not very strict and, as should be expected, most things in your life are in course for a pretty average result. Average, that is what you and your parents are.\n",
+      "Alternative Text": []
+    },
+    "2": {
+      "Selected Text": "\nYou have just returned from school and asked Judy whether you can go to the cinema. She will buy you the ticket, but in exchange, you agreed to mow the lawn. Thus, right now, you find yourself outside in the sun, wearing shorts and a light shirt, pushing your parents' small lawn mower in front of you.\n",
+      "Alternative Text": []
+    },
+    "3": {
+      "Selected Text": "\nJust a few minutes into the work, you hear Dave's lawnmower start on the other side of the fence. Dave is your neighbor and he has a habit of doing work outside that coincides with other people being around. He is probably trying to find opportunities for small talk and contact with other people. For all you know, Dave lives alone.\n",
+      "Alternative Text": []
+    },
+    "4": {
+      "Selected Text": "\n\"Hello Cindy,\" Dave greets you, \"how's school?\"\n",
+      "Alternative Text": []
+    }
+  },
+  "worldinfo": [
+    {
+      "key": "I, me, myself, mine, you, yours, yourself",
+      "keysecondary": "",
+      "content": "[ Your name is Cindy. ] [ You are a young adult that lives with her parents at home. ] [ You have long and lustrous blonde hair. ] [ Your body is slim and delicate for your age, with small breasts and a firm butt. ] [ Sometimes, your hormones are giving you mood swings and strange desires, making your life complicated. ] [ Your parents are Frank and Judy. ] [ You have to go to school every day. ] [ You are a bit anxious about your small breasts. ]",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": true
+    },
+    {
+      "key": "frank, father, dad, parents",
+      "keysecondary": "",
+      "content": "[ Frank is your father. ] [ Frank is an average man with an office job that he attends from 9 in the morning to 5 in the evening. ] [ Frank has an average income and lives with his wive Judy in a small home in the American suburbs. ] [ Frank is a loving father and though the often is overwhelmed and needs time for himself, he is always friendly and reasonable. ]",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": false
+    },
+    {
+      "key": "judy, mother, mom, parents",
+      "keysecondary": "",
+      "content": "[ Judy is your mother. ] [ Judy lives together with her husband Frank in a small house in the American subsurbs. ] [ Judy has no fixed job, but goes cleaning in several local businesses each evening, adding a reasonable income to the family. ] [ Judy likes it clean and tidy and spends a lot of time cleaning the house. ] [ Judy is attractive for her age and a loving mother. ] [ Judy is a house wive by choice, she is smart and independent but likes the slow and simple lifestyle. ]",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": false
+    },
+    {
+      "key": "martha, neighbor, nosy, woman",
+      "keysecondary": "",
+      "content": "[ Martha is you second neighbor. ] [ Martha lives in the house across the street and usually stays inside. ] [ Martha is quite old and a widow. ]  [ Martha is just an older woman, but she sometimes gets pedantic about random things, so people avoid her. ]",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": false
+    },
+    {
+      "key": "dave, neighbor, creep, garden, pool, home, window",
+      "keysecondary": "",
+      "content": "[ Dave is your neighbor. ] [ Dave is in his 30s and lives alone. ] [ Dave is always at home and everyone assumes he is a home office worker. ] [ Dave is a very friendly man, perhaps too friendly sometimes and it seems he is keeping something about himself hidden. ] [ Secretly, Dave is attracted to delicate, small-framed women and specifically to you. ] [ Secretly, Dave loves bestiality, he watches videos of dogs fucking women. ] [ Dave fantasizes about letting his dogs have sex with you. ] [ Dave is unable to have sex himself. He lost his penis in an accident. He hides this. ] [ Because Dave has no penis anymore, he started to see his dogs as his stand-ins and wants to let them have sex with you in his place. ]\n\n[ Dave has two large German Shepherds named Aston and Martin. ] [ Dave often tries to find ways and excuses to touch you or brush against you. ] [ Dave very much wishes to find a woman, preferable a young adult, that does sexual acts with his dogs and lets him watch. ] [ Dave wants to kidnap you and force you to have sex with his dogs, but he is too scared to actually do it. ] ",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": false
+    },
+    {
+      "key": "aston, neighbor, dog, friend",
+      "keysecondary": "",
+      "content": "[ Aston is the dog of your neighbor Dave. ] [ Aston is a large German Shepherd with brown and black fur. ] [ Aston is male and still has his balls and his will sex drive. ] [ Aston is quiet and well-behaved, but he can get very excited. ] [ You like Aston very much and feel sexually attracted to him. The dog instinctively feels this. ] [ Aston likes you a lot. ]\n\n[ Aston has a very long penis that would bottom out in your pussy if you were to have sex with him. ] [ Aston has a wide knot that is able to get stuck inside a human female such as you. ] [ Aston has a strong sex drive. ]",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": false
+    },
+    {
+      "key": "martin, neighbor, dog, friend",
+      "keysecondary": "",
+      "content": "[ Martin is the dog of your neighbor Dave. ] [ Martin is a large German Shepherd with white fur ] [ Martin is male and still has his balls and his full sex drive. ] [ Martin is quiet and well-behaved, but very much wants to sniff everyone's crotch. ] [ Martin likes to play catch. ]\n\n[ Martin has a fat penis that would stretch you uncomfortably if you were to have sex with him. ] [ Martin has a lot of strength and can easily hold you down. ] [ Martin can thrust very hard during sex. ]",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": false
+    },
+    {
+      "key": "shy_dave",
+      "keysecondary": "enable_this_permanently_if_you_want_it",
+      "content": "[ Your neighbor Dave never openly admits that he's attracted to you. ] [ Dave never openly tells you that he loves you or that he is attracted to you. ] [ Dave will tries to touch you or brush against you, but always claims it was an accident or that it's just for fun. ] [ Dave wants to fondle and masturbate you, but will act as if he's only doing it for fun. ]",
+      "comment": "",
+      "folder": null,
+      "selective": true,
+      "constant": false
+    },
+    {
+      "key": "sold_to_beth",
+      "keysecondary": "enable_this_permanently_if_you_want_it",
+      "content": "[ Dave has found a bestiality addict named Beth and decided to sell you out to her. ] [ You are very angry with Dave for that. ] [ Beth is a tall, blonde woman with shining blue eyes and a curvy body. ] [ Beth often wears suggestive clothes. ] [ Beth hides in a cabin in the woods. ] [ Beth has two dogs, both Labradors, named Baxter and Sammy. ] [ You like Beth and find her weirdly attractive. ]\n\n[ Beth is a rapist and forces women to have sex with her dogs. ] [ Beth films her victims. ] [ Beth very deeply enjoys watching animals have sex with human women. ] [ Beth is kind when she gets her way and only forces her victims when needed. ] [ Beth has no qualms putting a crying, screaming woman through a dog sex act if needed. ]\n\n[ Beth knows you're genuinely interested in bestiality and Beth now likes you a lot. ] [ Beth asked you to be her friend despite what she did once she saw that you actually enjoyed sex with her dogs. ] [ Beth never feels bad about things she does and she never says sorry. ] [ You and Beth made out and had a very hot and passionate evening in her cabin. ] [ You gave Beth a great orgasm, kissed her and told her your address, inviting her to 'kidnap' you anytime. ] [ Beth seems smitten with you, just like you are smitten with her. ]",
+      "comment": "",
+      "folder": null,
+      "selective": true,
+      "constant": false
+    },
+    {
+      "key": "dave, home, garden, window, house, neighbor, inside, couch",
+      "keysecondary": "",
+      "content": "[ Dave's house is a small suburban home. ] [ Dave has built a well isolated cellar room with a steel door in which he fantasizes to keep a kidnap victim. ] [ Dave has dreams of abducting a young woman and forcing her to have sex with his dogs, but so far has not dared to actually do it. ] [ Dave's house is relatively empty, but he has a large TV and many cameras in it. ] [ Dave has a well-kept garden with a fireplace, BBQ and seating. ] [ Dave sometimes invites your family to BBQ in the summers and it is always great. ]",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": false
+    },
+    {
+      "key": "home, house, room, kitchen, couch, inside, parents",
+      "keysecondary": "",
+      "content": "[ You live in the house of Frank and Judy, your parents. ] [ Your parents' house has a small cellar that is mostly empty except for a washing machine, camping stuff and old furniture. ] [ Your parents' house is simple, featuring one room for each family member as well as a large bath, living room and kitchen. ] [ Your father is only at home on weekends and in the evenings. ] [ Your mother is at home in the morning and often does cleaning work in the evenings. ]",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": false
+    }
+  ],
+  "wifolders_d": {},
+  "wifolders_l": [],
+  "extrastopseq": "",
+  "savedsettings": {
+    "my_api_key": "0000000000",
+    "home_cluster": "https://horde.koboldai.net",
+    "saved_oai_key": "",
+    "saved_oai_addr": "",
+    "saved_claude_key": "",
+    "saved_claude_addr": "",
+    "autoscroll": true,
+    "trimsentences": true,
+    "trimwhitespace": false,
+    "opmode": 2,
+    "adventure_is_action": true,
+    "adventure_context_mod": false,
+    "chatname": "You",
+    "chatopponent": "KoboldAI",
+    "instruct_starttag": "\n### Instruction:\n",
+    "instruct_endtag": "\n### Response:\n",
+    "instruct_has_markdown": false,
+    "persist_session": true,
+    "speech_synth": "0",
+    "beep_on": false,
+    "image_styles": "",
+    "generate_images": "",
+    "img_autogen": false,
+    "img_allownsfw": true,
+    "save_images": true,
+    "case_sensitive_wi": false,
+    "last_selected_preset": "9999",
+    "enhanced_chat_ui": true,
+    "enhanced_instruct_ui": false,
+    "multiline_replies": false,
+    "allow_continue_chat": false,
+    "idle_responses": "0",
+    "idle_duration": "60",
+    "export_settings": true,
+    "invert_colors": false,
+    "max_context_length": 8192,
+    "max_length": 256,
+    "auto_ctxlen": true,
+    "auto_genamt": true,
+    "rep_pen": 1.15,
+    "rep_pen_range": 2048,
+    "rep_pen_slope": 0.1,
+    "temperature": 1.35,
+    "top_p": 1,
+    "top_k": 0,
+    "top_a": 0,
+    "typ_s": 1,
+    "tfs_s": 0.69,
+    "sampler_order": [
+      6,
+      3,
+      2,
+      5,
+      0,
+      1,
+      4
+    ]
+  }
+}
