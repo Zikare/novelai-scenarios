@@ -26,15 +26,9 @@ NovelAI Usage
 
 Simply drag the scenario onto your NovelAI browser window or import it.
 
-When you play, you may eventually encounter a weird girl that is looking
-for you, precisely because of your infamy.
-
-She has two lorebook entries. If you accept her proposal, you should then
-open the lorebook, turn off "Kassie (Before Meeting)" and enable the other
-entry, titled "Kassie (After Meeting)".
-
-Or just disable them both before starting your adventure if you want to play
-as a solo adventurer or make up your own story.
+There are two optional tweaks to the scenario, one where your neighbor
+is a bit more laid back and one where we gets you kidnapped. You can
+enable them in the lorebook.
 
 
 KoboldAI / KoboldCPP Usage
@@ -49,14 +43,13 @@ really beautifully and the uncensored models will not block you from NSFW
 actions in your adventure.
 
 Then just load the KoboldAI scenario via the Load button. Your name is fixed
-to 'Brian' but you can to a search and replace in the JSON file or edit it
+to 'Cindy' but you can to a search and replace in the JSON file or edit it
 in the introductory text and world info.
 
-The world info contains entries for a girl that is looking for you, precisely
-because of your infamy. If you want her, first permanently enable
-the `nokassie` entry in your world info, then, once the random encounter
-took place (and you accepted her proposal), turn it off and enable
-the `joinedkassie` entry instead.
+There are two optional tweaks to the scenario, one where your neighbor
+is a bit more laid back and one where we gets you kidnapped. You can
+enable them in the lorebook. Simply permanently enable the entires named
+`shy_dave` or `sold_to_beth` in order to apply the tweaks.
 
 
 **RTX 3090 / RTX 4090 owners:**
