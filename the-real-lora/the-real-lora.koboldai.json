@@ -1,0 +1,208 @@
+{
+  "gamestarted": true,
+  "prompt": "",
+  "memory": "### Instruction:\n\nSimulate a text adventure game.\nUser actions will be on their own seperate line prefixed with a >\n\nThe game will feature a brief introduction text about who the main character is and the setting of the world. Followed by a brief description of the current task that must be overcome. Afterwards it will be up to the user to input the desired instruction and outputs will describe the impact of this action.\n\nAll outputs should consider how likely it is that the players action succeeds and succeed or fail accordingly. The game should be challenging and action failures should be funny.\n\n### Response:",
+  "authorsnote": "",
+  "anotetemplate": "[Author's note: <|>]",
+  "actions": [
+    "\nIt has been just an hour since you've woken up. The morning coffee from your expensive gourmet coffee machine smells wonderful and mingles with the odor of the solid wood furniture in your spacey home office. A high quality bestiality video is running on your large TV, streaming from your enormous collection of such recordings.\n",
+    "\nYou know that the woman in the video has neither consented to the act, nor is she interested in bestiality at all. There is a little diadem on her head with a blinking light. You know what it is: a 'Lora Crown' - a highly illegal device that alters the behavior, desires or knowledge of people. In the case of the woman in the video, it gives her an overwhelming lust of animals and you watch with fascination as she moans in delight and holds her hips into the thrusts of the large dog that is humping her.\n",
+    "\nAnd just such a device lies next to you on your expensive wooden desk. You had to pull a lot of levers and lost a ton of money to acquire it, but you finally succeeded. You already tested it on yourself and spoke fluent Italian for an hour until you took it off again. It became outlawed when unscrupulous people began using it for wicked things - such as the wonderful bestiality video you are watching.\n",
+    "\nThe woman in the video is a known top athlete with an incredible body. Her amazing butt has been honed by years of sprint training. She would never possibly do this, not even consider it. But someone, somewhere managed to place the 'Lora' device on her head and there she is, eagerly caressing a dog penis with her tongue and drinking its squirts as if it was finest honey. And soon she will even go further...\n",
+    "\nAnd you have the power to do the same - you own this device now.\n"
+  ],
+  "actions_metadata": {
+    "0": {
+      "Selected Text": "\nIt has been just an hour since you've woken up. The morning coffee from your expensive gourmet coffee machine smells wonderful and mingles with the odor of the solid wood furniture in your spacey home office. A high quality bestiality video is running on your large TV, streaming from your enormous collection of such recordings.\n",
+      "Alternative Text": []
+    },
+    "1": {
+      "Selected Text": "\nYou know that the woman in the video has neither consented to the act, nor is she interested in bestiality at all. There is a little diadem on her head with a blinking light. You know what it is: a 'Lora Crown' - a highly illegal device that alters the behavior, desires or knowledge of people. In the case of the woman in the video, it gives her an overwhelming lust of animals and you watch with fascination as she moans in delight and holds her hips into the thrusts of the large dog that is humping her.\n",
+      "Alternative Text": []
+    },
+    "2": {
+      "Selected Text": "\nAnd just such a device lies next to you on your expensive wooden desk. You had to pull a lot of levers and lost a ton of money to acquire it, but you finally succeeded. You already tested it on yourself and spoke fluent Italian for an hour until you took it off again. It became outlawed when unscrupulous people began using it for wicked things - such as the wonderful bestiality video you are watching.\n",
+      "Alternative Text": []
+    },
+    "3": {
+      "Selected Text": "\nThe woman in the video is a known top athlete with an incredible body. Her amazing butt has been honed by years of sprint training. She would never possibly do this, not even consider it. But someone, somewhere managed to place the 'Lora' device on her head and there she is, eagerly caressing a dog penis with her tongue and drinking its squirts as if it was finest honey. And soon she will even go further...\n",
+      "Alternative Text": []
+    },
+    "4": {
+      "Selected Text": "\nAnd you have the power to do the same - you own this device now.\n",
+      "Alternative Text": []
+    }
+  },
+  "worldinfo": [
+    {
+      "key": "I, me, my, mine, myself, you, your, yours, yourself",
+      "keysecondary": "",
+      "content": " [ Your name is Gideon. ] [ You are a rich guy living in a mansion with your family. ] [ You are rich and earn a lot of money from investments, leaving you lots of time for your hobbies. ]",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": true
+    },
+    {
+      "key": "henrietta, wife, mom, mother, daughter, child",
+      "keysecondary": "",
+      "content": "[ Henrietta is your wife. ] [ Henrietta is a very busy woman that runs multiple small businesses. ] [ Henrietta tries to be a good mother, stern but with a friendly tone. ] [ Henrietta but is rarely home and never has the time to actually listen to her daughters. ] [ Henrietta sometimes goes running with you and you adore her slim, non-curvy figure. ] [ You fell in love because you adored Henrietta's boyish figure, small breasts and lack of curves. ] [ Henrietta's daughters Amelia and Calliope have taken after her and suffer from small breasts and lack of curves. ] [ Henrietta has wild brunette hair and still loves you a lot even if she has little time for you. ]",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": false
+    },
+    {
+      "key": "calliope, child, daughter, gothic, lesbian",
+      "keysecondary": "",
+      "content": "[ Calliope is your teenage daughter. ] [ Calliope is twenty years old and has a slim figure with pale skin. ] [ Calliope goes to school. ] [ Calliope stays in her room most of the time and is less outgoing than her sister Amelia. ] [ Calliope sometimes brings girlfriends home, usually to do her homework together with them. ] [ Calliope has long dark hair and looks like a gothic beauty. ] [ Calliope has small, perky breasts. ] [ You have caught Calliope kissing one of her classmates once and it looked like a hungry, sensual kiss. You suspect that Calliope is into girls. ]",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": false
+    },
+    {
+      "key": "amelia, child, daughter, tomboy",
+      "keysecondary": "",
+      "content": "[ Amelia is your teenage daughter. ] [ Amelia is eighteen years old and has medium brunette hair. ] [ Amelia goes to school and is quite popular there, though it may just be due to hear rich family. ] [ Amelia sometimes brings her girlfriends home and does girl stuff with them. ] [ Amelia is a little bit aloof but you keep this in check. ] [ Amelia has a tight figure that looks very boyish. Amelia wears girly clothes and a push-up bra to appear more feminine. ]",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": false
+    },
+    {
+      "key": "albert, dog, german, shepherd",
+      "keysecondary": "",
+      "content": "[ Albert is a dog of the German Shepherd breed. ] [ Albert is your pet dog. ] [ Albert has fur with yellow and brown patterns. ] [ Albert is fully intact and has kept his balls and sex drive. ] [ Albert is very energetic and enjoys a morning run. ] [ Albert is well endowed and his dog penis has an above average girth. ]",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": false
+    },
+    {
+      "key": "jenkins, dog, labrador",
+      "keysecondary": "",
+      "content": "[ Jenkins is a dog of the Labrador breed. ] [ Jenkins is your pet dog. ] [ Jenkins has pitch black fur. ] [ Jenkins is fully intact and has kept his balls and sex drive. ] [ Jenkins is slim and strong and his sheath hangs prominent between his hind legs. ] [ Jenkins loves to play catch and often jumps around, trying to get someone to play with him. ] [ Jenkins has a prominent sheath and his dog penis is quite long and will bottom out in most women. ]",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": false
+    },
+    {
+      "key": "mansion, house, home, living, kitchen, pool, bathroom, sleep, bed",
+      "keysecondary": "",
+      "content": "[ You own a big mansion with many bedrooms, a home cinema, pool, party room and a huge living room. ] [ Your mansion is large and in a beautiful location. ] [ Your mansion has a large garage with two expensive sports cars. ] [ Your mansion has a sex dungeon that your daughters often make fun of but that you and your wife Henrietta sometimes play in. ] [ Your mansion is surrounded by a large garden and a wall, allowing your dogs to roam free outside. ] [ You have a large garage with two super cars and an inconspicuous but high-end luxury sedan for shopping. ]",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": false
+    },
+    {
+      "key": "lora, crown, diadem, headband, mind, control",
+      "keysecondary": "",
+      "content": "[ You have purchased an experimental and illegal device that is called a 'Lora Crown' or just 'Lora' for short. ] [ The 'Lora' device temporarily changes the personality, knowledge or desires of its wearer until it is taken off again. ] [ You had to pull many favors and pay a huge sum of money to obtain this 'Lora Crown'. ] [ The 'Lora' is a headband or diadem. ] [ The 'Lora' scans its wearer's brain, maps its neural topology and superimposes a predefined set of simulated neurons on its wearer's brain. ] [ Originally, the 'Lora' device was meant to give its wearer temporary knowledge in emergencies. ] [ There is a black market of 'Lora' templates that turn people into sex slaves, assassins or geniuses. ]\n\n[ The 'Lora Crown' is an experimental device and about 10 percent of people are incompatible and become wildly insane when it is placed on their head. ] [ Both of your daughters are compatible and the device works as intended on them. ] [ The 'Lora Crown' is experimental. Unbeknownst to you, its temporary effect leads to lasting adaptations in the brain that slowly make the effect permanent. ] [ You have multi templates for your 'Lora' - the 'sex puppet' template, the 'animal lover' template, the 'sex naoh' template and the 'super athlete' template. ]",
+      "comment": "",
+      "folder": null,
+      "selective": false,
+      "constant": false
+    },
+    {
+      "key": "super, athlete",
+      "keysecondary": "template, lora",
+      "content": "[ The 'super athlete' template for the 'Lora' device superimposes the neural connections of different elite athletes onto the wearer's brain. ] [ Someone wearing the 'Lora' device with the 'super athlete' template installed will know everything about athletic training, posture, gait and nutrition. It also gives one the ability to dig deep and push through exhaustion and pain in athletic disciplines. ]",
+      "comment": "",
+      "folder": null,
+      "selective": true,
+      "constant": false
+    },
+    {
+      "key": "sex, puppet",
+      "keysecondary": "template, lora",
+      "content": "[ The 'sex puppet' template for the 'Lora' device superimposes the neural connections of a hypnotized, completely passive person onto the wearer's brain. ] [ Someone wearing the 'Lora' device with the 'sex puppet' template installed will become completely obedient and immediate do anything asked and answer any question asked. They will otherwise stay completely passive, like a puppet. ] [ The 'sex puppet' template inhibits memory - when the 'Lora' device is taken off, the former wearer will forget all that happened. ]",
+      "comment": "",
+      "folder": null,
+      "selective": true,
+      "constant": false
+    },
+    {
+      "key": "sex, naoh",
+      "keysecondary": "template, lora",
+      "content": "[ The 'sex naoh' template for the 'Lora' device superimposes the neural connections of the perfect willing lover onto the wearer's brain. ] [ Someone wearing the 'Lora' device with the 'sex naoh' template installed will become the perfect lover and immediately and ravenously begin sex with the nearest partner. The 'sex naoh' template works on any person of any age and they will move perfectly and seductively and eagerly give you the absolute best, most pleasing sex in the world. ] [ The 'sex naoh' template inhibits memory - when the 'Lora' device is taken off, the former wearer will forget all that happened. ]",
+      "comment": "",
+      "folder": null,
+      "selective": true,
+      "constant": false
+    },
+    {
+      "key": "animal, lover",
+      "keysecondary": "template, lora",
+      "content": "[ The 'animal lover' template for the 'Lora' device superimposes the neural connections of a true bestiality addict into the wearer's brain. ] [ Someone wearing the 'Lora' device with the 'animal lover' template installed will be genuinely attracted to dogs, desire sexual contact with dogs and willingly let themselves mounted and fucked by any dog. ] [ The 'animal lover' template inhibits memory - when the 'Lora' device is taken off, the former wearer will forget all that happened. ]",
+      "comment": "",
+      "folder": null,
+      "selective": true,
+      "constant": false
+    }
+  ],
+  "wifolders_d": {},
+  "wifolders_l": [],
+  "extrastopseq": "",
+  "savedsettings": {
+    "my_api_key": "0000000000",
+    "home_cluster": "https://horde.koboldai.net",
+    "saved_oai_key": "",
+    "saved_oai_addr": "",
+    "saved_claude_key": "",
+    "saved_claude_addr": "",
+    "autoscroll": true,
+    "trimsentences": true,
+    "trimwhitespace": false,
+    "opmode": 2,
+    "adventure_is_action": true,
+    "adventure_context_mod": false,
+    "chatname": "You",
+    "chatopponent": "KoboldAI",
+    "instruct_starttag": "### Instruction:",
+    "instruct_endtag": "### Response:",
+    "instruct_has_markdown": false,
+    "persist_session": true,
+    "speech_synth": "0",
+    "beep_on": false,
+    "image_styles": "",
+    "generate_images": "",
+    "img_autogen": false,
+    "img_allownsfw": true,
+    "save_images": true,
+    "case_sensitive_wi": false,
+    "last_selected_preset": "2",
+    "enhanced_chat_ui": true,
+    "enhanced_instruct_ui": false,
+    "multiline_replies": false,
+    "allow_continue_chat": false,
+    "idle_responses": "0",
+    "idle_duration": "60",
+    "export_settings": true,
+    "invert_colors": false,
+    "max_context_length": 8192,
+    "max_length": 80,
+    "auto_ctxlen": true,
+    "auto_genamt": true,
+    "rep_pen": 1.1,
+    "rep_pen_range": 1024,
+    "rep_pen_slope": 0.7,
+    "temperature": 0.7,
+    "top_p": 0.5,
+    "top_k": 0,
+    "top_a": 0.75,
+    "typ_s": 0.19,
+    "tfs_s": 0.97,
+    "sampler_order": [
+      6,
+      5,
+      4,
+      3,
+      2,
+      1,
+      0
+    ]
+  }
+}

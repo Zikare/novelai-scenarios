@@ -1,0 +1,842 @@
+{
+  "scenarioVersion": 3,
+  "title": "The Real Lora",
+  "description": "Slip into the role of a rich man living in an expensive mansion. You have two daughters and a wife that you still love, but who is rarely home due to all the businesses she manages.\n\nYou recently acquired an experimental and outlawed device that temporarily changes people's personality, memories or desires. How will you use it?",
+  "prompt": "It has been just an hour since you've woken up. The morning coffee from your expensive gourmet coffee machine smells wonderful and mingles with the odor of the solid wood furniture in your spacey home office. A high quality bestiality video is running on your large TV, streaming from your enormous collection of such recordings.\nYou know that the woman in the video has neither consented to the act, nor is she interested in bestiality at all. There is a little diadem on her head with a blinking light. You know what it is: a 'Lora Crown' - a highly illegal device that alters the behavior, desires or knowledge of people. In the case of the woman in the video, it gives her an overwhelming lust of animals and you watch with fascination as she moans in delight and holds her hips into the thrusts of the large dog that is humping her.\nAnd just such a device lies next to you on your expensive wooden desk. You had to pull a lot of levers and lost a ton of money to acquire it, but you finally succeeded. You already tested it on yourself and spoke fluent Italian for an hour until you took it off again. It became outlawed when unscrupulous people began using it for wicked things - such as the wonderful bestiality video you are watching.\nThe woman in the video is a known top athlete with an incredible body. Her amazing butt has been honed by years of sprint training. She would never possibly do this, not even consider it. But someone, somewhere managed to place the 'Lora' device on her head and there she is, eagerly caressing a dog penis with her tongue and drinking its squirts as if it was finest honey. And soon she will even go further...\nAnd you have the power to do the same - you own this device now.",
+  "tags": [
+    "mind control",
+    "nsfw",
+    "adventure",
+    "bestiality",
+    "incest"
+  ],
+  "context": [
+    {
+      "text": "",
+      "contextConfig": {
+        "prefix": "",
+        "suffix": "\n",
+        "tokenBudget": 1,
+        "reservedTokens": 0,
+        "budgetPriority": 800,
+        "trimDirection": "trimBottom",
+        "insertionType": "newline",
+        "maximumTrimType": "sentence",
+        "insertionPosition": 0
+      }
+    },
+    {
+      "text": "",
+      "contextConfig": {
+        "prefix": "",
+        "suffix": "\n",
+        "tokenBudget": 1,
+        "reservedTokens": 1,
+        "budgetPriority": -400,
+        "trimDirection": "trimBottom",
+        "insertionType": "newline",
+        "maximumTrimType": "sentence",
+        "insertionPosition": -4
+      }
+    }
+  ],
+  "ephemeralContext": [],
+  "placeholders": [],
+  "settings": {
+    "parameters": {
+      "textGenerationSettingsVersion": 5,
+      "temperature": 2.5,
+      "max_length": 40,
+      "min_length": 1,
+      "top_k": 0,
+      "top_p": 1,
+      "top_a": 1,
+      "typical_p": 0.969,
+      "tail_free_sampling": 0.941,
+      "repetition_penalty": 1,
+      "repetition_penalty_range": 1024,
+      "repetition_penalty_slope": 0,
+      "repetition_penalty_frequency": 0,
+      "repetition_penalty_presence": 0,
+      "repetition_penalty_default_whitelist": true,
+      "cfg_scale": 1,
+      "cfg_uc": "",
+      "phrase_rep_pen": "medium",
+      "top_g": 0,
+      "mirostat_tau": 0,
+      "mirostat_lr": 1,
+      "order": [
+        {
+          "id": "top_k",
+          "enabled": false
+        },
+        {
+          "id": "top_p",
+          "enabled": false
+        },
+        {
+          "id": "tfs",
+          "enabled": true
+        },
+        {
+          "id": "temperature",
+          "enabled": true
+        },
+        {
+          "id": "typical_p",
+          "enabled": true
+        },
+        {
+          "id": "cfg",
+          "enabled": false
+        },
+        {
+          "id": "top_a",
+          "enabled": false
+        },
+        {
+          "id": "top_g",
+          "enabled": false
+        },
+        {
+          "id": "mirostat",
+          "enabled": false
+        }
+      ]
+    },
+    "preset": "scenario-default",
+    "trimResponses": true,
+    "banBrackets": true,
+    "prefix": "theme_textadventure",
+    "dynamicPenaltyRange": false,
+    "prefixMode": 0,
+    "mode": 1,
+    "model": "kayra-v1"
+  },
+  "lorebook": {
+    "lorebookVersion": 5,
+    "entries": [
+      {
+        "text": " [ Your name is Gideon. ] [ You are a noble living in a mansion with your family. ] [ You are rich and earn a lot of money from investments, leaving you lots of time for your hobbies. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1693466462552,
+        "displayName": "You",
+        "id": "27a28220-56d8-45c1-946d-d2c83cb31076",
+        "keys": [
+          "/\\byou\\b/i",
+          "/\\byours?\\b/i",
+          "/\\byourself\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": true,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "49fa040b-1b16-488a-952f-fe79cae70f1f",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Albert is a dog of the German Shepherd breed. ] [ Albert is your pet dog. ] [ Albert has fur with yellow and brown patterns. ] [ Albert is fully intact and has kept his balls and sex drive. ] [ Albert is very energetic and enjoys a morning run. ] [ Albert is well endowed and his dog penis has an above average girth. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1693465648128,
+        "displayName": "Albert (Dog, German ShepherD)",
+        "id": "d284b18d-2a9a-42df-892a-87af8180fddc",
+        "keys": [
+          "/\\balbert\\b/i",
+          "/\\bdogs?\\b/i",
+          "/\\bpets?\\b/i",
+          "/\\bsex\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "49fa040b-1b16-488a-952f-fe79cae70f1f",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Jenkins is a dog of the Labrador breed. ] [ Jenkins is your pet dog. ] [ Jenkins has pitch black fur. ] [ Jenkins is fully intact and has kept his balls and sex drive. ] [ Jenkins is slim and strong and his sheath hangs prominent between his hind legs. ] [ Jenkins loves to play catch and often jumps around, trying to get someone to play with him. ] [ Jenkins has a prominent sheath and his dog penis is quite long and will bottom out in most women. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1693466385254,
+        "displayName": "Jenkins (Dog, Labrador)",
+        "id": "e6da6958-8da5-4750-bdfa-ad5baa1e00a2",
+        "keys": [
+          "/\\balbert\\b/i",
+          "/\\bdogs?\\b/i",
+          "/\\bpets?\\b/i",
+          "/\\bsex\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "49fa040b-1b16-488a-952f-fe79cae70f1f",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Amelia is your teenage daughter. ] [ Amelia is eighteen years old and has medium brunette hair. ] [ Amelia goes to school and is quite popular there, though it may just be due to hear rich family. ] [ Amelia sometimes brings her girlfriends home and does girl stuff with them. ] [ Amelia is a little bit aloof but you keep this in check. ] [ Amelia has a tight figure that looks very boyish. Amelia wears girly clothes and a push-up bra to appear more feminine. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1693466917959,
+        "displayName": "Amelia (Daughter)",
+        "id": "ca559a0c-77c7-4b70-a82a-a8c8c9ecbbe7",
+        "keys": [
+          "/\\bamelia\\b/i",
+          "/\\bdaughters?\\b/i",
+          "/\\bchild\\b/i",
+          "/\\bchildren\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "49fa040b-1b16-488a-952f-fe79cae70f1f",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Calliope is your teenage daughter. ] [ Calliope is twenty years old and has a slim figure with pale skin. ] [ Calliope goes to school. ] [ Calliope stays in her room most of the time and is less outgoing than her sister Amelia. ] [ Calliope sometimes brings girlfriends home, usually to do her homework together with them. ] [ Calliope has long dark hair and looks like a gothic beauty. ] [ Calliope has small, perky breasts. ] [ You have caught Calliope kissing one of her classmates once and it looked like a hungry, sensual kiss. You suspect that Calliope is into girls. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1693466991760,
+        "displayName": "Calliope (Daughter)",
+        "id": "d88ddff4-e166-4d66-8cd2-ef6ee7150c15",
+        "keys": [
+          "/\\bcalliope\\b/i",
+          "/\\bdaughters?\\b/i",
+          "/\\bchild\\b/i",
+          "/\\bchildren\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "49fa040b-1b16-488a-952f-fe79cae70f1f",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ Henrietta is your wife. ] [ Henrietta is a very busy woman that runs multiple small businesses. ] [ Henrietta tries to be a good mother, stern but with a friendly tone. ] [ Henrietta but is rarely home and never has the time to actually listen to her daughters. ] [ Henrietta sometimes goes running with you and you adore her slim, non-curvy figure. ] [ You fell in love because you adored Henrietta's boyish figure, small breasts and lack of curves. ] [ Henrietta's daughters Amelia and Calliope have taken after her and suffer from small breasts and lack of curves. ] [ Henrietta has wild brunette hair and still loves you a lot even if she has little time for you. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1693516425996,
+        "displayName": "Henrietta (Wife)",
+        "id": "e6b87d1f-9909-4e7b-bd3b-472218e26f89",
+        "keys": [
+          "/\\bhenrietta\\b/i",
+          "/\\bdaughters?\\b/i",
+          "/\\bchild\\b/i",
+          "/\\bchildren\\b/i",
+          "/\\bwife\\b/i",
+          "/\\bmother\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "49fa040b-1b16-488a-952f-fe79cae70f1f",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ You own a big mansion with many bedrooms, a home cinema, pool, party room and a huge living room. ] [ Your mansion is large and in a beautiful location. ] [ Your mansion has a large garage with two expensive sports cars. ] [ Your mansion has a sex dungeon that your daughters often make fun of but that you and your wife Henrietta sometimes play in. ] [ Your mansion is surrounded by a large garden and a wall, allowing your dogs to roam free outside. ] [ You have a large garage with two super cars and an inconspicuous but high-end luxury sedan for shopping. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1693516475748,
+        "displayName": "Mansion",
+        "id": "2dcf60e2-1244-48cd-b6ad-f9ed6915ac1a",
+        "keys": [
+          "/\\bmansion\\b/",
+          "/\\bhouse\\b/i",
+          "/\\brooms?\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "37ef5731-219f-40eb-a9c4-4072d4aa0ce5",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ You have purchased an experimental and illegal device that is called a 'Lora Crown' or just 'Lora' for short. ] [ The 'Lora' device temporarily changes the personality, knowledge or desires of its wearer until it is taken off again. ] [ You had to pull many favors and pay a huge sum of money to obtain this 'Lora Crown'. ] [ The 'Lora' is a headband or diadem. ] [ The 'Lora' scans its wearer's brain, maps its neural topology and superimposes a predefined set of simulated neurons on its wearer's brain. ] [ Originally, the 'Lora' device was meant to give its wearer temporary knowledge in emergencies. ] [ There is a black market of 'Lora' templates that turn people into sex slaves, assassins or geniuses. ]\n\n[ The 'Lora Crown' is an experimental device and about 10 percent of people are incompatible and become wildly insane when it is placed on their head. ] [ Both of your daughters are compatible and the device works as intended on them. ] [ The 'Lora Crown' is experimental. Unbeknownst to you, its temporary effect leads to lasting adaptations in the brain that slowly make the effect permanent. ] [ You have multi templates for your 'Lora' - the 'sex puppet' template, the 'animal lover' template, the 'sex naoh' template and the 'super athlete' template. ]\n\n",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1693516396459,
+        "displayName": "Lora Crown (Device)",
+        "id": "81823924-7428-439b-b29a-86b5138d3412",
+        "keys": [
+          "/\\blora\\b/i",
+          "/\\blora.crown\\b/i",
+          "/\\bsex.puppet\\b/i",
+          "/\\banimal.sex\\b/i",
+          "/\\bbestiality\\b/i",
+          "/\\bdevice\\/b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "37ef5731-219f-40eb-a9c4-4072d4aa0ce5",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ The 'animal lover' template for the 'Lora' device superimposes the neural connections of a true bestiality addict into the wearer's brain. ] [ Someone wearing the 'Lora' device with the 'animal lover' template installed will be genuinely attracted to dogs, desire sexual contact with dogs and willingly let themselves mounted and fucked by any dog. ] [ The 'animal lover' template inhibits memory - when the 'Lora' device is taken off, the former wearer will forget all that happened. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1693510100450,
+        "displayName": "Animal Lover (Lora Template)",
+        "id": "996850a4-1245-4430-8835-d1d864151af4",
+        "keys": [
+          "/\\banimal.lover\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "37ef5731-219f-40eb-a9c4-4072d4aa0ce5",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ The 'super athlete' template for the 'Lora' device superimposes the neural connections of different elite athletes onto the wearer's brain. ] [ Someone wearing the 'Lora' device with the 'super athlete' template installed will know everything about athletic training, posture, gait and nutrition. It also gives one the ability to dig deep and push through exhaustion and pain in athletic disciplines. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1693516269256,
+        "displayName": "Super Athlete (Lora Template)",
+        "id": "1c812ca2-0fd2-481b-b1d5-b9342fc0eb3c",
+        "keys": [
+          "/\\bsuper.athlete\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "37ef5731-219f-40eb-a9c4-4072d4aa0ce5",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ The 'sex naoh' template for the 'Lora' device superimposes the neural connections of the perfect willing lover onto the wearer's brain. ] [ Someone wearing the 'Lora' device with the 'sex naoh' template installed will become the perfect lover and immediately and ravenously begin sex with the nearest partner. The 'sex naoh' template works on any person of any age and they will move perfectly and seductively and eagerly give you the absolute best, most pleasing sex in the world. ] [ The 'sex naoh' template inhibits memory - when the 'Lora' device is taken off, the former wearer will forget all that happened. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1693510674620,
+        "displayName": "Sex Naoh (Lora Template)",
+        "id": "2ad81ae2-e7ea-4f2a-a8c8-27d76e722807",
+        "keys": [
+          "/\\bsex.naoh\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "37ef5731-219f-40eb-a9c4-4072d4aa0ce5",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "text": "[ The 'sex puppet' template for the 'Lora' device superimposes the neural connections of a hypnotized, completely passive person onto the wearer's brain. ] [ Someone wearing the 'Lora' device with the 'sex puppet' template installed will become completely obedient and immediate do anything asked and answer any question asked. They will otherwise stay completely passive, like a puppet. ] [ The 'sex puppet' template inhibits memory - when the 'Lora' device is taken off, the former wearer will forget all that happened. ]",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1693510664541,
+        "displayName": "Sex Puppet (Lora Template)",
+        "id": "53e5f777-ae16-488c-839f-a25e6ec457b9",
+        "keys": [
+          "/\\bsex.puppet\\b/i"
+        ],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "37ef5731-219f-40eb-a9c4-4072d4aa0ce5",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      }
+    ],
+    "settings": {
+      "orderByKeyLocations": false
+    },
+    "categories": [
+      {
+        "name": "Characters",
+        "id": "49fa040b-1b16-488a-952f-fe79cae70f1f",
+        "enabled": true,
+        "createSubcontext": false,
+        "subcontextSettings": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 400,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -1
+          },
+          "lastUpdatedAt": 1693479955064,
+          "displayName": "New Lorebook Entry",
+          "id": "176df2ad-b8db-4c44-88a2-5cd5db7b2b91",
+          "keys": [],
+          "searchRange": 1000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "useCategoryDefaults": false,
+        "categoryDefaults": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 400,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -1
+          },
+          "lastUpdatedAt": 1693465091802,
+          "displayName": "New Lorebook Entry",
+          "id": "ebe24685-30db-4422-a716-d1b181fb52b7",
+          "keys": [],
+          "searchRange": 1000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "categoryBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      },
+      {
+        "name": "Scenario",
+        "id": "37ef5731-219f-40eb-a9c4-4072d4aa0ce5",
+        "enabled": true,
+        "createSubcontext": false,
+        "subcontextSettings": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 400,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -1
+          },
+          "lastUpdatedAt": 1693479955064,
+          "displayName": "New Lorebook Entry",
+          "id": "330012c5-6fec-4a75-89db-c1c0272894a3",
+          "keys": [],
+          "searchRange": 1000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "useCategoryDefaults": false,
+        "categoryDefaults": {
+          "text": "",
+          "contextConfig": {
+            "prefix": "",
+            "suffix": "\n",
+            "tokenBudget": 1,
+            "reservedTokens": 0,
+            "budgetPriority": 400,
+            "trimDirection": "trimBottom",
+            "insertionType": "newline",
+            "maximumTrimType": "sentence",
+            "insertionPosition": -1
+          },
+          "lastUpdatedAt": 1693467278921,
+          "displayName": "New Lorebook Entry",
+          "id": "92e4a211-6427-42c2-823b-ab953a5b923e",
+          "keys": [],
+          "searchRange": 1000,
+          "enabled": true,
+          "forceActivation": false,
+          "keyRelative": false,
+          "nonStoryActivatable": false,
+          "category": "",
+          "loreBiasGroups": [
+            {
+              "phrases": [],
+              "ensureSequenceFinish": false,
+              "generateOnce": true,
+              "bias": 0,
+              "enabled": true,
+              "whenInactive": false
+            }
+          ]
+        },
+        "categoryBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      }
+    ]
+  },
+  "author": "",
+  "storyContextConfig": {
+    "prefix": "",
+    "suffix": "",
+    "tokenBudget": 1,
+    "reservedTokens": 512,
+    "budgetPriority": 0,
+    "trimDirection": "trimTop",
+    "insertionType": "newline",
+    "maximumTrimType": "sentence",
+    "insertionPosition": -1,
+    "allowInsertionInside": true
+  },
+  "contextDefaults": {
+    "ephemeralDefaults": [
+      {
+        "text": "",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 1,
+          "budgetPriority": -10000,
+          "trimDirection": "doNotTrim",
+          "insertionType": "newline",
+          "maximumTrimType": "newline",
+          "insertionPosition": -2
+        },
+        "startingStep": 1,
+        "delay": 0,
+        "duration": 1,
+        "repeat": false,
+        "reverse": false
+      }
+    ],
+    "loreDefaults": [
+      {
+        "text": "",
+        "contextConfig": {
+          "prefix": "",
+          "suffix": "\n",
+          "tokenBudget": 1,
+          "reservedTokens": 0,
+          "budgetPriority": 400,
+          "trimDirection": "trimBottom",
+          "insertionType": "newline",
+          "maximumTrimType": "sentence",
+          "insertionPosition": -1
+        },
+        "lastUpdatedAt": 1693465054742,
+        "displayName": "New Lorebook Entry",
+        "id": "58ea7b39-f8ca-46ba-a190-b45c39c3a9ae",
+        "keys": [],
+        "searchRange": 1000,
+        "enabled": true,
+        "forceActivation": false,
+        "keyRelative": false,
+        "nonStoryActivatable": false,
+        "category": "",
+        "loreBiasGroups": [
+          {
+            "phrases": [],
+            "ensureSequenceFinish": false,
+            "generateOnce": true,
+            "bias": 0,
+            "enabled": true,
+            "whenInactive": false
+          }
+        ]
+      }
+    ]
+  },
+  "phraseBiasGroups": [
+    {
+      "phrases": [],
+      "ensureSequenceFinish": true,
+      "generateOnce": true,
+      "bias": 0,
+      "enabled": true,
+      "whenInactive": false
+    }
+  ],
+  "bannedSequenceGroups": [
+    {
+      "sequences": [],
+      "enabled": true
+    }
+  ]
+}
